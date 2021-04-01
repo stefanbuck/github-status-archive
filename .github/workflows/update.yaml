@@ -1,0 +1,25 @@
+name: Update
+on:
+  repository_dispatch:
+    types: [update]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: "Write file"
+        run: |
+          cat $GITHUB_EVENT_PATH &&
+          PAYLOAD=$(cat $GITHUB_EVENT_PATH | jq '.client_payload | del(.meta.unsubscribe, .meta.documentation)') &&
+          mkdir -p data &&
+          echo $PAYLOAD | jq . > ./data/$(echo $PAYLOAD | jq --raw-output '.meta.generated_at' | sed "s/[.:]/_/g").json
+
+      - name: Commit
+        shell: bash
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com" && \
+          git config --global user.name "github-actions[bot]" && \
+          git add ./data && \
+          git commit -m 'Update' && \
+          git push origin main
