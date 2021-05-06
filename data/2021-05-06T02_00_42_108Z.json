@@ -1,0 +1,32 @@
+{
+  "component": {
+    "created_at": "2017-01-31T20:01:46.621Z",
+    "description": "Requests for GitHub APIs",
+    "group_id": null,
+    "id": "brv1bkgrwx7q",
+    "name": "API Requests",
+    "page_id": "kctbh9vrtdwd",
+    "position": 2,
+    "showcase": false,
+    "start_date": null,
+    "status": "operational",
+    "updated_at": "2021-05-06T02:00:29.624Z"
+  },
+  "component_update": {
+    "component_id": "brv1bkgrwx7q",
+    "component_type": "Component",
+    "created_at": "2021-05-06T02:00:29.632Z",
+    "id": "khf9xq0zqksv",
+    "new_status": "operational",
+    "old_status": "under_maintenance",
+    "state": "sn_created"
+  },
+  "meta": {
+    "generated_at": "2021-05-06T02:00:42.108Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
