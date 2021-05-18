@@ -1,0 +1,105 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "GitHub Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2021-05-18T08:45:54.697Z"
+      }
+    ],
+    "created_at": "2021-05-18T08:45:48.587Z",
+    "id": "m16jzl31gnqt",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have confirmed that run starts are delayed for a number of customers. We have identified the issue and are working on a fix.",
+        "created_at": "2021-05-18T11:06:58.898Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2021-05-18T11:06:58.898Z",
+        "id": "246tfr46qx3y",
+        "incident_id": "m16jzl31gnqt",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2021-05-18T11:06:58.898Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for GitHub Actions.",
+        "created_at": "2021-05-18T08:45:48.632Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2021-05-18T08:45:48.632Z",
+        "id": "04d78r9z3fmp",
+        "incident_id": "m16jzl31gnqt",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2021-05-18T08:45:48.632Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {
+      "github": {
+        "availability_issue_id": "1504",
+        "essential": "true",
+        "ic": "hross",
+        "impacted_services": "actions"
+      }
+    },
+    "monitoring_at": null,
+    "name": "Incident with GitHub Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/rc55cw62wmw0",
+    "started_at": "2021-05-18T08:45:48.578Z",
+    "status": "investigating",
+    "updated_at": "2021-05-18T11:06:58.901Z"
+  },
+  "meta": {
+    "generated_at": "2021-05-18T11:07:12.943Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
