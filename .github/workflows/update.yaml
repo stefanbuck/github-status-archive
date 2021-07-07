@@ -1,4 +1,5 @@
 name: Update
+concurrency: update
 on:
   repository_dispatch:
     types: [update]
