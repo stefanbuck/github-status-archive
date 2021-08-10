@@ -1,0 +1,170 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "GitHub Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2021-08-10T23:03:53.033Z"
+      }
+    ],
+    "created_at": "2021-08-10T20:09:03.904Z",
+    "id": "lc8s9rtyjmgq",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved.",
+        "created_at": "2021-08-10T23:10:51.289Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2021-08-10T23:10:51.289Z",
+        "id": "3k1jctggkrhn",
+        "incident_id": "lc8s9rtyjmgq",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2021-08-10T23:10:51.289Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "A fix has been rolled out and we are monitoring recovery. Jobs are starting to run and logs/artifacts are loading now.",
+        "created_at": "2021-08-10T22:37:02.850Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2021-08-10T22:37:02.850Z",
+        "id": "j5w02y0pl9qg",
+        "incident_id": "lc8s9rtyjmgq",
+        "status": "monitoring",
+        "tweet_id": 1425224704026046500,
+        "twitter_updated_at": "2021-08-10T22:37:03.610Z",
+        "updated_at": "2021-08-10T22:37:03.615Z",
+        "wants_twitter_update": true
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We hit an issue with the main request routing service which is causing errors with running jobs, and retrieving logs/artifacts. The team has identified the cause and is actively mitigating.",
+        "created_at": "2021-08-10T22:24:05.186Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2021-08-10T22:24:05.186Z",
+        "id": "7s2f3pfqymk9",
+        "incident_id": "lc8s9rtyjmgq",
+        "status": "identified",
+        "tweet_id": 1425221445987143700,
+        "twitter_updated_at": "2021-08-10T22:24:06.958Z",
+        "updated_at": "2021-08-10T22:24:06.977Z",
+        "wants_twitter_update": true
+      },
+      {
+        "affected_components": null,
+        "body": "GitHub Actions is now experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2021-08-10T20:16:57.461Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2021-08-10T20:16:57.461Z",
+        "id": "zlj1prclymm0",
+        "incident_id": "lc8s9rtyjmgq",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2021-08-10T20:16:57.461Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for GitHub Actions.",
+        "created_at": "2021-08-10T20:09:04.042Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2021-08-10T20:09:04.042Z",
+        "id": "v6gmhtpzsn8y",
+        "incident_id": "lc8s9rtyjmgq",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2021-08-10T20:09:04.042Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {
+      "github": {
+        "availability_issue_id": "1557",
+        "channel_id": "C1AH2A4R2",
+        "customers_affected": "",
+        "essential": "true",
+        "ic": "",
+        "icm_incident_id": "",
+        "impacted_regions": "",
+        "impacted_services": "actions",
+        "invoking_channel_id": "C1AH2A4R2",
+        "non_essential_services": ""
+      }
+    },
+    "monitoring_at": "2021-08-10T22:37:02.850Z",
+    "name": "Incident with GitHub Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2021-08-10T23:10:51.289Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/3ly8hy6f17kj",
+    "started_at": "2021-08-10T20:09:03.894Z",
+    "status": "resolved",
+    "updated_at": "2021-08-10T23:10:51.307Z"
+  },
+  "meta": {
+    "generated_at": "2021-08-10T23:11:33.988Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
