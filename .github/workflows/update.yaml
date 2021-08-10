@@ -23,6 +23,7 @@ jobs:
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com" && \
           git config --global user.name "github-actions[bot]" && \
+          git pull origin main && \
           git add ./data && \
           git commit -m 'Update' && \
           git push origin main
