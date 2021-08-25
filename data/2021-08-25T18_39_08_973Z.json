@@ -1,0 +1,89 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:04:33.923Z",
+        "description": "Frontend application and API servers for Pages builds",
+        "group_id": null,
+        "id": "vg70hn9s2tyj",
+        "name": "GitHub Pages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 9,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2021-08-25T18:38:39.659Z"
+      }
+    ],
+    "created_at": "2021-08-25T18:38:37.103Z",
+    "id": "4my29vphhm7m",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "GitHub Pages",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for GitHub Pages.",
+        "created_at": "2021-08-25T18:38:37.157Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2021-08-25T18:38:37.157Z",
+        "id": "4t7bp6pxk8y3",
+        "incident_id": "4my29vphhm7m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2021-08-25T18:38:37.157Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {
+      "github": {
+        "availability_issue_id": "1569",
+        "channel_id": "C1AH2A4R2",
+        "customers_affected": "",
+        "essential": "true",
+        "ic": "",
+        "icm_incident_id": "",
+        "impacted_regions": "",
+        "impacted_services": "pages",
+        "invoking_channel_id": "C1AH2A4R2",
+        "non_essential_services": ""
+      }
+    },
+    "monitoring_at": null,
+    "name": "Incident with GitHub Pages",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/5n5dj6dbb628",
+    "started_at": "2021-08-25T18:38:37.095Z",
+    "status": "investigating",
+    "updated_at": "2021-08-25T18:38:39.713Z"
+  },
+  "meta": {
+    "generated_at": "2021-08-25T18:39:08.973Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
