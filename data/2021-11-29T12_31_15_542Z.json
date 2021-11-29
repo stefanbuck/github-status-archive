@@ -1,0 +1,68 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2021-11-29T12:30:44.755Z",
+    "id": "22y5yl6gcc6b",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of degraded availability for GitHub Docs.",
+        "created_at": "2021-11-29T12:30:44.807Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2021-11-29T12:30:44.807Z",
+        "id": "4zk7tjtyyhqr",
+        "incident_id": "22y5yl6gcc6b",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2021-11-29T12:30:44.807Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {
+      "github": {
+        "availability_issue_id": "1623",
+        "channel_id": "C1AH2A4R2",
+        "customers_affected": "",
+        "essential": "false",
+        "ic": "",
+        "icm_incident_id": "",
+        "impacted_regions": "",
+        "impacted_services": "docs",
+        "invoking_channel_id": "C1AH2A4R2",
+        "non_essential_services": "docs"
+      }
+    },
+    "monitoring_at": null,
+    "name": "Incident with GitHub Docs",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/25yl0b0mxs3p",
+    "started_at": "2021-11-29T12:30:44.749Z",
+    "status": "investigating",
+    "updated_at": "2021-11-29T12:30:44.809Z"
+  },
+  "meta": {
+    "generated_at": "2021-11-29T12:31:15.542Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
