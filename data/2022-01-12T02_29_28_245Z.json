@@ -1,0 +1,32 @@
+{
+  "component": {
+    "created_at": "2019-11-13T18:02:19.432Z",
+    "description": "Workflows, Compute and Orchestration for GitHub Actions",
+    "group_id": null,
+    "id": "br0l2tvcx85d",
+    "name": "GitHub Actions",
+    "page_id": "kctbh9vrtdwd",
+    "position": 7,
+    "showcase": false,
+    "start_date": null,
+    "status": "partial_outage",
+    "updated_at": "2022-01-12T02:29:03.032Z"
+  },
+  "component_update": {
+    "component_id": "br0l2tvcx85d",
+    "component_type": "Component",
+    "created_at": "2022-01-12T02:29:03.039Z",
+    "id": "cyx0m1lygn3z",
+    "new_status": "partial_outage",
+    "old_status": "operational",
+    "state": "sn_created"
+  },
+  "meta": {
+    "generated_at": "2022-01-12T02:29:28.245Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
