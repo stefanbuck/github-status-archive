@@ -1,0 +1,247 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.638Z",
+        "description": "Requests for Issues on GitHub.com",
+        "group_id": null,
+        "id": "kr09ddfgbfsf",
+        "name": "Issues",
+        "page_id": "kctbh9vrtdwd",
+        "position": 5,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2022-02-02T19:34:39.102Z"
+      },
+      {
+        "created_at": "2020-09-02T15:39:06.329Z",
+        "description": "Requests for Pull Requests on GitHub.com",
+        "group_id": null,
+        "id": "hhtssxt0f5v2",
+        "name": "Pull Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 6,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2022-02-02T19:34:13.502Z"
+      },
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "GitHub Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2022-02-02T19:32:08.500Z"
+      }
+    ],
+    "created_at": "2022-02-02T19:12:59.321Z",
+    "id": "fz1bdbw24y81",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2022-02-02T19:34:33.845Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-02-02T19:34:33.845Z",
+        "id": "xlgq5bdpv5r7",
+        "incident_id": "fz1bdbw24y81",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-02-02T19:34:33.845Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Pull Requests is operating normally.",
+        "created_at": "2022-02-02T19:34:12.314Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-02-02T19:34:12.314Z",
+        "id": "nrq5prqp0fxn",
+        "incident_id": "fz1bdbw24y81",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-02-02T19:34:12.314Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Codespaces is operating normally.",
+        "created_at": "2022-02-02T19:33:09.173Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-02-02T19:33:09.173Z",
+        "id": "j54xzs0rn6zt",
+        "incident_id": "fz1bdbw24y81",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-02-02T19:33:09.173Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "GitHub Actions is operating normally.",
+        "created_at": "2022-02-02T19:32:05.263Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-02-02T19:32:05.263Z",
+        "id": "0ktv848wrv0r",
+        "incident_id": "fz1bdbw24y81",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-02-02T19:32:05.263Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Issues and Pull Requests are now experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+        "created_at": "2022-02-02T19:26:53.191Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-02-02T19:26:53.191Z",
+        "id": "pyx8fckxgkzm",
+        "incident_id": "fz1bdbw24y81",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-02-02T19:26:53.191Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Codespaces is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+        "created_at": "2022-02-02T19:19:43.050Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-02-02T19:19:43.050Z",
+        "id": "kml9zws5dy5g",
+        "incident_id": "fz1bdbw24y81",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-02-02T19:19:43.050Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "GitHub Actions is now experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+        "created_at": "2022-02-02T19:17:18.686Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-02-02T19:17:18.686Z",
+        "id": "x82lzygwym6k",
+        "incident_id": "fz1bdbw24y81",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-02-02T19:17:18.686Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "GitHub Actions, Issues, and Pull Requests are now experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2022-02-02T19:14:42.418Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-02-02T19:14:42.418Z",
+        "id": "n4r8wnftmnhq",
+        "incident_id": "fz1bdbw24y81",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-02-02T19:14:42.418Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for GitHub Actions, Issues, and Pull Requests.",
+        "created_at": "2022-02-02T19:12:59.381Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-02-02T19:12:59.381Z",
+        "id": "g6j019cjdfbq",
+        "incident_id": "fz1bdbw24y81",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-02-02T19:12:59.381Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {
+      "github": {
+        "availability_issue_id": "1660",
+        "channel_id": "C1AH2A4R2",
+        "customers_affected": "",
+        "essential": "true",
+        "ic": "",
+        "icm_incident_id": "",
+        "impacted_regions": "",
+        "impacted_services": "actions,codespaces,issues,prs",
+        "invoking_channel_id": "C1AH2A4R2",
+        "non_essential_services": ""
+      }
+    },
+    "monitoring_at": null,
+    "name": "Incident with GitHub Actions, Codespaces, Issues, and Pull Requests",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2022-02-02T19:34:33.845Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/b7xjn8l65s1v",
+    "started_at": "2022-02-02T19:12:59.313Z",
+    "status": "resolved",
+    "updated_at": "2022-02-02T19:34:33.864Z"
+  },
+  "meta": {
+    "generated_at": "2022-02-02T19:35:15.843Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
