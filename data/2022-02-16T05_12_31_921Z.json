@@ -1,0 +1,104 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2021-08-11T16:02:09.505Z",
+        "description": "Orchestration and Compute for GitHub Codespaces",
+        "group_id": null,
+        "id": "h2ftsgbw7kmk",
+        "name": "Codespaces",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": false,
+        "start_date": "2021-08-11T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2022-02-16T05:12:21.051Z"
+      }
+    ],
+    "created_at": "2022-02-16T01:54:43.267Z",
+    "id": "3pwsvtkmmp3k",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2022-02-16T05:12:14.777Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-02-16T05:12:14.777Z",
+        "id": "5n9s6h2sd2rl",
+        "incident_id": "3pwsvtkmmp3k",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-02-16T05:12:14.777Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Codespaces.",
+        "created_at": "2022-02-16T01:54:43.304Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-02-16T01:54:43.304Z",
+        "id": "f5806x2b3gbf",
+        "incident_id": "3pwsvtkmmp3k",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-02-16T01:54:43.304Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {
+      "github": {
+        "availability_issue_id": "1670",
+        "channel_id": "C1AH2A4R2",
+        "customers_affected": "",
+        "essential": "true",
+        "ic": "",
+        "icm_incident_id": "",
+        "impacted_regions": "",
+        "impacted_services": "codespaces",
+        "invoking_channel_id": "C1AH2A4R2",
+        "non_essential_services": ""
+      }
+    },
+    "monitoring_at": null,
+    "name": "Incident with Codespaces",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2022-02-16T05:12:14.777Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/tgyl46r16179",
+    "started_at": "2022-02-16T01:54:43.259Z",
+    "status": "resolved",
+    "updated_at": "2022-02-16T05:12:14.794Z"
+  },
+  "meta": {
+    "generated_at": "2022-02-16T05:12:31.921Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
