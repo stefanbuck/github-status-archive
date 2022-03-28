@@ -1,0 +1,135 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "GitHub Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2022-03-28T15:03:22.011Z"
+      }
+    ],
+    "created_at": "2022-03-25T15:31:31.403Z",
+    "id": "9nmsrrxb5brs",
+    "impact": "maintenance",
+    "impact_override": null,
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "operational",
+            "old_status": "under_maintenance"
+          }
+        ],
+        "body": "The scheduled maintenance has been completed.",
+        "created_at": "2022-03-28T15:03:22.051Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-03-28T15:03:22.051Z",
+        "id": "5bdbgbyhfx83",
+        "incident_id": "9nmsrrxb5brs",
+        "status": "completed",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-03-28T15:03:22.051Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "under_maintenance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+        "created_at": "2022-03-28T12:01:32.457Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-03-28T12:01:32.457Z",
+        "id": "2swrm7gn8ky5",
+        "incident_id": "9nmsrrxb5brs",
+        "status": "in_progress",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-03-28T12:01:32.457Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Maintenance will begin as scheduled in 60 minutes.",
+        "created_at": "2022-03-28T11:00:25.495Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-03-28T11:00:25.495Z",
+        "id": "f8w8znn3gb2r",
+        "incident_id": "9nmsrrxb5brs",
+        "status": "scheduled",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-03-28T11:00:25.495Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Actions will be in a maintenance window on Monday, March 28th from 12:00 to 16:30 UTC as we apply mitigations to reduce mySQL1 load. Starting jobs could be delayed up to an hour during this timeframe. Our engineers will be working to minimize disruption as much as possible.",
+        "created_at": "2022-03-25T15:31:31.470Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-03-25T15:31:31.470Z",
+        "id": "blct7bmf4sbr",
+        "incident_id": "9nmsrrxb5brs",
+        "status": "scheduled",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-03-25T15:31:31.470Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Scheduled Maintenance for GitHub Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2022-03-28T15:03:22.051Z",
+    "scheduled_auto_completed": true,
+    "scheduled_auto_in_progress": true,
+    "scheduled_for": "2022-03-28T12:00:00.000Z",
+    "scheduled_remind_prior": true,
+    "scheduled_reminded_at": "2022-03-28T11:00:25.645Z",
+    "scheduled_until": "2022-03-28T16:30:00.000Z",
+    "shortlink": "https://stspg.io/pdmysbdr0xhn",
+    "started_at": "2022-03-25T15:31:31.397Z",
+    "status": "completed",
+    "updated_at": "2022-03-28T15:03:22.071Z"
+  },
+  "meta": {
+    "generated_at": "2022-03-28T15:04:39.553Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
