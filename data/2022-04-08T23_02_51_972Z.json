@@ -1,0 +1,113 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "GitHub Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "under_maintenance",
+        "updated_at": "2022-04-08T23:01:14.896Z"
+      }
+    ],
+    "created_at": "2022-04-06T16:37:35.909Z",
+    "id": "xfd2x56328gl",
+    "impact": "maintenance",
+    "impact_override": null,
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "under_maintenance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+        "created_at": "2022-04-08T23:01:14.942Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-04-08T23:01:14.942Z",
+        "id": "wmdb7dt7bbr1",
+        "incident_id": "xfd2x56328gl",
+        "status": "in_progress",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-04-08T23:01:14.942Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Maintenance will begin as scheduled in 60 minutes.",
+        "created_at": "2022-04-08T22:00:23.144Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-04-08T22:00:23.144Z",
+        "id": "py3wk9m6kbr7",
+        "incident_id": "xfd2x56328gl",
+        "status": "scheduled",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-04-08T22:00:23.144Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Actions will be in a maintenance window from Friday, April 8th 23:00 to Saturday, April 9th 1:00 UTC as we migrate to a new database cluster. Starting jobs could be delayed during this timeframe. We will update our status with more details if there is notable impact. Our engineers will be working to minimize disruption as much as possible.",
+        "created_at": "2022-04-06T16:37:35.970Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-04-06T16:37:35.970Z",
+        "id": "881ldc9xwqt6",
+        "incident_id": "xfd2x56328gl",
+        "status": "scheduled",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-04-06T16:37:35.970Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Scheduled Maintenance for GitHub Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": true,
+    "scheduled_auto_in_progress": true,
+    "scheduled_for": "2022-04-08T23:00:00.000Z",
+    "scheduled_remind_prior": true,
+    "scheduled_reminded_at": "2022-04-08T22:00:23.415Z",
+    "scheduled_until": "2022-04-09T01:00:00.000Z",
+    "shortlink": "https://stspg.io/bj199s67tk96",
+    "started_at": "2022-04-06T16:37:35.903Z",
+    "status": "in_progress",
+    "updated_at": "2022-04-08T23:01:14.947Z"
+  },
+  "meta": {
+    "generated_at": "2022-04-08T23:02:51.972Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Service Under Maintenance",
+    "status_indicator": "maintenance"
+  }
+}
