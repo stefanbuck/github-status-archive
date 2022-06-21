@@ -1,0 +1,120 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 11,
+        "showcase": false,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "major_outage",
+        "updated_at": "2022-06-21T17:43:46.462Z"
+      }
+    ],
+    "created_at": "2022-06-21T17:02:07.851Z",
+    "id": "9xb0vpwcj8gj",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "Copilot is now experiencing degraded availability. We are still investigating and will provide an update when we have one.",
+        "created_at": "2022-06-21T17:43:45.323Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-06-21T17:43:45.323Z",
+        "id": "7fmqb76ch3qq",
+        "incident_id": "9xb0vpwcj8gj",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-06-21T17:43:45.323Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of issues with service(s): Copilot. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2022-06-21T17:33:22.472Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-06-21T17:33:22.472Z",
+        "id": "n28y0p27szqz",
+        "incident_id": "9xb0vpwcj8gj",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-06-21T17:33:22.472Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Copilot.",
+        "created_at": "2022-06-21T17:02:07.910Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-06-21T17:02:07.910Z",
+        "id": "bcdkqcmbx5kt",
+        "incident_id": "9xb0vpwcj8gj",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-06-21T17:02:07.910Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {
+      "github": {
+        "availability_issue_id": "1771",
+        "availability_issue_url": "",
+        "channel_id": "C1AH2A4R2",
+        "customers_affected": "",
+        "essential": "true",
+        "ic": "",
+        "icm_incident_id": "",
+        "impacted_regions": "",
+        "impacted_services": "copilot",
+        "invoking_channel_id": "C1AH2A4R2",
+        "non_essential_services": ""
+      }
+    },
+    "monitoring_at": null,
+    "name": "Incident with Copilot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/nr2vyfnqkcsj",
+    "started_at": "2022-06-21T17:02:07.841Z",
+    "status": "investigating",
+    "updated_at": "2022-06-21T17:43:46.478Z"
+  },
+  "meta": {
+    "generated_at": "2022-06-21T17:44:20.373Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partial System Outage",
+    "status_indicator": "major"
+  }
+}
