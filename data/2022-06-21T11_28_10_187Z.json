@@ -1,0 +1,105 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "GitHub Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2022-06-21T08:55:53.765Z"
+      }
+    ],
+    "created_at": "2022-06-21T08:55:46.229Z",
+    "id": "x4qbck5mz9xs",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "GitHub Actions is experiencing capacity constraints with hosted ubuntu, leading to high wait times. Other hosted labels and self-hosted runners are not impacted.",
+        "created_at": "2022-06-21T11:27:31.222Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-06-21T11:27:31.222Z",
+        "id": "tnz8fwg674nd",
+        "incident_id": "x4qbck5mz9xs",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-06-21T11:27:31.222Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for GitHub Actions.",
+        "created_at": "2022-06-21T08:55:46.271Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-06-21T08:55:46.271Z",
+        "id": "1wy7tk1hdlcg",
+        "incident_id": "x4qbck5mz9xs",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-06-21T08:55:46.271Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {
+      "github": {
+        "availability_issue_id": "1770",
+        "availability_issue_url": "",
+        "channel_id": "C1AH2A4R2",
+        "customers_affected": "",
+        "essential": "true",
+        "ic": "",
+        "icm_incident_id": "",
+        "impacted_regions": "",
+        "impacted_services": "actions",
+        "invoking_channel_id": "C1AH2A4R2",
+        "non_essential_services": ""
+      }
+    },
+    "monitoring_at": null,
+    "name": "Incident with GitHub Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/wnb0gm55dhvw",
+    "started_at": "2022-06-21T08:55:46.221Z",
+    "status": "investigating",
+    "updated_at": "2022-06-21T11:27:31.225Z"
+  },
+  "meta": {
+    "generated_at": "2022-06-21T11:28:10.187Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
