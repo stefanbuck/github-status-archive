@@ -1,0 +1,90 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "GitHub Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2022-07-18T14:39:23.402Z"
+      }
+    ],
+    "created_at": "2022-07-18T14:39:11.597Z",
+    "id": "437q52fb70hg",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "GitHub Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for GitHub Actions.",
+        "created_at": "2022-07-18T14:39:11.640Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-07-18T14:39:11.640Z",
+        "id": "tp51v3wwt387",
+        "incident_id": "437q52fb70hg",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-07-18T14:39:11.640Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {
+      "github": {
+        "availability_issue_id": "",
+        "availability_issue_url": "",
+        "channel_id": "C1AH2A4R2",
+        "customers_affected": "",
+        "essential": "true",
+        "ic": "",
+        "icm_incident_id": "",
+        "impacted_regions": "",
+        "impacted_services": "actions",
+        "invoking_channel_id": "C1AH2A4R2",
+        "non_essential_services": ""
+      }
+    },
+    "monitoring_at": null,
+    "name": "Incident with GitHub Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/89fml2s33493",
+    "started_at": "2022-07-18T14:39:11.590Z",
+    "status": "investigating",
+    "updated_at": "2022-07-18T14:39:23.423Z"
+  },
+  "meta": {
+    "generated_at": "2022-07-18T14:40:22.242Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
