@@ -1,0 +1,120 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2022-08-10T00:17:29.600Z"
+      }
+    ],
+    "created_at": "2022-08-10T00:17:23.232Z",
+    "id": "8tnqgcg1qkk1",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2022-08-10T00:19:06.403Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-10T00:19:06.403Z",
+        "id": "x79ygdzxz23y",
+        "incident_id": "8tnqgcg1qkk1",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-10T00:19:06.403Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Pull Requests is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+        "created_at": "2022-08-10T00:18:34.773Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-10T00:18:34.773Z",
+        "id": "7h8z7453hsp1",
+        "incident_id": "8tnqgcg1qkk1",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-10T00:18:34.773Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions.",
+        "created_at": "2022-08-10T00:17:23.284Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-10T00:17:23.284Z",
+        "id": "b22lcmgpzh81",
+        "incident_id": "8tnqgcg1qkk1",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-10T00:17:23.284Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {
+      "github": {
+        "availability_issue_id": "",
+        "availability_issue_url": "",
+        "channel_id": "C1AH2A4R2",
+        "customers_affected": "",
+        "essential": "true",
+        "ic": "",
+        "icm_incident_id": "",
+        "impacted_regions": "",
+        "impacted_services": "actions,api,prs",
+        "invoking_channel_id": "C1AH2A4R2",
+        "non_essential_services": ""
+      }
+    },
+    "monitoring_at": null,
+    "name": "Incident with Actions, API Requests and Pull Requests",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/0kq80vp8yk9v",
+    "started_at": "2022-08-10T00:17:23.226Z",
+    "status": "investigating",
+    "updated_at": "2022-08-10T00:19:06.405Z"
+  },
+  "meta": {
+    "generated_at": "2022-08-10T00:19:49.086Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
