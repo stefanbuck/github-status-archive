@@ -1,0 +1,165 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2021-08-11T16:02:09.505Z",
+        "description": "Orchestration and Compute for GitHub Codespaces",
+        "group_id": null,
+        "id": "h2ftsgbw7kmk",
+        "name": "Codespaces",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": false,
+        "start_date": "2021-08-11T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2022-08-16T16:32:35.908Z"
+      }
+    ],
+    "created_at": "2022-08-16T13:38:19.282Z",
+    "id": "bdtztmrydlwz",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2022-08-16T16:32:27.942Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-16T16:32:27.942Z",
+        "id": "6ygcym5gx1cd",
+        "incident_id": "bdtztmrydlwz",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-16T16:32:27.942Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are still verifying our hotfix for Codespaces web client us-east outage. Note: Workaround is to use VS Code desktop client. ETA ~45m",
+        "created_at": "2022-08-16T16:01:34.106Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-16T16:01:34.106Z",
+        "id": "vstdgc2sjtk1",
+        "incident_id": "bdtztmrydlwz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-16T16:01:34.106Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are testing a hotfix for our Codespaces web client us-east outage. Note: Workaround is to use VS Code desktop client. ETA ~1h.",
+        "created_at": "2022-08-16T15:13:26.949Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-16T15:13:26.949Z",
+        "id": "qlq4fw8tm7qg",
+        "incident_id": "bdtztmrydlwz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-16T15:13:26.949Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We have identified the issue with Codespaces in the us-east region preventing web client use. Please use the VS Code desktop client as a workaround. Hotfix is underway, ETA 1h.",
+        "created_at": "2022-08-16T14:28:21.201Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-16T14:28:21.201Z",
+        "id": "7dggtnmp56sf",
+        "incident_id": "bdtztmrydlwz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-16T14:28:21.201Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We identified an issue that impacts some Codespaces customers and are working on mitigation.We will continue to keep you updated on progress.\n\nThe VS Code desktop client can be used as a workaround.",
+        "created_at": "2022-08-16T13:51:21.490Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-16T13:51:21.490Z",
+        "id": "bq9gg1092hjq",
+        "incident_id": "bdtztmrydlwz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-16T13:51:21.490Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Codespaces.",
+        "created_at": "2022-08-16T13:38:19.326Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-16T13:38:19.326Z",
+        "id": "p3bvplc7f0w1",
+        "incident_id": "bdtztmrydlwz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-16T13:38:19.326Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {
+      "github": {
+        "availability_issue_id": "",
+        "availability_issue_url": "",
+        "channel_id": "C1AH2A4R2",
+        "customers_affected": "",
+        "essential": "true",
+        "ic": "",
+        "icm_incident_id": "",
+        "impacted_regions": "",
+        "impacted_services": "codespaces",
+        "invoking_channel_id": "C1AH2A4R2",
+        "non_essential_services": ""
+      }
+    },
+    "monitoring_at": null,
+    "name": "Incident with Codespaces",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2022-08-16T16:32:27.942Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/wf7lt8ysfjcx",
+    "started_at": "2022-08-16T13:38:19.274Z",
+    "status": "resolved",
+    "updated_at": "2022-08-16T16:32:27.964Z"
+  },
+  "meta": {
+    "generated_at": "2022-08-16T16:33:13.612Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
