@@ -1,0 +1,151 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2022-08-18T17:36:40.958Z"
+      }
+    ],
+    "created_at": "2022-08-18T14:33:46.470Z",
+    "id": "8gpymn7rystj",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2022-08-18T17:36:32.260Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-18T17:36:32.260Z",
+        "id": "kvnl37jbg8lv",
+        "incident_id": "8gpymn7rystj",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-18T17:36:32.260Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are continuing to work to restore Actions to full health.",
+        "created_at": "2022-08-18T16:38:32.390Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-18T16:38:32.390Z",
+        "id": "y4qbpg9wvbqj",
+        "incident_id": "8gpymn7rystj",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-18T16:38:32.390Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are continuing to work to mitigate intermittent job failures.",
+        "created_at": "2022-08-18T15:58:11.510Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-18T15:58:11.510Z",
+        "id": "jllvz1hx8c37",
+        "incident_id": "8gpymn7rystj",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-18T15:58:11.510Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of issues with service(s): Actions, API Requests. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2022-08-18T15:25:32.948Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-18T15:25:32.948Z",
+        "id": "n7vmq6n3rmbv",
+        "incident_id": "8gpymn7rystj",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-18T15:25:32.948Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2022-08-18T15:17:09.294Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-18T15:17:09.294Z",
+        "id": "qwx0kqvtf0y5",
+        "incident_id": "8gpymn7rystj",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-18T15:17:09.294Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions.",
+        "created_at": "2022-08-18T14:33:46.506Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-18T14:33:46.506Z",
+        "id": "l82336xb1wzg",
+        "incident_id": "8gpymn7rystj",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-18T14:33:46.506Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2022-08-18T17:36:32.260Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/3d487jb3yb1p",
+    "started_at": "2022-08-18T14:33:46.463Z",
+    "status": "resolved",
+    "updated_at": "2022-08-18T17:36:32.280Z"
+  },
+  "meta": {
+    "generated_at": "2022-08-18T17:37:30.769Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
