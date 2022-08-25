@@ -1,0 +1,121 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2022-08-25T23:35:13.473Z"
+      }
+    ],
+    "created_at": "2022-08-25T23:11:17.191Z",
+    "id": "qjf5mzdcp335",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2022-08-25T23:35:05.487Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-25T23:35:05.487Z",
+        "id": "0ws1nwl84gyb",
+        "incident_id": "qjf5mzdcp335",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-25T23:35:05.487Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Pages is operating normally.",
+        "created_at": "2022-08-25T23:32:20.017Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-25T23:32:20.017Z",
+        "id": "1d4g7mqs71hh",
+        "incident_id": "qjf5mzdcp335",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-25T23:32:20.017Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2022-08-25T23:11:24.592Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-25T23:11:24.592Z",
+        "id": "c7rv8mkrs1jy",
+        "incident_id": "qjf5mzdcp335",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-25T23:11:24.592Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions.",
+        "created_at": "2022-08-25T23:11:17.267Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-08-25T23:11:17.267Z",
+        "id": "y43461wlnkkz",
+        "incident_id": "qjf5mzdcp335",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-08-25T23:11:17.267Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions and Pages",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2022-08-25T23:35:05.487Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/mrql8j4xglqz",
+    "started_at": "2022-08-25T23:11:17.184Z",
+    "status": "resolved",
+    "updated_at": "2022-08-25T23:35:05.503Z"
+  },
+  "meta": {
+    "generated_at": "2022-08-25T23:35:38.762Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
