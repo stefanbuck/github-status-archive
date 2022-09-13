@@ -1,0 +1,91 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.638Z",
+        "description": "Requests for Issues on GitHub.com",
+        "group_id": null,
+        "id": "kr09ddfgbfsf",
+        "name": "Issues",
+        "page_id": "kctbh9vrtdwd",
+        "position": 5,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2022-09-13T16:08:32.253Z"
+      }
+    ],
+    "created_at": "2022-09-13T15:10:41.220Z",
+    "id": "3z36qpp2c0z1",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2022-09-13T16:08:25.138Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-09-13T16:08:25.138Z",
+        "id": "ft1j71v16f95",
+        "incident_id": "3z36qpp2c0z1",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-09-13T16:08:25.138Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Issues.",
+        "created_at": "2022-09-13T15:10:41.256Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-09-13T15:10:41.256Z",
+        "id": "g6hslzt935b4",
+        "incident_id": "3z36qpp2c0z1",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-09-13T15:10:41.256Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Issues",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2022-09-13T16:08:25.138Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/wttdx0rdnc8w",
+    "started_at": "2022-09-13T15:10:41.213Z",
+    "status": "resolved",
+    "updated_at": "2022-09-13T16:08:25.154Z"
+  },
+  "meta": {
+    "generated_at": "2022-09-13T16:08:57.040Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
