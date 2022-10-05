@@ -1,0 +1,151 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2021-08-11T16:02:09.505Z",
+        "description": "Orchestration and Compute for GitHub Codespaces",
+        "group_id": null,
+        "id": "h2ftsgbw7kmk",
+        "name": "Codespaces",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": false,
+        "start_date": "2021-08-11T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2022-10-05T14:08:27.014Z"
+      }
+    ],
+    "created_at": "2022-10-05T13:19:52.799Z",
+    "id": "smn1qtqvbsb6",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are continuing to monitor webhook deliveries following our earlier mitigation. Next update in 20 minutes.",
+        "created_at": "2022-10-05T15:02:18.740Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-10-05T15:02:18.740Z",
+        "id": "1f62zf15rf1m",
+        "incident_id": "smn1qtqvbsb6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-10-05T15:02:18.740Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We found an issue that impacts some of customers related to webhook delivery. We have implemented a mitigation and are monitoring for impact. Next update in 15 minutes.",
+        "created_at": "2022-10-05T14:46:13.868Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-10-05T14:46:13.868Z",
+        "id": "0nxbqjxbzv2w",
+        "incident_id": "smn1qtqvbsb6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-10-05T14:46:13.868Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Codespaces is operating normally.",
+        "created_at": "2022-10-05T14:08:24.013Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-10-05T14:08:24.013Z",
+        "id": "wzsg2pmy8pw4",
+        "incident_id": "smn1qtqvbsb6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-10-05T14:08:24.013Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We identified reports of Codespaces not creating/resuming successfully in eu-west region at 1230 UTC. We mitigated this issue and have seen recovery since 1315 UTC. Next update in 15 mins.",
+        "created_at": "2022-10-05T13:59:52.623Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-10-05T13:59:52.623Z",
+        "id": "g5m85zhnbf5s",
+        "incident_id": "smn1qtqvbsb6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-10-05T13:59:52.623Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Webhooks is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2022-10-05T13:32:42.948Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-10-05T13:32:42.948Z",
+        "id": "lcdm17h3qgx3",
+        "incident_id": "smn1qtqvbsb6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-10-05T13:32:42.948Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Codespaces.",
+        "created_at": "2022-10-05T13:19:52.849Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-10-05T13:19:52.849Z",
+        "id": "wq6n064vf2zm",
+        "incident_id": "smn1qtqvbsb6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-10-05T13:19:52.849Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Codespaces",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/jlh3qwzg6q7s",
+    "started_at": "2022-10-05T13:19:52.790Z",
+    "status": "investigating",
+    "updated_at": "2022-10-05T15:02:18.742Z"
+  },
+  "meta": {
+    "generated_at": "2022-10-05T15:02:51.654Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
