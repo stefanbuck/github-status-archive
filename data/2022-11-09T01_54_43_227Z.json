@@ -1,0 +1,32 @@
+{
+  "component": {
+    "created_at": "2019-11-13T18:02:40.064Z",
+    "description": "API requests and webhook delivery for GitHub Packages",
+    "group_id": null,
+    "id": "st3j38cctv9l",
+    "name": "Packages",
+    "page_id": "kctbh9vrtdwd",
+    "position": 8,
+    "showcase": false,
+    "start_date": null,
+    "status": "operational",
+    "updated_at": "2022-11-09T01:54:04.600Z"
+  },
+  "component_update": {
+    "component_id": "st3j38cctv9l",
+    "component_type": "Component",
+    "created_at": "2022-11-09T01:54:04.608Z",
+    "id": "d26b9m3qwv6z",
+    "new_status": "operational",
+    "old_status": "partial_outage",
+    "state": "sn_created"
+  },
+  "meta": {
+    "generated_at": "2022-11-09T01:54:43.227Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
