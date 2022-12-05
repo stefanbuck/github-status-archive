@@ -1,0 +1,110 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:05:05.370Z",
+        "description": "Performance of git clones, pulls, pushes, and associated operations",
+        "group_id": null,
+        "id": "8l4ygp009s5s",
+        "name": "Git Operations",
+        "page_id": "kctbh9vrtdwd",
+        "position": 1,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2022-12-05T17:32:00.720Z"
+      },
+      {
+        "created_at": "2020-09-02T15:39:06.329Z",
+        "description": "Requests for Pull Requests on GitHub.com",
+        "group_id": null,
+        "id": "hhtssxt0f5v2",
+        "name": "Pull Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 6,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2022-12-05T17:32:01.451Z"
+      }
+    ],
+    "created_at": "2022-12-05T17:31:51.169Z",
+    "id": "01g5rt6z89q2",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We have identified possible causes slowing down git operations including push and pull for a small number of customers, as well as some slow merge operations and are working on mitigating now.",
+        "created_at": "2022-12-05T18:07:05.336Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-12-05T18:07:05.336Z",
+        "id": "5jdbqfq951zb",
+        "incident_id": "01g5rt6z89q2",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-12-05T18:07:05.336Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Git Operations and Pull Requests.",
+        "created_at": "2022-12-05T17:31:51.210Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-12-05T17:31:51.210Z",
+        "id": "vmb7tgwsq0tb",
+        "incident_id": "01g5rt6z89q2",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-12-05T17:31:51.210Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Git Operations and Pull Requests",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/hc8tk9p4r77c",
+    "started_at": "2022-12-05T17:31:51.160Z",
+    "status": "investigating",
+    "updated_at": "2022-12-05T18:07:05.338Z"
+  },
+  "meta": {
+    "generated_at": "2022-12-05T18:08:48.095Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
