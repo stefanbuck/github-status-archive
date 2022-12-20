@@ -1,0 +1,106 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2022-12-20T01:38:27.479Z"
+      }
+    ],
+    "created_at": "2022-12-20T00:09:20.050Z",
+    "id": "3y3y8nnbyt2d",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2022-12-20T01:38:23.403Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-12-20T01:38:23.403Z",
+        "id": "xsbjt0t9ppfy",
+        "incident_id": "3y3y8nnbyt2d",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-12-20T01:38:23.403Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We have identified the issue with manual workflow invocations from the UI. A mitigation will be deployed shortly.",
+        "created_at": "2022-12-20T01:02:32.665Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-12-20T01:02:32.665Z",
+        "id": "bx0b816wyc57",
+        "incident_id": "3y3y8nnbyt2d",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-12-20T01:02:32.665Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions.",
+        "created_at": "2022-12-20T00:09:20.089Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-12-20T00:09:20.089Z",
+        "id": "8d9v0d0rz42d",
+        "incident_id": "3y3y8nnbyt2d",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-12-20T00:09:20.089Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2022-12-20T01:38:23.403Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/jjtj0mz2snvr",
+    "started_at": "2022-12-20T00:09:20.043Z",
+    "status": "resolved",
+    "updated_at": "2022-12-20T01:38:23.414Z"
+  },
+  "meta": {
+    "generated_at": "2022-12-20T01:39:10.940Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
