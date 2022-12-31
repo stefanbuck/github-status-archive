@@ -1,0 +1,136 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2021-08-11T16:02:09.505Z",
+        "description": "Orchestration and Compute for GitHub Codespaces",
+        "group_id": null,
+        "id": "h2ftsgbw7kmk",
+        "name": "Codespaces",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": false,
+        "start_date": "2021-08-11T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2022-12-31T01:48:04.170Z"
+      }
+    ],
+    "created_at": "2022-12-31T00:07:02.295Z",
+    "id": "1whd66ydswnx",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2022-12-31T01:47:59.270Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-12-31T01:47:59.270Z",
+        "id": "dj7tnv05d8qm",
+        "incident_id": "1whd66ydswnx",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-12-31T01:47:59.270Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are continuing mitigation for an issue impacting some Codespaces customers. We will keep you updated on progress.",
+        "created_at": "2022-12-31T01:39:30.575Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-12-31T01:39:30.575Z",
+        "id": "x0w9zq9dj397",
+        "incident_id": "1whd66ydswnx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-12-31T01:39:30.575Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are continuing to work on mitigation for an issue impacting some Codespaces customers. We will continue to keep you updated on progress.",
+        "created_at": "2022-12-31T01:12:48.556Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-12-31T01:12:48.556Z",
+        "id": "0mrn73f65khd",
+        "incident_id": "1whd66ydswnx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-12-31T01:12:48.556Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We identified an issue that impacts some Codespaces customers and are working on mitigation.We will continue to keep you updated on progress.",
+        "created_at": "2022-12-31T00:39:38.981Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-12-31T00:39:38.981Z",
+        "id": "pgm25pt2gsjz",
+        "incident_id": "1whd66ydswnx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-12-31T00:39:38.981Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Codespaces.",
+        "created_at": "2022-12-31T00:07:02.331Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2022-12-31T00:07:02.331Z",
+        "id": "3sy7ssv6wln7",
+        "incident_id": "1whd66ydswnx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2022-12-31T00:07:02.331Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Codespaces",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2022-12-31T01:47:59.270Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/tr4w0fv50h11",
+    "started_at": "2022-12-31T00:07:02.289Z",
+    "status": "resolved",
+    "updated_at": "2022-12-31T01:47:59.284Z"
+  },
+  "meta": {
+    "generated_at": "2022-12-31T01:48:39.519Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
