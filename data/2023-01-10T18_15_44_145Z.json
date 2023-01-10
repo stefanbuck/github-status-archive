@@ -1,0 +1,147 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:05:05.370Z",
+        "description": "Performance of git clones, pulls, pushes, and associated operations",
+        "group_id": null,
+        "id": "8l4ygp009s5s",
+        "name": "Git Operations",
+        "page_id": "kctbh9vrtdwd",
+        "position": 1,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2023-01-10T18:14:52.138Z"
+      },
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2023-01-10T18:14:51.529Z"
+      }
+    ],
+    "created_at": "2023-01-10T17:04:42.462Z",
+    "id": "00km0kwpz23b",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2023-01-10T18:14:45.860Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-10T18:14:45.860Z",
+        "id": "sq79yjhhmrhs",
+        "incident_id": "00km0kwpz23b",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-10T18:14:45.860Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Some action hosted runners are experiencing longer than normal run times.",
+        "created_at": "2023-01-10T17:54:38.073Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-10T17:54:38.073Z",
+        "id": "88pqq2thpv7x",
+        "incident_id": "00km0kwpz23b",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-10T17:54:38.073Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Actions is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+        "created_at": "2023-01-10T17:22:57.051Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-10T17:22:57.051Z",
+        "id": "61rwl4ypl4n9",
+        "incident_id": "00km0kwpz23b",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-10T17:22:57.051Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Git Operations.",
+        "created_at": "2023-01-10T17:04:42.496Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-10T17:04:42.496Z",
+        "id": "66p0tzyn34mj",
+        "incident_id": "00km0kwpz23b",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-10T17:04:42.496Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions and Git Operations",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2023-01-10T18:14:45.860Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/xh2z5s3wq1b8",
+    "started_at": "2023-01-10T17:04:42.456Z",
+    "status": "resolved",
+    "updated_at": "2023-01-10T18:14:45.880Z"
+  },
+  "meta": {
+    "generated_at": "2023-01-10T18:15:44.145Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
