@@ -1,0 +1,106 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2023-01-16T16:43:33.003Z"
+      }
+    ],
+    "created_at": "2023-01-16T15:51:46.001Z",
+    "id": "f3kthhhjt9ss",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2023-01-16T16:43:28.513Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-16T16:43:28.513Z",
+        "id": "qvxjx79s93ty",
+        "incident_id": "f3kthhhjt9ss",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-16T16:43:28.513Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We found an issue that caused high database replication lag, leading to issues visible in multiple services. We have resolved this issue and are expecting services to become healthy once queues drain.",
+        "created_at": "2023-01-16T16:31:00.103Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-16T16:31:00.103Z",
+        "id": "382xxzh9lrnx",
+        "incident_id": "f3kthhhjt9ss",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-16T16:31:00.103Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions.",
+        "created_at": "2023-01-16T15:51:46.040Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-16T15:51:46.040Z",
+        "id": "ll7m9g5phgcd",
+        "incident_id": "f3kthhhjt9ss",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-16T15:51:46.040Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2023-01-16T16:43:28.513Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/sx6vljvfq39c",
+    "started_at": "2023-01-16T15:51:45.994Z",
+    "status": "resolved",
+    "updated_at": "2023-01-16T16:43:28.528Z"
+  },
+  "meta": {
+    "generated_at": "2023-01-16T16:44:15.119Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
