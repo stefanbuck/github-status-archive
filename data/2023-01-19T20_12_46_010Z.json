@@ -1,0 +1,282 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:05:05.370Z",
+        "description": "Performance of git clones, pulls, pushes, and associated operations",
+        "group_id": null,
+        "id": "8l4ygp009s5s",
+        "name": "Git Operations",
+        "page_id": "kctbh9vrtdwd",
+        "position": 1,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2023-01-19T16:49:44.760Z"
+      },
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2023-01-19T16:52:33.518Z"
+      },
+      {
+        "created_at": "2017-01-31T20:04:33.923Z",
+        "description": "Frontend application and API servers for Pages builds",
+        "group_id": null,
+        "id": "vg70hn9s2tyj",
+        "name": "Pages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 9,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2023-01-19T16:09:32.099Z"
+      }
+    ],
+    "created_at": "2023-01-19T15:57:38.286Z",
+    "id": "n18j5g7wpg0s",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We have applied a mitigation that has reduced impact to Actions, but error rates are still elevated. We continue to work with our dependency team on additional mitigations.",
+        "created_at": "2023-01-19T20:11:32.264Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-19T20:11:32.264Z",
+        "id": "qn9xdp46qfd5",
+        "incident_id": "n18j5g7wpg0s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-19T20:11:32.264Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are aware of an issue that impacts Actions, resulting in slow or failed jobs. Root cause in a dependency is understood and we are working with that team on a mitigation.",
+        "created_at": "2023-01-19T19:31:46.657Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-19T19:31:46.657Z",
+        "id": "bh5y8zl9pn5f",
+        "incident_id": "n18j5g7wpg0s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-19T19:31:46.657Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are aware of an issue that impacts Actions, resulting in slow or failed jobs. Root cause in a dependency is understood and we are working with that team on a mitigation.",
+        "created_at": "2023-01-19T18:49:21.442Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-19T18:49:21.442Z",
+        "id": "jykgfgs6x5pc",
+        "incident_id": "n18j5g7wpg0s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-19T18:49:21.442Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are aware of an issue that impacts Actions, resulting in slow or failed jobs. Root cause in a dependency is understood and we are working with that team on a mitigation.",
+        "created_at": "2023-01-19T18:07:01.034Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-19T18:07:01.034Z",
+        "id": "1b3gnnl2ny0r",
+        "incident_id": "n18j5g7wpg0s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-19T18:07:01.034Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are aware of an issue that impacts Actions artifact uploads and downloads, causing slow or failed jobs. We are investigating the root cause and will provide updates as we learn more.",
+        "created_at": "2023-01-19T17:27:19.193Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-19T17:27:19.193Z",
+        "id": "d8vz0vx9gvcz",
+        "incident_id": "n18j5g7wpg0s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-19T17:27:19.193Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are observing an issue that impacts Actions artifact uploads and downloads, causing slow or failed jobs. We are investigating the root cause and will provide updates as we learn more.",
+        "created_at": "2023-01-19T16:54:21.612Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-19T16:54:21.612Z",
+        "id": "5mqs9hccbh4c",
+        "incident_id": "n18j5g7wpg0s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-19T16:54:21.612Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2023-01-19T16:52:31.015Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-19T16:52:31.015Z",
+        "id": "pvsb1xlty5q8",
+        "incident_id": "n18j5g7wpg0s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-19T16:52:31.015Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Git Operations is operating normally.",
+        "created_at": "2023-01-19T16:49:43.879Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-19T16:49:43.879Z",
+        "id": "l1pn1pb40hl7",
+        "incident_id": "n18j5g7wpg0s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-19T16:49:43.879Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2023-01-19T16:09:29.617Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-19T16:09:29.617Z",
+        "id": "17y1f3f6d0qq",
+        "incident_id": "n18j5g7wpg0s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-19T16:09:29.617Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Git Operations.",
+        "created_at": "2023-01-19T15:57:38.337Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-19T15:57:38.337Z",
+        "id": "mz2yzg920671",
+        "incident_id": "n18j5g7wpg0s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-19T15:57:38.337Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions, Git Operations and Pages",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/bs7s460n4bzw",
+    "started_at": "2023-01-19T15:57:38.277Z",
+    "status": "investigating",
+    "updated_at": "2023-01-19T20:11:32.267Z"
+  },
+  "meta": {
+    "generated_at": "2023-01-19T20:12:46.010Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
