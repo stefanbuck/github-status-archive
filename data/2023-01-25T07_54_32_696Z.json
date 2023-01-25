@@ -1,0 +1,117 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.621Z",
+        "description": "Requests for GitHub APIs",
+        "group_id": null,
+        "id": "brv1bkgrwx7q",
+        "name": "API Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 2,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2023-01-25T07:54:01.563Z"
+      },
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 11,
+        "showcase": false,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "partial_outage",
+        "updated_at": "2023-01-25T07:53:57.810Z"
+      }
+    ],
+    "created_at": "2023-01-25T07:53:55.617Z",
+    "id": "9c941kssjk0q",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "API Requests is experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+        "created_at": "2023-01-25T07:53:59.286Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-25T07:53:59.286Z",
+        "id": "jktxgl8lkg1z",
+        "incident_id": "9c941kssjk0q",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-25T07:53:59.286Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Copilot.",
+        "created_at": "2023-01-25T07:53:55.656Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-01-25T07:53:55.656Z",
+        "id": "lypn8lyz9r5q",
+        "incident_id": "9c941kssjk0q",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-01-25T07:53:55.656Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with API Requests and Copilot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/svhg85s497v1",
+    "started_at": "2023-01-25T07:53:55.609Z",
+    "status": "investigating",
+    "updated_at": "2023-01-25T07:53:59.288Z"
+  },
+  "meta": {
+    "generated_at": "2023-01-25T07:54:32.696Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
