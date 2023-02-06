@@ -1,0 +1,121 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2023-02-06T22:56:29.583Z"
+      }
+    ],
+    "created_at": "2023-02-06T21:49:44.078Z",
+    "id": "cvhhm9zxcr49",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2023-02-06T22:56:22.814Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-02-06T22:56:22.814Z",
+        "id": "b61ffp145b2z",
+        "incident_id": "cvhhm9zxcr49",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-02-06T22:56:22.814Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We have resolved the issue but some old Actions runs may still fail to get displayed.",
+        "created_at": "2023-02-06T22:55:40.178Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-02-06T22:55:40.178Z",
+        "id": "72y5msjw90jn",
+        "incident_id": "cvhhm9zxcr49",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-02-06T22:55:40.178Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of issues with service(s): Actions. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2023-02-06T22:22:06.584Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-02-06T22:22:06.584Z",
+        "id": "hcrdm7rs5n8l",
+        "incident_id": "cvhhm9zxcr49",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-02-06T22:22:06.584Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions.",
+        "created_at": "2023-02-06T21:49:44.123Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-02-06T21:49:44.123Z",
+        "id": "nwcynzbdcpcf",
+        "incident_id": "cvhhm9zxcr49",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-02-06T21:49:44.123Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2023-02-06T22:56:22.814Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/0dhd3t983jm7",
+    "started_at": "2023-02-06T21:49:44.070Z",
+    "status": "resolved",
+    "updated_at": "2023-02-06T22:56:22.832Z"
+  },
+  "meta": {
+    "generated_at": "2023-02-06T22:57:27.418Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
