@@ -1,0 +1,113 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:40.064Z",
+        "description": "API requests and webhook delivery for GitHub Packages",
+        "group_id": null,
+        "id": "st3j38cctv9l",
+        "name": "Packages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 8,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2023-01-30T22:23:25.515Z"
+      }
+    ],
+    "created_at": "2023-02-07T10:08:16.166Z",
+    "id": "53t2nlxs8016",
+    "impact": "maintenance",
+    "impact_override": "maintenance",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "Maintenance will begin as scheduled in 60 minutes.",
+        "created_at": "2023-02-08T21:00:03.043Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-02-08T21:00:03.043Z",
+        "id": "m1h2w785zdq6",
+        "incident_id": "53t2nlxs8016",
+        "status": "scheduled",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-02-08T21:00:03.043Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Due to planned maintenance on our infrastructure, we expect an interruption to GitHub Packages Registry that will last two minutes at an unconfirmed time during this 15 hour time window. If you experience interruption, please wait two minutes then try again.\n\nThank you for your patience while we complete this critical work.",
+        "created_at": "2023-02-07T11:52:40.238Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-02-07T11:52:40.238Z",
+        "id": "tjx78vcfl4ml",
+        "incident_id": "53t2nlxs8016",
+        "status": "scheduled",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-02-07T11:52:40.238Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We will be undergoing scheduled maintenance during this time.",
+        "created_at": "2023-02-07T10:08:16.217Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-02-07T10:08:16.217Z",
+        "id": "bdm3n692y4pf",
+        "incident_id": "53t2nlxs8016",
+        "status": "scheduled",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-02-07T10:08:16.217Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Planned maintenance on GitHub Package Registry",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": true,
+    "scheduled_auto_in_progress": true,
+    "scheduled_for": "2023-02-08T22:00:00.000Z",
+    "scheduled_remind_prior": true,
+    "scheduled_reminded_at": "2023-02-08T21:00:03.394Z",
+    "scheduled_until": "2023-02-09T13:00:00.000Z",
+    "shortlink": "https://stspg.io/5psr38wmcwhv",
+    "started_at": "2023-02-07T10:08:16.162Z",
+    "status": "scheduled",
+    "updated_at": "2023-02-08T21:00:03.394Z"
+  },
+  "meta": {
+    "generated_at": "2023-02-08T21:01:21.689Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
