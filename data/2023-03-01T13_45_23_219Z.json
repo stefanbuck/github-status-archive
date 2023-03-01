@@ -1,0 +1,175 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:40.064Z",
+        "description": "API requests and webhook delivery for GitHub Packages",
+        "group_id": null,
+        "id": "st3j38cctv9l",
+        "name": "Packages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 8,
+        "showcase": false,
+        "start_date": null,
+        "status": "major_outage",
+        "updated_at": "2023-03-01T13:44:16.763Z"
+      },
+      {
+        "created_at": "2017-01-31T20:04:33.923Z",
+        "description": "Frontend application and API servers for Pages builds",
+        "group_id": null,
+        "id": "vg70hn9s2tyj",
+        "name": "Pages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 9,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2023-03-01T13:39:06.786Z"
+      }
+    ],
+    "created_at": "2023-03-01T12:19:54.703Z",
+    "id": "bypf7bqdh4g0",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Packages is now experiencing degraded availability. We are still investigating and will provide an update when we have one.",
+        "created_at": "2023-03-01T13:44:15.827Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-01T13:44:15.827Z",
+        "id": "5krdbph6t572",
+        "incident_id": "bypf7bqdh4g0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-01T13:44:15.827Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2023-03-01T13:39:03.381Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-01T13:39:03.381Z",
+        "id": "lgrcmf965r0c",
+        "incident_id": "bypf7bqdh4g0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-01T13:39:03.381Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are still investigating reports of issues with service(s): Packages. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2023-03-01T13:31:48.171Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-01T13:31:48.171Z",
+        "id": "lt5w125hty3m",
+        "incident_id": "bypf7bqdh4g0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-01T13:31:48.171Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are still investigating reports of issues with service(s): Packages. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2023-03-01T13:00:15.705Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-01T13:00:15.705Z",
+        "id": "30bb2hgxwqr9",
+        "incident_id": "bypf7bqdh4g0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-01T13:00:15.705Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Packages.",
+        "created_at": "2023-03-01T12:19:54.744Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-01T12:19:54.744Z",
+        "id": "22qsp6qflhgs",
+        "incident_id": "bypf7bqdh4g0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-01T12:19:54.744Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Packages and Pages",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/wqz0drgk45dd",
+    "started_at": "2023-03-01T12:19:54.696Z",
+    "status": "investigating",
+    "updated_at": "2023-03-01T13:44:15.831Z"
+  },
+  "meta": {
+    "generated_at": "2023-03-01T13:45:23.219Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partial System Outage",
+    "status_indicator": "major"
+  }
+}
