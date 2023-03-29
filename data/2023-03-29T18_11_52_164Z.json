@@ -1,0 +1,323 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2023-03-29T16:47:06.436Z"
+      },
+      {
+        "created_at": "2017-01-31T20:04:33.923Z",
+        "description": "Frontend application and API servers for Pages builds",
+        "group_id": null,
+        "id": "vg70hn9s2tyj",
+        "name": "Pages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 9,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2023-03-29T18:10:57.721Z"
+      },
+      {
+        "created_at": "2021-08-11T16:02:09.505Z",
+        "description": "Orchestration and Compute for GitHub Codespaces",
+        "group_id": null,
+        "id": "h2ftsgbw7kmk",
+        "name": "Codespaces",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": false,
+        "start_date": "2021-08-11T00:00:00.000Z",
+        "status": "partial_outage",
+        "updated_at": "2023-03-29T17:29:26.956Z"
+      }
+    ],
+    "created_at": "2023-03-29T14:21:21.951Z",
+    "id": "z3c6q056q332",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Pages is operating normally.",
+        "created_at": "2023-03-29T18:10:56.733Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-29T18:10:56.733Z",
+        "id": "lg1bk46w4j61",
+        "incident_id": "z3c6q056q332",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-29T18:10:56.733Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are still working towards full recovery. Actions jobs still experience delays when being queued.",
+        "created_at": "2023-03-29T17:41:40.257Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-29T17:41:40.257Z",
+        "id": "xqsvx4rz8dkr",
+        "incident_id": "z3c6q056q332",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-29T17:41:40.257Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Codespaces is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2023-03-29T17:29:25.655Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-29T17:29:25.655Z",
+        "id": "k5bxzk2wt9np",
+        "incident_id": "z3c6q056q332",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-29T17:29:25.655Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Actions workflows have started running again. We're continuing to work towards full recovery.",
+        "created_at": "2023-03-29T16:56:26.977Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-29T16:56:26.977Z",
+        "id": "2f1md1k2wbn2",
+        "incident_id": "z3c6q056q332",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-29T16:56:26.977Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "Actions is now experiencing degraded performance. We are still investigating and will provide an update when we have one.",
+        "created_at": "2023-03-29T16:47:05.101Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-29T16:47:05.101Z",
+        "id": "vv1qg50kwvss",
+        "incident_id": "z3c6q056q332",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-29T16:47:05.101Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are seeing signs of recovery for Actions and continue to monitor closely. We will continue to post updates about progress as soon as we have them.",
+        "created_at": "2023-03-29T16:22:45.323Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-29T16:22:45.323Z",
+        "id": "l5ts465j2xvz",
+        "incident_id": "z3c6q056q332",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-29T16:22:45.323Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We continue to work on mitigating the problems with Actions and Pages with high urgency. We will continue to post updates about our progress.",
+        "created_at": "2023-03-29T15:42:04.632Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-29T15:42:04.632Z",
+        "id": "s2nwt2p77drk",
+        "incident_id": "z3c6q056q332",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-29T15:42:04.632Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2023-03-29T15:29:28.738Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-29T15:29:28.738Z",
+        "id": "bp221307lt18",
+        "incident_id": "z3c6q056q332",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-29T15:29:28.738Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are still investigating the cause of Actions degradation, we will provide an update when we have one.",
+        "created_at": "2023-03-29T14:56:00.802Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-29T14:56:00.802Z",
+        "id": "jh0bb4d66trs",
+        "incident_id": "z3c6q056q332",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-29T14:56:00.802Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Actions is now experiencing degraded availability. We are still investigating and will provide an update when we have one.",
+        "created_at": "2023-03-29T14:43:41.188Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-29T14:43:41.188Z",
+        "id": "rzq96ds33gnr",
+        "incident_id": "z3c6q056q332",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-29T14:43:41.188Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions.",
+        "created_at": "2023-03-29T14:21:21.998Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-03-29T14:21:21.998Z",
+        "id": "jwkwh1w8ct3w",
+        "incident_id": "z3c6q056q332",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-03-29T14:21:21.998Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions, Codespaces and Pages",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/h3r1vr6bbd04",
+    "started_at": "2023-03-29T14:21:21.944Z",
+    "status": "investigating",
+    "updated_at": "2023-03-29T18:10:56.736Z"
+  },
+  "meta": {
+    "generated_at": "2023-03-29T18:11:52.164Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
