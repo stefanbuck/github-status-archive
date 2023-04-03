@@ -1,0 +1,136 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:05:05.370Z",
+        "description": "Performance of git clones, pulls, pushes, and associated operations",
+        "group_id": null,
+        "id": "8l4ygp009s5s",
+        "name": "Git Operations",
+        "page_id": "kctbh9vrtdwd",
+        "position": 1,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2023-04-03T22:41:56.944Z"
+      }
+    ],
+    "created_at": "2023-04-03T20:57:18.930Z",
+    "id": "5nlnzt80fk7g",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2023-04-03T22:41:51.201Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-04-03T22:41:51.201Z",
+        "id": "xlhts0g9y8zm",
+        "incident_id": "5nlnzt80fk7g",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-04-03T22:41:51.201Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We have mitigated the intermittent errors for Git requests and are continuing to monitor the system",
+        "created_at": "2023-04-03T22:17:06.589Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-04-03T22:17:06.589Z",
+        "id": "m6s5c3z57d1x",
+        "incident_id": "5nlnzt80fk7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-04-03T22:17:06.589Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently working to mitigate intermittent errors for Git requests",
+        "created_at": "2023-04-03T21:52:25.044Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-04-03T21:52:25.044Z",
+        "id": "lffb16v0fmcw",
+        "incident_id": "5nlnzt80fk7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-04-03T21:52:25.044Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating intermittent errors for Git requests",
+        "created_at": "2023-04-03T21:32:00.204Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-04-03T21:32:00.204Z",
+        "id": "522nh3mfycw2",
+        "incident_id": "5nlnzt80fk7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-04-03T21:32:00.204Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Git Operations.",
+        "created_at": "2023-04-03T20:57:18.959Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-04-03T20:57:18.959Z",
+        "id": "q52lnfcsjmqq",
+        "incident_id": "5nlnzt80fk7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-04-03T20:57:18.959Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Git Operations",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": "2023-04-03T22:41:51.201Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/q9lnt9b7n1cy",
+    "started_at": "2023-04-03T20:57:18.924Z",
+    "status": "resolved",
+    "updated_at": "2023-04-03T22:41:51.213Z"
+  },
+  "meta": {
+    "generated_at": "2023-04-03T22:43:01.969Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
