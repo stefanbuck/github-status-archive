@@ -1,0 +1,307 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.621Z",
+        "description": "Requests for GitHub APIs",
+        "group_id": null,
+        "id": "brv1bkgrwx7q",
+        "name": "API Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 2,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2023-06-28T23:35:02.531Z"
+      },
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2023-06-28T23:11:51.636Z"
+      },
+      {
+        "created_at": "2017-01-31T20:04:33.923Z",
+        "description": "Frontend application and API servers for Pages builds",
+        "group_id": null,
+        "id": "vg70hn9s2tyj",
+        "name": "Pages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 9,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2023-06-28T23:15:38.115Z"
+      }
+    ],
+    "created_at": "2023-06-28T22:59:03.965Z",
+    "id": "ws2l6203cs7g",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "The fix for failing Actions jobs using environments is rolling out. We are expecting the rollout to take several hours to complete.",
+        "created_at": "2023-06-29T02:02:33.645Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-06-29T02:02:33.645Z",
+        "id": "kpbrtcrb23y9",
+        "incident_id": "ws2l6203cs7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-06-29T02:02:33.645Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are deploying a fix for failing Actions jobs using environments. The issue is also impacting GitHub Pages - deployments are pending in an approval stage.",
+        "created_at": "2023-06-29T01:26:21.052Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-06-29T01:26:21.052Z",
+        "id": "mls6l4p4xc62",
+        "incident_id": "ws2l6203cs7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-06-29T01:26:21.052Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We continue working on a fix for failing Actions jobs using environments.",
+        "created_at": "2023-06-29T00:37:14.488Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-06-29T00:37:14.488Z",
+        "id": "tz8rpx4d2ptf",
+        "incident_id": "ws2l6203cs7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-06-29T00:37:14.488Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We now understand the root cause of failing Actions jobs using environments. We are working on a fix.",
+        "created_at": "2023-06-29T00:11:15.989Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-06-29T00:11:15.989Z",
+        "id": "zyjk9nbr8nrb",
+        "incident_id": "ws2l6203cs7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-06-29T00:11:15.989Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are seeing failures in Actions jobs using environments. Downstream impact on the deployments of GitHub Pages. We are investigating more details.",
+        "created_at": "2023-06-28T23:39:37.852Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-06-28T23:39:37.852Z",
+        "id": "c29qq10skv9s",
+        "incident_id": "ws2l6203cs7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-06-28T23:39:37.852Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "API Requests is operating normally.",
+        "created_at": "2023-06-28T23:35:01.358Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-06-28T23:35:01.358Z",
+        "id": "zxwmvpkykf2b",
+        "incident_id": "ws2l6203cs7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-06-28T23:35:01.358Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2023-06-28T23:15:35.548Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-06-28T23:15:35.548Z",
+        "id": "yv7zp7hqg665",
+        "incident_id": "ws2l6203cs7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-06-28T23:15:35.548Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2023-06-28T23:11:49.017Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-06-28T23:11:49.017Z",
+        "id": "f5m8lhgx2f82",
+        "incident_id": "ws2l6203cs7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-06-28T23:11:49.017Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Actions is operating normally.",
+        "created_at": "2023-06-28T23:01:10.382Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-06-28T23:01:10.382Z",
+        "id": "dzpqt0tz8lwl",
+        "incident_id": "ws2l6203cs7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-06-28T23:01:10.382Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions and API Requests.",
+        "created_at": "2023-06-28T22:59:04.010Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-06-28T22:59:04.010Z",
+        "id": "x9p2fvyr94vv",
+        "incident_id": "ws2l6203cs7g",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-06-28T22:59:04.010Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions, API Requests and Pages",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/j58jzlmzddk2",
+    "started_at": "2023-06-28T22:59:03.956Z",
+    "status": "investigating",
+    "updated_at": "2023-06-29T02:02:33.648Z"
+  },
+  "meta": {
+    "generated_at": "2023-06-29T02:04:50.634Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
