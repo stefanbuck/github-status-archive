@@ -1,0 +1,99 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2021-08-11T16:02:09.505Z",
+        "description": "Orchestration and Compute for GitHub Codespaces",
+        "group_id": null,
+        "id": "h2ftsgbw7kmk",
+        "name": "Codespaces",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": false,
+        "start_date": "2021-08-11T00:00:00.000Z",
+        "status": "partial_outage",
+        "updated_at": "2023-09-01T14:35:33.294Z"
+      }
+    ],
+    "created_at": "2023-09-01T14:35:33.254Z",
+    "id": "wz41ffzj8937",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "A limited number of users in the UK and Western Europe are experiencing issues starting or reconnecting to GitHub Codespaces. We are investigating the issue.",
+        "created_at": "2023-09-01T14:51:43.089Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-01T14:51:43.089Z",
+        "id": "gf9r3vls49sf",
+        "incident_id": "wz41ffzj8937",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-01T14:51:43.089Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Codespaces",
+        "created_at": "2023-09-01T14:35:33.344Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-01T14:35:33.344Z",
+        "id": "6sdzp4h1wgwp",
+        "incident_id": "wz41ffzj8937",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-01T14:35:33.344Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Codespaces",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/9mz4372635gh",
+    "started_at": "2023-09-01T14:35:33.246Z",
+    "status": "investigating",
+    "updated_at": "2023-09-01T14:51:43.091Z"
+  },
+  "meta": {
+    "generated_at": "2023-09-01T14:52:48.019Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
