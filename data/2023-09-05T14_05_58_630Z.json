@@ -1,0 +1,470 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:05:05.370Z",
+        "description": "Performance of git clones, pulls, pushes, and associated operations",
+        "group_id": null,
+        "id": "8l4ygp009s5s",
+        "name": "Git Operations",
+        "page_id": "kctbh9vrtdwd",
+        "position": 1,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2023-09-05T06:59:25.398Z"
+      },
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2023-09-05T10:39:43.086Z"
+      }
+    ],
+    "created_at": "2023-09-05T06:59:25.351Z",
+    "id": "frdfpnnt85s8",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Recovery is in progress. We are still taking additional mitigation steps and will status back to green when those are completed and we are confident they are effective.",
+        "created_at": "2023-09-05T14:03:41.678Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T14:03:41.678Z",
+        "id": "3mt5s1p7jdr9",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T14:03:41.678Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We have mitigated the impact on download and raw file operations and are seeing recovery on response times but are continuing to monitor.",
+        "created_at": "2023-09-05T13:18:34.863Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T13:18:34.863Z",
+        "id": "783p2tvc0c4m",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T13:18:34.863Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Operations that download Git archives and raw files are seeing highly elevated response times (up to 4+ seconds) for users. Other Git operations are not impacted. We are working on mitigation.",
+        "created_at": "2023-09-05T12:48:14.154Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T12:48:14.154Z",
+        "id": "1vzcbzkrxwrt",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T12:48:14.154Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of issues with service(s): Git Operations. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2023-09-05T12:15:58.593Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T12:15:58.593Z",
+        "id": "00w0zlvxqb4f",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T12:15:58.593Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of issues with service(s): Git Operations. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2023-09-05T11:37:10.515Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T11:37:10.515Z",
+        "id": "sxf45q2g0rbd",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T11:37:10.515Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of issues with service(s): Git Operations. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2023-09-05T10:52:01.584Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T10:52:01.584Z",
+        "id": "8qps86f4vsks",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T10:52:01.584Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Actions is operating normally.",
+        "created_at": "2023-09-05T10:39:43.114Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T10:39:43.114Z",
+        "id": "yqdbv6jnr018",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T10:39:43.114Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating reports of issues with service(s): Git Operations. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2023-09-05T10:17:51.708Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T10:17:51.708Z",
+        "id": "3j5lz68nn579",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T10:17:51.708Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating reports of issues with service(s): Git Operations. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2023-09-05T09:35:21.816Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T09:35:21.816Z",
+        "id": "gyv3wsdt5n0l",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T09:35:21.816Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating reports of issues with service(s): Git Operations. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2023-09-05T09:03:37.136Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T09:03:37.136Z",
+        "id": "ch8pdgcz29sh",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T09:03:37.136Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating reports of issues with service(s): Git Operations, Actions. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2023-09-05T08:32:47.546Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T08:32:47.546Z",
+        "id": "k4sp4fr603yv",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T08:32:47.546Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2023-09-05T08:04:30.165Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T08:04:30.165Z",
+        "id": "dxjfjgvcl4fp",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T08:04:30.165Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating reports of issues with service(s): Git Operations. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2023-09-05T08:01:35.383Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T08:01:35.383Z",
+        "id": "3wqgvzb370xg",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T08:01:35.383Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating reports of issues with service(s): Git Operations. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2023-09-05T07:30:38.974Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T07:30:38.974Z",
+        "id": "n0s65phcwbgq",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T07:30:38.974Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Git Operations",
+        "created_at": "2023-09-05T06:59:25.437Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-05T06:59:25.437Z",
+        "id": "y4tm8yh4bgpz",
+        "incident_id": "frdfpnnt85s8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-05T06:59:25.437Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Git Operations and Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/sd77bkryrr92",
+    "started_at": "2023-09-05T06:59:25.344Z",
+    "status": "investigating",
+    "updated_at": "2023-09-05T14:03:41.680Z"
+  },
+  "meta": {
+    "generated_at": "2023-09-05T14:05:58.630Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
