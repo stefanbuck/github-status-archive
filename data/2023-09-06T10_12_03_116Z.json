@@ -1,0 +1,143 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:05:05.370Z",
+        "description": "Performance of git clones, pulls, pushes, and associated operations",
+        "group_id": null,
+        "id": "8l4ygp009s5s",
+        "name": "Git Operations",
+        "page_id": "kctbh9vrtdwd",
+        "position": 1,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2023-09-06T08:21:39.340Z"
+      }
+    ],
+    "created_at": "2023-09-06T08:21:39.285Z",
+    "id": "njb4tgwrkv34",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We identified the issue affecting Git Operations and applied the mitigation. We expect service to fully recover in 30 min.",
+        "created_at": "2023-09-06T10:07:07.678Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-06T10:07:07.678Z",
+        "id": "kzfp8ftfjsrs",
+        "incident_id": "njb4tgwrkv34",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-06T10:07:07.678Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Operations that download Git archives and raw files are seeing highly elevated response times (up to 4+ seconds) for users. Other Git operations are not impacted. We are working on mitigation.",
+        "created_at": "2023-09-06T09:03:14.391Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-06T09:03:14.391Z",
+        "id": "w3phc69fzx4c",
+        "incident_id": "njb4tgwrkv34",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-06T09:03:14.391Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating reports of issues with service(s): Git Operations. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2023-09-06T08:53:27.322Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-06T08:53:27.322Z",
+        "id": "jd6h2bylm6vt",
+        "incident_id": "njb4tgwrkv34",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-06T08:53:27.322Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Git Operations",
+        "created_at": "2023-09-06T08:21:39.375Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-09-06T08:21:39.375Z",
+        "id": "00d02xxbcql6",
+        "incident_id": "njb4tgwrkv34",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-09-06T08:21:39.375Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Git Operations",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/c2hrh5qshfg9",
+    "started_at": "2023-09-06T08:21:39.279Z",
+    "status": "investigating",
+    "updated_at": "2023-09-06T10:07:07.681Z"
+  },
+  "meta": {
+    "generated_at": "2023-09-06T10:12:03.116Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
