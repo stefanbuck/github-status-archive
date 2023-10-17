@@ -1,0 +1,187 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2021-08-11T16:02:09.505Z",
+        "description": "Orchestration and Compute for GitHub Codespaces",
+        "group_id": null,
+        "id": "h2ftsgbw7kmk",
+        "name": "Codespaces",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": false,
+        "start_date": "2021-08-11T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2023-10-17T13:49:00.814Z"
+      }
+    ],
+    "created_at": "2023-10-17T11:14:24.786Z",
+    "id": "gkrfrz6r7flc",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This incident has been resolved.",
+        "created_at": "2023-10-17T13:49:00.845Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-10-17T13:49:00.845Z",
+        "id": "gkml10l38d6f",
+        "incident_id": "gkrfrz6r7flc",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-10-17T13:49:00.845Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "Codespaces is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2023-10-17T13:46:42.182Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-10-17T13:46:42.182Z",
+        "id": "d0ggvr5g5ktl",
+        "incident_id": "gkrfrz6r7flc",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-10-17T13:46:42.182Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We are continuing with efforts to mitigate Codespaces issues and are beginning to see some Codespace creations succeed.",
+        "created_at": "2023-10-17T13:24:19.279Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-10-17T13:24:19.279Z",
+        "id": "zb30c2015kgl",
+        "incident_id": "gkrfrz6r7flc",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-10-17T13:24:19.279Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We have identified an issue impacting most Codespaces operations and are working on a mitigation.",
+        "created_at": "2023-10-17T12:18:57.977Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-10-17T12:18:57.977Z",
+        "id": "htkv1x0qvzms",
+        "incident_id": "gkrfrz6r7flc",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-10-17T12:18:57.977Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "major_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Codespaces is experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2023-10-17T11:18:38.412Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-10-17T11:18:38.412Z",
+        "id": "gttc4lbl6r6p",
+        "incident_id": "gkrfrz6r7flc",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-10-17T11:18:38.412Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Codespaces",
+        "created_at": "2023-10-17T11:14:24.845Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-10-17T11:14:24.845Z",
+        "id": "pzqqqkn8dt3v",
+        "incident_id": "gkrfrz6r7flc",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-10-17T11:14:24.845Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Codespaces",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2023-10-17T13:49:00.845Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/w7qr4tvhhhkc",
+    "started_at": "2023-10-17T11:14:24.780Z",
+    "status": "resolved",
+    "updated_at": "2023-10-17T13:49:00.861Z"
+  },
+  "meta": {
+    "generated_at": "2023-10-17T13:49:57.396Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
