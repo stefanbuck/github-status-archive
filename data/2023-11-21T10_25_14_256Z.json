@@ -1,0 +1,99 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2023-11-21T10:11:13.405Z"
+      }
+    ],
+    "created_at": "2023-11-21T10:11:13.361Z",
+    "id": "x39xrr5m11b3",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have recovery for the underlying issue but are waiting for Actions queues to catch up. We expect this to be completed in less than 1 hour(s).",
+        "created_at": "2023-11-21T10:24:17.469Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-11-21T10:24:17.469Z",
+        "id": "rd8vfx8c5k9g",
+        "incident_id": "x39xrr5m11b3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-11-21T10:24:17.469Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2023-11-21T10:11:13.441Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-11-21T10:11:13.441Z",
+        "id": "024h3zsv6tg6",
+        "incident_id": "x39xrr5m11b3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-11-21T10:11:13.441Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/xdmhxqgg6jh0",
+    "started_at": "2023-11-21T10:11:13.355Z",
+    "status": "investigating",
+    "updated_at": "2023-11-21T10:24:17.472Z"
+  },
+  "meta": {
+    "generated_at": "2023-11-21T10:25:14.256Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
