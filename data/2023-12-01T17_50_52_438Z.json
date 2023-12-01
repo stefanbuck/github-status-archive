@@ -1,0 +1,151 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 11,
+        "showcase": false,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "partial_outage",
+        "updated_at": "2023-12-01T15:55:41.018Z"
+      }
+    ],
+    "created_at": "2023-12-01T15:49:14.540Z",
+    "id": "fj7v3z6fy7ym",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "A small percentage of Copilot Chat users are still experiencing long request times and errors. We are still investigating to determine the root cause.",
+        "created_at": "2023-12-01T17:36:07.671Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-12-01T17:36:07.671Z",
+        "id": "sgnk0ygk11hf",
+        "incident_id": "fj7v3z6fy7ym",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-12-01T17:36:07.671Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Some customers are experiencing higher latency for Copilot Chat. We are continuing our investigation.",
+        "created_at": "2023-12-01T16:41:05.149Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-12-01T16:41:05.149Z",
+        "id": "kbqdmhv8wxgf",
+        "incident_id": "fj7v3z6fy7ym",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-12-01T16:41:05.149Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Copilot is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2023-12-01T15:55:41.056Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-12-01T15:55:41.056Z",
+        "id": "ycnrkyk6pc1m",
+        "incident_id": "fj7v3z6fy7ym",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-12-01T15:55:41.056Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports that that some customers are experiencing increased latency and failed requests for Copilot Chat.",
+        "created_at": "2023-12-01T15:53:10.137Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-12-01T15:53:10.137Z",
+        "id": "p2hy5fqtmj3g",
+        "incident_id": "fj7v3z6fy7ym",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-12-01T15:53:10.137Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2023-12-01T15:49:14.573Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-12-01T15:49:14.573Z",
+        "id": "f5jk6bqm5pxp",
+        "incident_id": "fj7v3z6fy7ym",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-12-01T15:49:14.573Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Copilot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/80jk9ylc3wk1",
+    "started_at": "2023-12-01T15:49:14.534Z",
+    "status": "investigating",
+    "updated_at": "2023-12-01T17:36:07.673Z"
+  },
+  "meta": {
+    "generated_at": "2023-12-01T17:50:52.438Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
