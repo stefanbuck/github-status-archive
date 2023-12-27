@@ -1,0 +1,96 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.621Z",
+        "description": "Requests for GitHub APIs",
+        "group_id": null,
+        "id": "brv1bkgrwx7q",
+        "name": "API Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 2,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2023-12-27T02:51:56.093Z"
+      },
+      {
+        "created_at": "2021-08-11T16:02:09.505Z",
+        "description": "Orchestration and Compute for GitHub Codespaces",
+        "group_id": null,
+        "id": "h2ftsgbw7kmk",
+        "name": "Codespaces",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": false,
+        "start_date": "2021-08-11T00:00:00.000Z",
+        "status": "major_outage",
+        "updated_at": "2023-12-27T02:53:03.065Z"
+      }
+    ],
+    "created_at": "2023-12-27T02:51:56.067Z",
+    "id": "xlm9bd5xq5bk",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          },
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Codespaces and API Requests",
+        "created_at": "2023-12-27T02:51:56.135Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-12-27T02:51:56.135Z",
+        "id": "wjt7n062nzwh",
+        "incident_id": "xlm9bd5xq5bk",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-12-27T02:51:56.135Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Codespaces and API Requests",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/s40rw799sy7m",
+    "started_at": "2023-12-27T02:51:56.061Z",
+    "status": "investigating",
+    "updated_at": "2023-12-27T02:51:56.136Z"
+  },
+  "meta": {
+    "generated_at": "2023-12-27T02:53:39.696Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partial System Outage",
+    "status_indicator": "major"
+  }
+}
