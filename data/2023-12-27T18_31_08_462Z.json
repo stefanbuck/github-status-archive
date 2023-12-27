@@ -1,0 +1,99 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:04:33.923Z",
+        "description": "Frontend application and API servers for Pages builds",
+        "group_id": null,
+        "id": "vg70hn9s2tyj",
+        "name": "Pages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 9,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2023-12-27T18:29:26.118Z"
+      }
+    ],
+    "created_at": "2023-12-27T18:29:26.094Z",
+    "id": "hzd6d6xhjpl6",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Pages workflow builds which use the actions actions/upload-pages-artifact@v3 and actions/deploy-pages@v4 are currently failing.",
+        "created_at": "2023-12-27T18:29:29.790Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-12-27T18:29:29.790Z",
+        "id": "pdvzwf44r259",
+        "incident_id": "hzd6d6xhjpl6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-12-27T18:29:29.790Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Pages",
+        "created_at": "2023-12-27T18:29:26.146Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2023-12-27T18:29:26.146Z",
+        "id": "rcdb1b0j7bkd",
+        "incident_id": "hzd6d6xhjpl6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2023-12-27T18:29:26.146Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Pages",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/whmb0dczslv5",
+    "started_at": "2023-12-27T18:29:26.088Z",
+    "status": "investigating",
+    "updated_at": "2023-12-27T18:29:29.792Z"
+  },
+  "meta": {
+    "generated_at": "2023-12-27T18:31:08.462Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
