@@ -1,0 +1,32 @@
+{
+  "component": {
+    "created_at": "2017-01-31T20:04:33.923Z",
+    "description": "Frontend application and API servers for Pages builds",
+    "group_id": null,
+    "id": "vg70hn9s2tyj",
+    "name": "Pages",
+    "page_id": "kctbh9vrtdwd",
+    "position": 9,
+    "showcase": false,
+    "start_date": null,
+    "status": "partial_outage",
+    "updated_at": "2023-12-27T18:29:26.118Z"
+  },
+  "component_update": {
+    "component_id": "vg70hn9s2tyj",
+    "component_type": "Component",
+    "created_at": "2023-12-27T18:29:26.122Z",
+    "id": "h1pkr8h809y5",
+    "new_status": "partial_outage",
+    "old_status": "operational",
+    "state": "sn_created"
+  },
+  "meta": {
+    "generated_at": "2023-12-27T18:29:50.156Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
