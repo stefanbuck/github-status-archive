@@ -1,0 +1,32 @@
+{
+  "component": {
+    "created_at": "2021-08-11T16:02:09.505Z",
+    "description": "Orchestration and Compute for GitHub Codespaces",
+    "group_id": null,
+    "id": "h2ftsgbw7kmk",
+    "name": "Codespaces",
+    "page_id": "kctbh9vrtdwd",
+    "position": 10,
+    "showcase": false,
+    "start_date": "2021-08-11T00:00:00.000Z",
+    "status": "operational",
+    "updated_at": "2023-12-27T04:00:57.581Z"
+  },
+  "component_update": {
+    "component_id": "h2ftsgbw7kmk",
+    "component_type": "Component",
+    "created_at": "2023-12-27T04:00:57.588Z",
+    "id": "7prsdgsj5mrd",
+    "new_status": "operational",
+    "old_status": "major_outage",
+    "state": "sn_created"
+  },
+  "meta": {
+    "generated_at": "2023-12-27T04:01:22.859Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
