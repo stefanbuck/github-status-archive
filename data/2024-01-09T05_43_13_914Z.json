@@ -1,0 +1,71 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2024-01-09T04:59:57.012Z",
+    "id": "dxthh9653wkk",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "Audit logs streaming is currently unavailable due to a misconfiguration issue. The root cause is understood and our engineers will be updating the broken configuration shortly.",
+        "created_at": "2024-01-09T05:40:52.517Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-01-09T05:40:52.517Z",
+        "id": "5hfpg636kvc2",
+        "incident_id": "dxthh9653wkk",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-01-09T05:40:52.517Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2024-01-09T04:59:57.047Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-01-09T04:59:57.047Z",
+        "id": "1ltw12bnpggd",
+        "incident_id": "dxthh9653wkk",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-01-09T04:59:57.047Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "We are investigating reports of degraded performance.",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/nysfrh6dg8dh",
+    "started_at": "2024-01-09T04:59:57.006Z",
+    "status": "investigating",
+    "updated_at": "2024-01-09T05:40:52.520Z"
+  },
+  "meta": {
+    "generated_at": "2024-01-09T05:43:13.914Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
