@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2024-02-01T03:13:58.059Z",
+    "id": "7k5wl5j4f1t4",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We have identified an issue that is preventing some navigation components from loading while browsing GitHub.com, and are testing a remediation prior to deployment.",
+        "created_at": "2024-02-01T03:55:48.190Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-02-01T03:55:48.190Z",
+        "id": "fpvhrnttcqlb",
+        "incident_id": "7k5wl5j4f1t4",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-02-01T03:55:48.190Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating reports of some components of the GitHub.com website not loading for some users.",
+        "created_at": "2024-02-01T03:14:07.213Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-02-01T03:14:07.213Z",
+        "id": "zx3frvfm5z5h",
+        "incident_id": "7k5wl5j4f1t4",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-02-01T03:14:07.213Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2024-02-01T03:13:58.090Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-02-01T03:13:58.090Z",
+        "id": "z3mfrs1f65lq",
+        "incident_id": "7k5wl5j4f1t4",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-02-01T03:13:58.090Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "We are investigating reports of degraded performance.",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/yv8xjkjg8g87",
+    "started_at": "2024-02-01T03:13:58.054Z",
+    "status": "investigating",
+    "updated_at": "2024-02-01T03:55:48.193Z"
+  },
+  "meta": {
+    "generated_at": "2024-02-01T03:57:39.702Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
