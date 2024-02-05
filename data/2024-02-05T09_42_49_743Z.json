@@ -1,0 +1,77 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:05:05.370Z",
+        "description": "Performance of git clones, pulls, pushes, and associated operations",
+        "group_id": null,
+        "id": "8l4ygp009s5s",
+        "name": "Git Operations",
+        "page_id": "kctbh9vrtdwd",
+        "position": 1,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2024-02-05T09:40:36.582Z"
+      }
+    ],
+    "created_at": "2024-02-05T09:40:36.553Z",
+    "id": "3k40h28fkb2r",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Git Operations",
+        "created_at": "2024-02-05T09:40:36.619Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-02-05T09:40:36.619Z",
+        "id": "5dnfk3tmsyf2",
+        "incident_id": "3k40h28fkb2r",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-02-05T09:40:36.619Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Git Operations",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/2qvtf3cv79sn",
+    "started_at": "2024-02-05T09:40:36.547Z",
+    "status": "investigating",
+    "updated_at": "2024-02-05T09:40:36.621Z"
+  },
+  "meta": {
+    "generated_at": "2024-02-05T09:42:49.743Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
