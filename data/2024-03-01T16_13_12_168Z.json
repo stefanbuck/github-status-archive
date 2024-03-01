@@ -1,0 +1,301 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.638Z",
+        "description": "Requests for Issues on GitHub.com",
+        "group_id": null,
+        "id": "kr09ddfgbfsf",
+        "name": "Issues",
+        "page_id": "kctbh9vrtdwd",
+        "position": 5,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2024-03-01T16:12:19.330Z"
+      },
+      {
+        "created_at": "2020-09-02T15:39:06.329Z",
+        "description": "Requests for Pull Requests on GitHub.com",
+        "group_id": null,
+        "id": "hhtssxt0f5v2",
+        "name": "Pull Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 6,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2024-03-01T16:12:19.347Z"
+      },
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2024-03-01T16:12:19.362Z"
+      }
+    ],
+    "created_at": "2024-03-01T14:39:28.505Z",
+    "id": "wcl1sw4mzg60",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved.",
+        "created_at": "2024-03-01T16:12:23.102Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-03-01T16:12:23.102Z",
+        "id": "hcf5kdf6m0gl",
+        "incident_id": "wcl1sw4mzg60",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-03-01T16:12:23.102Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Issues, Pull Requests and Actions are operating normally.",
+        "created_at": "2024-03-01T16:12:19.394Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-03-01T16:12:19.394Z",
+        "id": "fksl4nknks8q",
+        "incident_id": "wcl1sw4mzg60",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-03-01T16:12:19.394Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We're seeing our background job queue sizes trend down, and expect full recovery in the next 15 minutes.",
+        "created_at": "2024-03-01T15:48:29.497Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-03-01T15:48:29.497Z",
+        "id": "2b7pjvm1gmyw",
+        "incident_id": "wcl1sw4mzg60",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-03-01T15:48:29.497Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2024-03-01T15:39:19.071Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-03-01T15:39:19.071Z",
+        "id": "png3ft9hmcvc",
+        "incident_id": "wcl1sw4mzg60",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-03-01T15:39:19.071Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We're continuing to investigate issues with background jobs that have impacted Actions and Pull Requests. We have a mitigation in place and are monitoring for recovery.",
+        "created_at": "2024-03-01T15:27:32.393Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-03-01T15:27:32.393Z",
+        "id": "knth6qqmh1sf",
+        "incident_id": "wcl1sw4mzg60",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-03-01T15:27:32.393Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We're investigating issues with background jobs that are causing sporadic delays in pull request synchronization and reduced Actions throughput.",
+        "created_at": "2024-03-01T14:51:12.115Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-03-01T14:51:12.115Z",
+        "id": "p7r87gwjc1mk",
+        "incident_id": "wcl1sw4mzg60",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-03-01T14:51:12.115Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Pull Requests and Actions",
+        "created_at": "2024-03-01T14:39:28.619Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-03-01T14:39:28.619Z",
+        "id": "63b070rdygpd",
+        "incident_id": "wcl1sw4mzg60",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-03-01T14:39:28.619Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Pull Requests, Actions and Issues",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2024-03-01T16:12:23.102Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/s4cg51bpx4hh",
+    "started_at": "2024-03-01T14:39:28.496Z",
+    "status": "resolved",
+    "updated_at": "2024-03-01T16:12:23.118Z"
+  },
+  "meta": {
+    "generated_at": "2024-03-01T16:13:12.168Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
