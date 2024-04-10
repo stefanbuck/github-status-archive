@@ -1,0 +1,32 @@
+{
+  "component": {
+    "created_at": "2017-01-31T20:05:05.370Z",
+    "description": "Performance of git clones, pulls, pushes, and associated operations",
+    "group_id": null,
+    "id": "8l4ygp009s5s",
+    "name": "Git Operations",
+    "page_id": "kctbh9vrtdwd",
+    "position": 1,
+    "showcase": false,
+    "start_date": null,
+    "status": "operational",
+    "updated_at": "2024-04-10T19:03:05.647Z"
+  },
+  "component_update": {
+    "component_id": "8l4ygp009s5s",
+    "component_type": "Component",
+    "created_at": "2024-04-10T19:03:05.555Z",
+    "id": "yqtwt4pwsmk8",
+    "new_status": "operational",
+    "old_status": "partial_outage",
+    "state": "sn_created"
+  },
+  "meta": {
+    "generated_at": "2024-04-10T19:03:29.281Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
