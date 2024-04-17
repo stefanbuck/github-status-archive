@@ -1,0 +1,129 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 11,
+        "showcase": false,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "partial_outage",
+        "updated_at": "2024-04-16T23:59:09.325Z"
+      }
+    ],
+    "created_at": "2024-04-16T23:51:05.248Z",
+    "id": "8jd596s0lt7s",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We're continuing to investigate issues with Copilot",
+        "created_at": "2024-04-17T00:30:18.660Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-04-17T00:30:18.660Z",
+        "id": "rmhhfg4fdtwm",
+        "incident_id": "8jd596s0lt7s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-04-17T00:30:18.660Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Copilot is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2024-04-16T23:59:09.368Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-04-16T23:59:09.368Z",
+        "id": "5yg0vdcd82ym",
+        "incident_id": "8jd596s0lt7s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-04-16T23:59:09.368Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We're investigating issues with Copilot availability",
+        "created_at": "2024-04-16T23:57:21.097Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-04-16T23:57:21.097Z",
+        "id": "78lm1wly5f1w",
+        "incident_id": "8jd596s0lt7s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-04-16T23:57:21.097Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2024-04-16T23:51:05.279Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-04-16T23:51:05.279Z",
+        "id": "390094lghgcp",
+        "incident_id": "8jd596s0lt7s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-04-16T23:51:05.279Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Copilot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/g5k8sb9hw9zh",
+    "started_at": "2024-04-16T23:51:05.242Z",
+    "status": "investigating",
+    "updated_at": "2024-04-17T00:30:18.663Z"
+  },
+  "meta": {
+    "generated_at": "2024-04-17T00:31:10.778Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
