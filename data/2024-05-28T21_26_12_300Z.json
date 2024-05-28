@@ -1,0 +1,209 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2021-08-11T16:02:09.505Z",
+        "description": "Orchestration and Compute for GitHub Codespaces",
+        "group_id": null,
+        "id": "h2ftsgbw7kmk",
+        "name": "Codespaces",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": false,
+        "start_date": "2021-08-11T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2024-05-28T21:24:34.318Z"
+      }
+    ],
+    "created_at": "2024-05-28T20:17:32.957Z",
+    "id": "k8nz2ljtvzv4",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Codespaces is operating normally.",
+        "created_at": "2024-05-28T21:24:34.579Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-05-28T21:24:34.579Z",
+        "id": "0lp4xfl1q5fd",
+        "incident_id": "k8nz2ljtvzv4",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-05-28T21:24:34.579Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This incident has been resolved.",
+        "created_at": "2024-05-28T21:24:34.398Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-05-28T21:24:34.398Z",
+        "id": "v1gjtk6pcs7b",
+        "incident_id": "k8nz2ljtvzv4",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-05-28T21:24:34.398Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "A fix has been applied and we are seeing some recovery. We will continue to monitor for a bit before marking this issue resolved.",
+        "created_at": "2024-05-28T21:19:58.400Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-05-28T21:19:58.400Z",
+        "id": "zbqd140ygr91",
+        "incident_id": "k8nz2ljtvzv4",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-05-28T21:19:58.400Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are still investigating root cause and remediation options. In the meantime, here is a workaround to be able to pull images from DockerHub:<br /><br />1. Make a free DockerHub account at https://hub.docker.com (or use an existing account if you have one).<br />2. Create a DockerHub secret/PAT from https://hub.docker.com/settings/security (Read permission should be sufficient).<br />3. Go to https://github.com/settings/codespaces<br /><br />Add three Codespace secrets:<br /><br />- DOCKERHUB_CONTAINER_REGISTRY_PASSWORD (equal to the DockerHub PAT you created)<br />- DOCKERHUB_CONTAINER_REGISTRY_SERVER (equal to https://index.docker.io/v1/)<br />- DOCKERHUB_CONTAINER_REGISTRY_USER (equal to your DockerHub username)<br /><br />4. Make sure these secrets are set as visible to the target repo.<br />5. Create/rebuild your Codespace<br /><br />Steps above are distilled from the official docs: https://docs.github.com/en/codespaces/reference/allowing-your-codespace-to-access-a-private-registry#example-secrets",
+        "created_at": "2024-05-28T20:53:48.548Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-05-28T20:53:48.000Z",
+        "id": "8sl0h1jcs6m4",
+        "incident_id": "k8nz2ljtvzv4",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-05-28T20:58:47.927Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "<i>Duplicate update, same as above</i>",
+        "created_at": "2024-05-28T20:53:12.395Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-05-28T20:53:12.000Z",
+        "id": "2fdmw1fk9mpp",
+        "incident_id": "k8nz2ljtvzv4",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-05-28T21:01:56.715Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Some Codespaces are currently failing to be properly created for images hosted by DockerHub. Other registries should be unaffected. We are investigating root cause and will report back shortly.",
+        "created_at": "2024-05-28T20:23:15.783Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-05-28T20:23:15.783Z",
+        "id": "48rf95y3l23p",
+        "incident_id": "k8nz2ljtvzv4",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-05-28T20:23:15.783Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Codespaces",
+        "created_at": "2024-05-28T20:17:33.024Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-05-28T20:17:33.024Z",
+        "id": "9s9k2g09vy7k",
+        "incident_id": "k8nz2ljtvzv4",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-05-28T20:17:33.024Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Codespaces",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2024-05-28T21:24:34.398Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/z4hzhcs09tjp",
+    "started_at": "2024-05-28T20:53:12.000Z",
+    "status": "resolved",
+    "updated_at": "2024-05-28T21:24:34.596Z"
+  },
+  "meta": {
+    "generated_at": "2024-05-28T21:26:12.300Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
