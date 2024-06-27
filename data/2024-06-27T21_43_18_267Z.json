@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2024-06-27T21:16:08.747Z",
+    "id": "538zgs80s3zg",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2024-06-27T21:42:14.992Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-06-27T21:42:14.992Z",
+        "id": "1w1sj3d45kgd",
+        "incident_id": "538zgs80s3zg",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-06-27T21:42:14.992Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Some GitHub Enterprise Importer migrations are failing. We have identified a root cause and are rolling out a fix.",
+        "created_at": "2024-06-27T21:20:23.453Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-06-27T21:20:23.453Z",
+        "id": "yv8trs7rjvld",
+        "incident_id": "538zgs80s3zg",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-06-27T21:20:23.453Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2024-06-27T21:16:08.784Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-06-27T21:16:08.784Z",
+        "id": "kzbdr5jxy26j",
+        "incident_id": "538zgs80s3zg",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-06-27T21:16:08.784Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2024-06-27T21:42:14.992Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/8c9c53z18mm3",
+    "started_at": "2024-06-27T21:16:08.740Z",
+    "status": "resolved",
+    "updated_at": "2024-06-27T21:42:15.007Z"
+  },
+  "meta": {
+    "generated_at": "2024-06-27T21:43:18.267Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
