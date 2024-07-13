@@ -1,0 +1,363 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 11,
+        "showcase": false,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2024-07-13T19:26:54.421Z"
+      }
+    ],
+    "created_at": "2024-07-13T00:18:23.267Z",
+    "id": "3483v9fw5pm3",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved.",
+        "created_at": "2024-07-13T19:27:03.744Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T19:27:03.744Z",
+        "id": "xlq4r3hlnxqq",
+        "incident_id": "3483v9fw5pm3",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T19:27:03.744Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Copilot is operating normally.",
+        "created_at": "2024-07-13T19:26:54.449Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T19:26:54.449Z",
+        "id": "nc1vyl8lvkcn",
+        "incident_id": "3483v9fw5pm3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T19:26:54.449Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Our upstream provider continues to recover and we expect services to return to normal as more progress is made. We will provide another update by 20:00 UTC.",
+        "created_at": "2024-07-13T18:01:45.852Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T18:01:45.852Z",
+        "id": "c43vmd0ffpq7",
+        "incident_id": "3483v9fw5pm3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T18:01:45.852Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Our upstream provider is making good progress recovering and we are validating that services are nearing normal operations. We will provide another update by 18:00 UTC.",
+        "created_at": "2024-07-13T16:09:40.614Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T16:09:40.614Z",
+        "id": "0gym9p329llq",
+        "incident_id": "3483v9fw5pm3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T16:09:40.614Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Our upstream provider is gradually recovering the service. We will provide another update at 23:00 UTC.",
+        "created_at": "2024-07-13T11:18:49.182Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T11:18:49.182Z",
+        "id": "swwd6dj6rl76",
+        "incident_id": "3483v9fw5pm3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T11:18:49.182Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are continuing to wait on our upstream provider to see full recovery. We will provide another update at 11:00 UTC",
+        "created_at": "2024-07-13T03:50:03.258Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T03:50:03.258Z",
+        "id": "hglfnyrh9kv4",
+        "incident_id": "3483v9fw5pm3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T03:50:03.258Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "The error rate for Copilot chat requests remains steady at less than 10%. We are continuing to investigate with our upstream provider.",
+        "created_at": "2024-07-13T03:20:37.303Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T03:20:37.303Z",
+        "id": "dl0zspwkjkff",
+        "incident_id": "3483v9fw5pm3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T03:20:37.303Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "Copilot is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2024-07-13T02:20:10.555Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T02:20:10.555Z",
+        "id": "rzfmybfqshx9",
+        "incident_id": "3483v9fw5pm3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T02:20:10.555Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We have applied several mitigations to Copilot chat, reducing errors to less than 10% of all chat requests. We are continuing to investigate the issue with our upstream provider.",
+        "created_at": "2024-07-13T02:19:40.384Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T02:19:40.384Z",
+        "id": "fljxbcs1hjh8",
+        "incident_id": "3483v9fw5pm3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T02:19:40.384Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "Copilot chat is experiencing degraded performance, impacting up to 60% of all chat requests. We are continuing to investigate the issue with our upstream provider.",
+        "created_at": "2024-07-13T01:32:00.069Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T01:32:00.069Z",
+        "id": "449vwjv7b82q",
+        "incident_id": "3483v9fw5pm3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T01:32:00.069Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "Copilot chat is currently experiencing degraded performance, impacting up to 60% of all chat requests. We are investigating the issue.",
+        "created_at": "2024-07-13T00:49:51.251Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T00:49:51.251Z",
+        "id": "qx4qwgdz71py",
+        "incident_id": "3483v9fw5pm3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T00:49:51.251Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "major_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Copilot is experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2024-07-13T00:29:30.182Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T00:29:30.182Z",
+        "id": "bvcxhv2140g9",
+        "incident_id": "3483v9fw5pm3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T00:29:30.182Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Copilot API chat experiencing significant failures to backend services",
+        "created_at": "2024-07-13T00:18:29.213Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T00:18:29.213Z",
+        "id": "pfclj7lvmch3",
+        "incident_id": "3483v9fw5pm3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T00:18:29.213Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Copilot",
+        "created_at": "2024-07-13T00:18:23.330Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-13T00:18:23.330Z",
+        "id": "nnyfcnnr74qq",
+        "incident_id": "3483v9fw5pm3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-13T00:18:23.330Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Copilot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2024-07-13T19:27:03.744Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/p9hk6d1tl9xs",
+    "started_at": "2024-07-13T00:18:23.261Z",
+    "status": "resolved",
+    "updated_at": "2024-07-13T19:27:03.761Z"
+  },
+  "meta": {
+    "generated_at": "2024-07-13T19:29:04.429Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
