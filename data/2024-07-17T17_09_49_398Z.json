@@ -1,0 +1,474 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:05:05.370Z",
+        "description": "Performance of git clones, pulls, pushes, and associated operations",
+        "group_id": null,
+        "id": "8l4ygp009s5s",
+        "name": "Git Operations",
+        "page_id": "kctbh9vrtdwd",
+        "position": 1,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2024-07-17T17:06:48.353Z"
+      },
+      {
+        "created_at": "2017-01-31T20:01:46.638Z",
+        "description": "Requests for Issues on GitHub.com",
+        "group_id": null,
+        "id": "kr09ddfgbfsf",
+        "name": "Issues",
+        "page_id": "kctbh9vrtdwd",
+        "position": 5,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2024-07-17T16:46:18.639Z"
+      },
+      {
+        "created_at": "2019-11-13T18:02:40.064Z",
+        "description": "API requests and webhook delivery for GitHub Packages",
+        "group_id": null,
+        "id": "st3j38cctv9l",
+        "name": "Packages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 8,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2024-07-17T17:06:40.770Z"
+      },
+      {
+        "created_at": "2017-01-31T20:04:33.923Z",
+        "description": "Frontend application and API servers for Pages builds",
+        "group_id": null,
+        "id": "vg70hn9s2tyj",
+        "name": "Pages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 9,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2024-07-17T17:06:44.123Z"
+      }
+    ],
+    "created_at": "2024-07-17T16:21:27.688Z",
+    "id": "88003ngctf1z",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved.",
+        "created_at": "2024-07-17T17:06:55.349Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-17T17:06:55.349Z",
+        "id": "t3y3xskhczcf",
+        "incident_id": "88003ngctf1z",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-17T17:06:55.349Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Git Operations is operating normally.",
+        "created_at": "2024-07-17T17:06:48.388Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-17T17:06:48.388Z",
+        "id": "31n82m6cl0lm",
+        "incident_id": "88003ngctf1z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-17T17:06:48.388Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Pages is operating normally.",
+        "created_at": "2024-07-17T17:06:44.154Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-17T17:06:44.154Z",
+        "id": "yd8zppvb5w2t",
+        "incident_id": "88003ngctf1z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-17T17:06:44.154Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Packages is operating normally.",
+        "created_at": "2024-07-17T17:06:40.795Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-17T17:06:40.795Z",
+        "id": "jyfbhhpcw0mq",
+        "incident_id": "88003ngctf1z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-17T17:06:40.795Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We're continuing to investigate reports of issues with multiple services. We will continue to keep users updated on progress.",
+        "created_at": "2024-07-17T16:47:21.385Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-17T16:47:21.385Z",
+        "id": "hk5rz4t6qvtv",
+        "incident_id": "88003ngctf1z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-17T16:47:21.385Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Packages is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2024-07-17T16:47:17.356Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-17T16:47:17.356Z",
+        "id": "mq39q8z2tgs4",
+        "incident_id": "88003ngctf1z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-17T16:47:17.356Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Issues is operating normally.",
+        "created_at": "2024-07-17T16:46:18.663Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-17T16:46:18.663Z",
+        "id": "nny849506374",
+        "incident_id": "88003ngctf1z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-17T16:46:18.663Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          },
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2024-07-17T16:30:16.500Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-17T16:30:16.500Z",
+        "id": "9qnk3phsxcmz",
+        "incident_id": "88003ngctf1z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-17T16:30:16.500Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          },
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2024-07-17T16:28:26.518Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-17T16:28:26.518Z",
+        "id": "hqq8jrsl34m2",
+        "incident_id": "88003ngctf1z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-17T16:28:26.518Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating reports of issues with service(s): Git, Actions, Rules and Permissions, SSH authentication, and Authorization.. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2024-07-17T16:24:52.094Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-17T16:24:52.094Z",
+        "id": "zt0c73ftsl5q",
+        "incident_id": "88003ngctf1z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-17T16:24:52.094Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "8l4ygp009s5s",
+            "name": "Git Operations",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Git Operations",
+        "created_at": "2024-07-17T16:21:27.758Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-07-17T16:21:27.758Z",
+        "id": "cn41f4dkbr8m",
+        "incident_id": "88003ngctf1z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-07-17T16:21:27.758Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with multiple GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2024-07-17T17:06:55.349Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/gq2y8tpgyfch",
+    "started_at": "2024-07-17T16:21:27.681Z",
+    "status": "resolved",
+    "updated_at": "2024-07-17T17:06:55.366Z"
+  },
+  "meta": {
+    "generated_at": "2024-07-17T17:09:49.398Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
