@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2024-10-24T06:12:09.743Z",
+    "id": "xy3hrpmg4r3k",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved.",
+        "created_at": "2024-10-24T06:55:06.804Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-10-24T06:55:06.804Z",
+        "id": "mkgcy6wzfyxq",
+        "incident_id": "xy3hrpmg4r3k",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-10-24T06:55:06.804Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are aware of an issue that is preventing users from creating new posts in Community Discussions (community.github.com). Users may see a 500 error when they attempt to post a new discussion. We are currently working to resolve.",
+        "created_at": "2024-10-24T06:13:42.423Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-10-24T06:13:42.423Z",
+        "id": "y4qmgl9v3ncx",
+        "incident_id": "xy3hrpmg4r3k",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-10-24T06:13:42.423Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2024-10-24T06:12:09.777Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-10-24T06:12:09.777Z",
+        "id": "bq813qlb7zgh",
+        "incident_id": "xy3hrpmg4r3k",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-10-24T06:12:09.777Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with GitHub Community Discussions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2024-10-24T06:55:06.804Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/qxfsydqydrn4",
+    "started_at": "2024-10-24T06:12:09.737Z",
+    "status": "resolved",
+    "updated_at": "2024-10-24T06:55:06.820Z"
+  },
+  "meta": {
+    "generated_at": "2024-10-24T06:56:30.362Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
