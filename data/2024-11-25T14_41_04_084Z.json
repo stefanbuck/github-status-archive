@@ -1,0 +1,101 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2024-11-25T13:57:54.892Z",
+    "id": "ltyqfp67463z",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We're observing signs of recovery in search, we will continue to monitor.<br /><br />Next update within 15 minutes.<br />",
+        "created_at": "2024-11-25T14:40:31.184Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-11-25T14:40:31.184Z",
+        "id": "z863bncbnqh6",
+        "incident_id": "ltyqfp67463z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-11-25T14:40:31.184Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are seeing failures in repos, users, discussions, and wikis search. Customers may see failing searches and searching by topic may fail to load. <br /><br />Code and issues search continue to be available.<br /><br />The team is investigating, next update in 30m.",
+        "created_at": "2024-11-25T14:10:24.041Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-11-25T14:10:24.041Z",
+        "id": "vc496ttp1vx8",
+        "incident_id": "ltyqfp67463z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-11-25T14:10:24.041Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are seeing failures in search. Customers may see failing searches and searching by topic may fail to load.",
+        "created_at": "2024-11-25T13:58:03.477Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-11-25T13:58:03.477Z",
+        "id": "xzpl3z73lc9n",
+        "incident_id": "ltyqfp67463z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-11-25T13:58:03.477Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2024-11-25T13:57:54.920Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2024-11-25T13:57:54.920Z",
+        "id": "wvszjb13tlsp",
+        "incident_id": "ltyqfp67463z",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2024-11-25T13:57:54.920Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with GitHub Search",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/gdl8gm8zs05h",
+    "started_at": "2024-11-25T13:57:54.886Z",
+    "status": "investigating",
+    "updated_at": "2024-11-25T14:40:31.187Z"
+  },
+  "meta": {
+    "generated_at": "2024-11-25T14:41:04.084Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
