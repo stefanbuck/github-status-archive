@@ -1,0 +1,168 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2020-09-02T15:39:06.329Z",
+        "description": "Requests for Pull Requests on GitHub.com",
+        "group_id": null,
+        "id": "hhtssxt0f5v2",
+        "name": "Pull Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 6,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2025-01-02T23:05:16.612Z"
+      },
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2025-01-02T22:09:21.135Z"
+      }
+    ],
+    "created_at": "2025-01-02T22:09:21.100Z",
+    "id": "6ddp6v8g5t72",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have remediated the issue impacting Actions workflows. During investigation and remediation, we realized there were also issues with recording metadata around merge commits. No git data or code has been lost. PRs merged today between 20:06 UTC and 22:15 UTC are impacted. We are working on a plan to regenerate the missing metadata and will provide an update once we have one in place.",
+        "created_at": "2025-01-02T23:11:28.512Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-01-02T23:11:28.512Z",
+        "id": "g1ty80dfn0fw",
+        "incident_id": "6ddp6v8g5t72",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-01-02T23:11:28.512Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2025-01-02T23:05:16.650Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-01-02T23:05:16.650Z",
+        "id": "6nh4ms376v81",
+        "incident_id": "6ddp6v8g5t72",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-01-02T23:05:16.650Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have identified and begun to remediate the issue preventing Actions from triggering on closed pull requests. We are beginning to see recovery.",
+        "created_at": "2025-01-02T22:30:40.168Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-01-02T22:30:40.168Z",
+        "id": "0rtjt928fnk4",
+        "incident_id": "6ddp6v8g5t72",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-01-02T22:30:40.168Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2025-01-02T22:09:21.178Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-01-02T22:09:21.178Z",
+        "id": "8zc29v8zlm2n",
+        "incident_id": "6ddp6v8g5t72",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-01-02T22:09:21.178Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/hxc0t791h2ln",
+    "started_at": "2025-01-02T22:09:21.091Z",
+    "status": "investigating",
+    "updated_at": "2025-01-02T23:11:28.515Z"
+  },
+  "meta": {
+    "generated_at": "2025-01-02T23:13:06.179Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
