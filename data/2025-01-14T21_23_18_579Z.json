@@ -1,0 +1,143 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2021-08-11T16:02:09.505Z",
+        "description": "Orchestration and Compute for GitHub Codespaces",
+        "group_id": null,
+        "id": "h2ftsgbw7kmk",
+        "name": "Codespaces",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": false,
+        "start_date": "2021-08-11T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2025-01-14T21:20:19.429Z"
+      }
+    ],
+    "created_at": "2025-01-14T20:55:07.160Z",
+    "id": "bll83wkgdd2m",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This incident has been resolved.",
+        "created_at": "2025-01-14T21:20:19.450Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-01-14T21:20:19.450Z",
+        "id": "w9dkh42v40p2",
+        "incident_id": "bll83wkgdd2m",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-01-14T21:20:19.450Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are beginning to see recovery for users connecting to Codespaces. Any users continuing to see impact should attempt a restart.",
+        "created_at": "2025-01-14T21:19:57.249Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-01-14T21:19:57.249Z",
+        "id": "kvjyyn6756g4",
+        "incident_id": "bll83wkgdd2m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-01-14T21:19:57.249Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating reports of timeouts for Codespaces users creating new or connecting to existing Codespaces. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2025-01-14T20:55:37.671Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-01-14T20:55:37.671Z",
+        "id": "chvvm9kr7zjl",
+        "incident_id": "bll83wkgdd2m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-01-14T20:55:37.671Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Codespaces",
+        "created_at": "2025-01-14T20:55:07.262Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-01-14T20:55:07.262Z",
+        "id": "hbh72ywj5syg",
+        "incident_id": "bll83wkgdd2m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-01-14T20:55:07.262Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption connecting to Codespaces",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2025-01-14T21:20:19.450Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/lwgl7dk6nzvl",
+    "started_at": "2025-01-14T20:55:07.151Z",
+    "status": "resolved",
+    "updated_at": "2025-01-14T21:20:19.462Z"
+  },
+  "meta": {
+    "generated_at": "2025-01-14T21:23:18.579Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
