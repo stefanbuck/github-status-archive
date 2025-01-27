@@ -1,0 +1,71 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2025-01-27T23:32:13.687Z",
+    "id": "r6j3fnl9j58q",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "Our Audit Log Streaming service is experiencing degradation but is experiencing no data outage.",
+        "created_at": "2025-01-27T23:32:20.454Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-01-27T23:32:20.454Z",
+        "id": "6f0m6p7p26jw",
+        "incident_id": "r6j3fnl9j58q",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-01-27T23:32:20.454Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-01-27T23:32:13.728Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-01-27T23:32:13.728Z",
+        "id": "9yh7snkfjk12",
+        "incident_id": "r6j3fnl9j58q",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-01-27T23:32:13.728Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/5l0y0j9lsxqt",
+    "started_at": "2025-01-27T23:32:13.680Z",
+    "status": "investigating",
+    "updated_at": "2025-01-27T23:32:20.457Z"
+  },
+  "meta": {
+    "generated_at": "2025-01-27T23:34:40.551Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
