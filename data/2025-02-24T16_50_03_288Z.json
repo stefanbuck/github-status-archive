@@ -1,0 +1,174 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.638Z",
+        "description": "Requests for Issues on GitHub.com",
+        "group_id": null,
+        "id": "kr09ddfgbfsf",
+        "name": "Issues",
+        "page_id": "kctbh9vrtdwd",
+        "position": 5,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2025-02-24T16:08:47.757Z"
+      },
+      {
+        "created_at": "2020-09-02T15:39:06.329Z",
+        "description": "Requests for Pull Requests on GitHub.com",
+        "group_id": null,
+        "id": "hhtssxt0f5v2",
+        "name": "Pull Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 6,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2025-02-24T16:14:03.588Z"
+      }
+    ],
+    "created_at": "2025-02-24T16:08:47.706Z",
+    "id": "t4vt31qhjx6q",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We continue to see recovery and expect Pull Requests and Issues search queries to recover within 30 minutes.",
+        "created_at": "2025-02-24T16:48:13.443Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-02-24T16:48:13.443Z",
+        "id": "3830hn05sj1r",
+        "incident_id": "t4vt31qhjx6q",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-02-24T16:48:13.443Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are seeing recovery and expect for Pull Requests and Issues search queries to recover within 15 minutes.",
+        "created_at": "2025-02-24T16:29:45.098Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-02-24T16:29:45.098Z",
+        "id": "q1wl7pbcrl1h",
+        "incident_id": "t4vt31qhjx6q",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-02-24T16:29:45.098Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2025-02-24T16:14:03.622Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-02-24T16:14:03.622Z",
+        "id": "y8c9d8ggrxhg",
+        "incident_id": "t4vt31qhjx6q",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-02-24T16:14:03.622Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Issues",
+        "created_at": "2025-02-24T16:08:47.819Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-02-24T16:08:47.819Z",
+        "id": "m8y60nkzpgz1",
+        "incident_id": "t4vt31qhjx6q",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-02-24T16:08:47.819Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Issues",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/n0tkdbzbd9pw",
+    "started_at": "2025-02-24T16:08:47.694Z",
+    "status": "investigating",
+    "updated_at": "2025-02-24T16:48:13.446Z"
+  },
+  "meta": {
+    "generated_at": "2025-02-24T16:50:03.288Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
