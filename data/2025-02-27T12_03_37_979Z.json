@@ -1,0 +1,136 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2025-02-27T11:31:31.905Z"
+      }
+    ],
+    "created_at": "2025-02-27T11:28:20.114Z",
+    "id": "3zss4vv50thx",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have identified the cause of the delays to starting Action runs.<br /><br />Our team is working to roll out mitigations and we hope to see recovery as these take effect in our systems over the next 10-20 minutes. <br /><br />Further updates as we have more information.",
+        "created_at": "2025-02-27T12:01:06.935Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-02-27T12:01:06.935Z",
+        "id": "gzfllpb6jj8b",
+        "incident_id": "3zss4vv50thx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-02-27T12:01:06.935Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are seeing an increase in run start delays since 1104 UTC. This is impacting ~3% of Action runs at this time.<br /><br />The team is working to understand the causes of this and to mitigate impact. We will continue to update as we have more information.",
+        "created_at": "2025-02-27T11:39:47.991Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-02-27T11:39:47.991Z",
+        "id": "7615xlfgl7qs",
+        "incident_id": "3zss4vv50thx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-02-27T11:39:47.991Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2025-02-27T11:31:31.976Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-02-27T11:31:31.976Z",
+        "id": "tfr1299vrnmb",
+        "incident_id": "3zss4vv50thx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-02-27T11:31:31.976Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-02-27T11:28:20.160Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-02-27T11:28:20.160Z",
+        "id": "1p450n07tfg9",
+        "incident_id": "3zss4vv50thx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-02-27T11:28:20.160Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/8v8by0h6dp71",
+    "started_at": "2025-02-27T11:28:20.106Z",
+    "status": "investigating",
+    "updated_at": "2025-02-27T12:01:06.938Z"
+  },
+  "meta": {
+    "generated_at": "2025-02-27T12:03:37.979Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
