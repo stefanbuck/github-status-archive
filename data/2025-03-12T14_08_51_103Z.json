@@ -1,0 +1,121 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2025-03-12T14:07:12.802Z"
+      }
+    ],
+    "created_at": "2025-03-12T13:28:51.830Z",
+    "id": "nhcpszxtqxtm",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This incident has been resolved.",
+        "created_at": "2025-03-12T14:07:12.835Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-03-12T14:07:12.835Z",
+        "id": "f679kpp7n4fz",
+        "incident_id": "nhcpszxtqxtm",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-03-12T14:07:12.835Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have applied a mitigation for the affected Redis node, and are starting to see recovery with Action workflow executions.",
+        "created_at": "2025-03-12T13:55:26.240Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-03-12T13:55:26.240Z",
+        "id": "yvnkh77qjgkj",
+        "incident_id": "nhcpszxtqxtm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-03-12T13:55:26.240Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2025-03-12T13:28:51.925Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-03-12T13:28:51.925Z",
+        "id": "7d7fl8qjs9cn",
+        "incident_id": "nhcpszxtqxtm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-03-12T13:28:51.925Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Some Actions users are seeing their workflow jobs failing to start",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2025-03-12T14:07:12.835Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/1xn6hlvtw3j0",
+    "started_at": "2025-03-12T13:28:51.821Z",
+    "status": "resolved",
+    "updated_at": "2025-03-12T14:07:12.851Z"
+  },
+  "meta": {
+    "generated_at": "2025-03-12T14:08:51.103Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
