@@ -1,0 +1,136 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2018-12-05T19:39:40.838Z",
+        "description": null,
+        "group_id": null,
+        "id": "0l2p9nhqnxpd",
+        "name": "Visit www.githubstatus.com for more information",
+        "page_id": "kctbh9vrtdwd",
+        "position": 3,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2025-03-19T05:00:21.309Z"
+      }
+    ],
+    "created_at": "2025-03-18T19:28:45.221Z",
+    "id": "tldgc85p3q2d",
+    "impact": "maintenance",
+    "impact_override": null,
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "0l2p9nhqnxpd",
+            "name": "Visit www.githubstatus.com for more information",
+            "new_status": "operational",
+            "old_status": "under_maintenance"
+          }
+        ],
+        "body": "The scheduled maintenance has been completed.",
+        "created_at": "2025-03-19T05:00:21.354Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-03-19T05:00:21.354Z",
+        "id": "nb5vrhmb4w1x",
+        "incident_id": "tldgc85p3q2d",
+        "status": "completed",
+        "tweet_id": 1902223601446850048,
+        "twitter_updated_at": "2025-03-19T05:00:23.125Z",
+        "updated_at": "2025-03-19T05:00:23.126Z",
+        "wants_twitter_update": true
+      },
+      {
+        "affected_components": [
+          {
+            "code": "0l2p9nhqnxpd",
+            "name": "Visit www.githubstatus.com for more information",
+            "new_status": "under_maintenance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+        "created_at": "2025-03-18T21:00:21.755Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-03-18T21:00:21.755Z",
+        "id": "fps7dxs4xhyt",
+        "incident_id": "tldgc85p3q2d",
+        "status": "in_progress",
+        "tweet_id": 1902102802777959936,
+        "twitter_updated_at": "2025-03-18T21:00:22.345Z",
+        "updated_at": "2025-03-18T21:00:22.346Z",
+        "wants_twitter_update": true
+      },
+      {
+        "affected_components": null,
+        "body": "Maintenance will begin as scheduled in 60 minutes.",
+        "created_at": "2025-03-18T20:00:24.036Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-03-18T20:00:24.036Z",
+        "id": "rs30pmhr661d",
+        "incident_id": "tldgc85p3q2d",
+        "status": "scheduled",
+        "tweet_id": 1902087712003539968,
+        "twitter_updated_at": "2025-03-18T20:00:24.467Z",
+        "updated_at": "2025-03-18T20:00:24.468Z",
+        "wants_twitter_update": true
+      },
+      {
+        "affected_components": [
+          {
+            "code": "0l2p9nhqnxpd",
+            "name": "Visit www.githubstatus.com for more information",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Migrations will be undergoing maintenance starting at 21:00 UTC on Tuesday, March 18 2025 with an expected duration of up to eight hours.\n\nDuring this maintenance period, users will experience delays importing repositories into GitHub.\n\nOnce the maintenance period is complete, all pending imports will automatically proceed.",
+        "created_at": "2025-03-18T19:28:45.279Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-03-18T19:28:45.279Z",
+        "id": "pq5vwz6l56st",
+        "incident_id": "tldgc85p3q2d",
+        "status": "scheduled",
+        "tweet_id": 1902079747724839936,
+        "twitter_updated_at": "2025-03-18T19:28:45.574Z",
+        "updated_at": "2025-03-18T19:28:45.575Z",
+        "wants_twitter_update": true
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Scheduled Migrations Maintenance",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2025-03-19T05:00:21.354Z",
+    "scheduled_auto_completed": true,
+    "scheduled_auto_in_progress": true,
+    "scheduled_for": "2025-03-18T21:00:00.000Z",
+    "scheduled_remind_prior": true,
+    "scheduled_reminded_at": "2025-03-18T20:00:24.129Z",
+    "scheduled_until": "2025-03-19T05:00:00.000Z",
+    "shortlink": "https://stspg.io/yc8cpt8yq6c4",
+    "started_at": "2025-03-18T19:28:45.216Z",
+    "status": "completed",
+    "updated_at": "2025-03-19T05:00:23.142Z"
+  },
+  "meta": {
+    "generated_at": "2025-03-19T05:01:52.387Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
