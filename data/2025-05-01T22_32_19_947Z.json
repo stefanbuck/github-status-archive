@@ -1,0 +1,99 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.638Z",
+        "description": "Requests for Issues on GitHub.com",
+        "group_id": null,
+        "id": "kr09ddfgbfsf",
+        "name": "Issues",
+        "page_id": "kctbh9vrtdwd",
+        "position": 5,
+        "showcase": false,
+        "start_date": null,
+        "status": "major_outage",
+        "updated_at": "2025-05-01T22:28:31.847Z"
+      }
+    ],
+    "created_at": "2025-05-01T22:28:31.809Z",
+    "id": "9zmv2mqqxsbm",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We are investigating attachment upload failures on Issues. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2025-05-01T22:29:23.539Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-05-01T22:29:23.539Z",
+        "id": "qy49r0p6lj9c",
+        "incident_id": "9zmv2mqqxsbm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-05-01T22:29:23.539Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "major_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded availability for Issues",
+        "created_at": "2025-05-01T22:28:31.895Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-05-01T22:28:31.895Z",
+        "id": "nqz4l5hqmfml",
+        "incident_id": "9zmv2mqqxsbm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-05-01T22:28:31.895Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Issue Attachments Failing to Upload",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/4z1ctwkqmqzk",
+    "started_at": "2025-05-01T22:28:31.801Z",
+    "status": "investigating",
+    "updated_at": "2025-05-01T22:29:23.543Z"
+  },
+  "meta": {
+    "generated_at": "2025-05-01T22:32:19.947Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partial System Outage",
+    "status_indicator": "major"
+  }
+}
