@@ -1,0 +1,77 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2021-08-11T16:02:09.505Z",
+        "description": "Orchestration and Compute for GitHub Codespaces",
+        "group_id": null,
+        "id": "h2ftsgbw7kmk",
+        "name": "Codespaces",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": false,
+        "start_date": "2021-08-11T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2025-05-15T16:30:21.115Z"
+      }
+    ],
+    "created_at": "2025-05-22T15:26:23.906Z",
+    "id": "67vdd3b7d1zq",
+    "impact": "maintenance",
+    "impact_override": null,
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Codespaces will be undergoing global maintenance from 16:30 UTC on Wednesday, May 28 to 16:30 UTC on Thursday, May 29. Maintenance will begin in our Europe, Asia, and Australia regions. Once it is complete, maintenance will start in our US regions. Each batch of regions will take approximately three to four hours to complete.\n\nDuring this time period, users may experience intermittent connectivity issues when creating new Codespaces or accessing existing ones.\n\nTo avoid disruptions, ensure that any uncommitted changes are committed and pushed before the maintenance starts. Codespaces with uncommitted changes will remain accessible as usual after the maintenance is complete.",
+        "created_at": "2025-05-22T15:26:23.961Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-05-22T15:26:23.961Z",
+        "id": "pfzr3jgm2yhz",
+        "incident_id": "67vdd3b7d1zq",
+        "status": "scheduled",
+        "tweet_id": 1925573968393870080,
+        "twitter_updated_at": "2025-05-22T15:26:24.287Z",
+        "updated_at": "2025-05-22T15:26:24.288Z",
+        "wants_twitter_update": true
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Codespaces Scheduled Maintenance",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": true,
+    "scheduled_auto_in_progress": true,
+    "scheduled_for": "2025-05-28T16:30:00.000Z",
+    "scheduled_remind_prior": true,
+    "scheduled_reminded_at": null,
+    "scheduled_until": "2025-05-29T16:30:00.000Z",
+    "shortlink": "https://stspg.io/w4zyvrpjpfxj",
+    "started_at": "2025-05-22T15:26:23.900Z",
+    "status": "scheduled",
+    "updated_at": "2025-05-22T15:26:24.295Z"
+  },
+  "meta": {
+    "generated_at": "2025-05-22T15:27:20.603Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
