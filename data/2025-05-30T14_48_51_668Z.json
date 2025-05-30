@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2025-05-30T11:20:16.850Z",
+    "id": "p1rf575rlqml",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "Our team is continuing to work to mitigate the source of the disruption affecting a small set of customers using the GitHub Microsoft Teams integration.",
+        "created_at": "2025-05-30T14:47:02.362Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-05-30T14:47:02.362Z",
+        "id": "9t3h2223t33h",
+        "incident_id": "p1rf575rlqml",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-05-30T14:47:02.362Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are experiencing a disruption with our Microsoft Teams integration. Investigations are underway and we will provide further updates as we progress.",
+        "created_at": "2025-05-30T12:29:55.105Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-05-30T12:29:55.105Z",
+        "id": "8pfqmw54gdrg",
+        "incident_id": "p1rf575rlqml",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-05-30T12:29:55.105Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-05-30T11:20:16.906Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-05-30T11:20:16.906Z",
+        "id": "rjtj2q1wkhvy",
+        "incident_id": "p1rf575rlqml",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-05-30T11:20:16.906Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/qg6l44g5tmzn",
+    "started_at": "2025-05-30T11:20:16.841Z",
+    "status": "investigating",
+    "updated_at": "2025-05-30T14:47:02.365Z"
+  },
+  "meta": {
+    "generated_at": "2025-05-30T14:48:51.668Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Service Under Maintenance",
+    "status_indicator": "maintenance"
+  }
+}
