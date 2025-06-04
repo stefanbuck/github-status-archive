@@ -1,0 +1,121 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2025-06-04T15:15:00.144Z"
+      }
+    ],
+    "created_at": "2025-06-04T15:15:00.106Z",
+    "id": "v7vmwf4pyx6y",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have applied mitigations and are monitoring for recovery.",
+        "created_at": "2025-06-04T15:39:31.057Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-04T15:39:31.057Z",
+        "id": "l1dp77khj8t9",
+        "incident_id": "v7vmwf4pyx6y",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-04T15:39:31.057Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are currently investigating delays with Actions triggering for some users.",
+        "created_at": "2025-06-04T15:19:45.047Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-04T15:19:45.047Z",
+        "id": "4sl4n720v2lj",
+        "incident_id": "v7vmwf4pyx6y",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-04T15:19:45.047Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2025-06-04T15:15:00.196Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-04T15:15:00.196Z",
+        "id": "769c7kzqp3zt",
+        "incident_id": "v7vmwf4pyx6y",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-04T15:15:00.196Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/thz9fbrmqhwh",
+    "started_at": "2025-06-04T15:15:00.098Z",
+    "status": "investigating",
+    "updated_at": "2025-06-04T15:39:31.060Z"
+  },
+  "meta": {
+    "generated_at": "2025-06-04T15:41:07.051Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
