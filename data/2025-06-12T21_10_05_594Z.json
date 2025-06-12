@@ -1,0 +1,218 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 11,
+        "showcase": false,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2025-06-12T21:07:21.992Z"
+      }
+    ],
+    "created_at": "2025-06-12T18:19:49.124Z",
+    "id": "j46wj670px33",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2025-06-12T21:07:22.017Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-12T21:07:22.017Z",
+        "id": "khdbfp9g4vv3",
+        "incident_id": "j46wj670px33",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-12T21:07:22.017Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "All impacted chat models have recovered, and users should no longer experience reduced availability.",
+        "created_at": "2025-06-12T21:07:02.923Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-12T21:07:02.923Z",
+        "id": "5z47rcmnw9pl",
+        "incident_id": "j46wj670px33",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-12T21:07:02.923Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are seeing recovery in success rates for impacted Claude models (Sonnet 4 and Opus 4), and limited recovery in Gemini models (2.5. Pro and 2.0 Flash). We will continue to monitor and provide updates until full recovery.",
+        "created_at": "2025-06-12T20:39:39.803Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-12T20:39:39.803Z",
+        "id": "95tzhtzvvq5b",
+        "incident_id": "j46wj670px33",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-12T20:39:39.803Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Copilot is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2025-06-12T20:21:38.883Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-12T20:21:38.883Z",
+        "id": "wksgg1x9bkfv",
+        "incident_id": "j46wj670px33",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-12T20:21:38.883Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Claude Sonnet 4 and Opus 4 models continue to have degraded availability in Copilot Chat, VS Code, and other Copilot products. Gemini Pro 2.5 and 2.0 Flash are currently unavailable. Our upstream model provider has indicated that they have identified the problem and are applying mitigations.<br />",
+        "created_at": "2025-06-12T20:05:40.590Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-12T20:05:40.590Z",
+        "id": "9f54tkv9s8rh",
+        "incident_id": "j46wj670px33",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-12T20:05:40.590Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Gemini (2.5 Pro and 2.0 Flash) and Claude (Sonnet 4 and Opus 4) chat models in Copilot are still experiencing reduced availability. We are actively communicating with our upstream model provider to resolve the issue and restore full service. We will provide another update by 20:15 UTC.",
+        "created_at": "2025-06-12T19:14:30.308Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-12T19:14:30.308Z",
+        "id": "ckzs0jvpmthh",
+        "incident_id": "j46wj670px33",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-12T19:14:30.308Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We redirected requests for Claude 3.7 Sonnet to additional partners and users should see recovery when using that model. We still are experiencing degraded availability for the Gemini (2.5 Pro, 2.0 Flash) and Claude (Sonnet 4, Opus 4) models in Copilot Chat, VS Code and other Copilot products.",
+        "created_at": "2025-06-12T18:37:23.258Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-12T18:37:23.258Z",
+        "id": "rgc80bz4123b",
+        "incident_id": "j46wj670px33",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-12T18:37:23.258Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are experiencing degraded availability for the Gemini (2.5 Pro, 2.0 Flash) and Claude (Sonnet 3.7, Sonnet 4, Opus 4) models in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.",
+        "created_at": "2025-06-12T18:23:44.277Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-12T18:23:44.277Z",
+        "id": "75155zyf66p8",
+        "incident_id": "j46wj670px33",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-12T18:23:44.277Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-06-12T18:19:49.163Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-12T18:19:49.163Z",
+        "id": "f6c1hrjp5xnc",
+        "incident_id": "j46wj670px33",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-12T18:19:49.163Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Some Copilot chat models are failing requests",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2025-06-12T21:07:22.017Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/t2pl3v2vr3nr",
+    "started_at": "2025-06-12T18:19:49.117Z",
+    "status": "resolved",
+    "updated_at": "2025-06-12T21:07:22.031Z"
+  },
+  "meta": {
+    "generated_at": "2025-06-12T21:10:05.594Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
