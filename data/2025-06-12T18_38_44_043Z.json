@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2025-06-12T18:19:49.124Z",
+    "id": "j46wj670px33",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We redirected requests for Claude 3.7 Sonnet to additional partners and users should see recovery when using that model. We still are experiencing degraded availability for the Gemini (2.5 Pro, 2.0 Flash) and Claude (Sonnet 4, Opus 4) models in Copilot Chat, VS Code and other Copilot products.",
+        "created_at": "2025-06-12T18:37:23.258Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-12T18:37:23.258Z",
+        "id": "rgc80bz4123b",
+        "incident_id": "j46wj670px33",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-12T18:37:23.258Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are experiencing degraded availability for the Gemini (2.5 Pro, 2.0 Flash) and Claude (Sonnet 3.7, Sonnet 4, Opus 4) models in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.",
+        "created_at": "2025-06-12T18:23:44.277Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-12T18:23:44.277Z",
+        "id": "75155zyf66p8",
+        "incident_id": "j46wj670px33",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-12T18:23:44.277Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-06-12T18:19:49.163Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-12T18:19:49.163Z",
+        "id": "f6c1hrjp5xnc",
+        "incident_id": "j46wj670px33",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-12T18:19:49.163Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Some Copilot chat models are failing requests",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/t2pl3v2vr3nr",
+    "started_at": "2025-06-12T18:19:49.117Z",
+    "status": "investigating",
+    "updated_at": "2025-06-12T18:37:23.260Z"
+  },
+  "meta": {
+    "generated_at": "2025-06-12T18:38:44.043Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
