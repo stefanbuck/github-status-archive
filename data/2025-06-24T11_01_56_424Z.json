@@ -1,0 +1,71 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2025-06-24T10:55:00.135Z",
+    "id": "p7mzl65jm7q3",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We have identified that the navigation bar is missing in GitHub Enterprise Cloud with data residency instances for the repositories related pages and are currently attempting a mitigation.",
+        "created_at": "2025-06-24T11:00:20.216Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-24T11:00:20.216Z",
+        "id": "yyr6lw36y5vn",
+        "incident_id": "p7mzl65jm7q3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-24T11:00:20.216Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-06-24T10:55:00.183Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-24T10:55:00.183Z",
+        "id": "8bkhzjxt7jf2",
+        "incident_id": "p7mzl65jm7q3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-24T10:55:00.183Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Repository Navigation Bar Missing in GitHub Enterprise Cloud",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/trvryfmxfmwn",
+    "started_at": "2025-06-24T10:55:00.129Z",
+    "status": "investigating",
+    "updated_at": "2025-06-24T11:00:20.219Z"
+  },
+  "meta": {
+    "generated_at": "2025-06-24T11:01:56.424Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
