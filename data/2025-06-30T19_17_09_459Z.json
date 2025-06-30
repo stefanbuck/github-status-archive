@@ -1,0 +1,71 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2025-06-30T19:13:56.258Z",
+    "id": "kkm7hd89m0yt",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are experiencing degraded availability for the Claude 3.7 Sonnet model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.",
+        "created_at": "2025-06-30T19:14:44.003Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-30T19:14:44.003Z",
+        "id": "wtg7mx3wry9h",
+        "incident_id": "kkm7hd89m0yt",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-30T19:14:44.003Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-06-30T19:13:56.295Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-06-30T19:13:56.295Z",
+        "id": "3r7kf66gjlmm",
+        "incident_id": "kkm7hd89m0yt",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-06-30T19:13:56.295Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with Claude 3.7 Sonnet in Copilot Chat",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/b5419zpn15bx",
+    "started_at": "2025-06-30T19:13:56.252Z",
+    "status": "investigating",
+    "updated_at": "2025-06-30T19:14:44.006Z"
+  },
+  "meta": {
+    "generated_at": "2025-06-30T19:17:09.459Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
