@@ -1,0 +1,99 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 11,
+        "showcase": false,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "partial_outage",
+        "updated_at": "2025-07-22T18:35:15.141Z"
+      }
+    ],
+    "created_at": "2025-07-22T18:35:15.098Z",
+    "id": "bq1m45stqm8s",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are experiencing degraded availability for the Claude Sonnet 4 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.<br /><br />",
+        "created_at": "2025-07-22T18:35:29.713Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-07-22T18:35:29.713Z",
+        "id": "8ngd6rd2lc6q",
+        "incident_id": "bq1m45stqm8s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-07-22T18:35:29.713Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Copilot",
+        "created_at": "2025-07-22T18:35:15.193Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-07-22T18:35:15.193Z",
+        "id": "b2sxmr0ymwjx",
+        "incident_id": "bq1m45stqm8s",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-07-22T18:35:15.193Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Copilot and Claude Sonnet 4",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/y91tf6q74wq2",
+    "started_at": "2025-07-22T18:35:15.090Z",
+    "status": "investigating",
+    "updated_at": "2025-07-22T18:35:29.716Z"
+  },
+  "meta": {
+    "generated_at": "2025-07-22T18:36:33.732Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
