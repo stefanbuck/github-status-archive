@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2025-08-01T09:20:33.899Z",
+    "id": "j630wwvgw9kb",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are working on a mitigation to an issue preventing some users from signing up with email and password. Social signup methods remain available.",
+        "created_at": "2025-08-01T10:26:41.820Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-08-01T10:26:41.820Z",
+        "id": "cy25md70j7sf",
+        "incident_id": "j630wwvgw9kb",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-08-01T10:26:41.820Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We have identified an issue preventing some new users from signing up. We are working to mitigate.",
+        "created_at": "2025-08-01T09:39:16.298Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-08-01T09:39:16.298Z",
+        "id": "chs5wl4r06qm",
+        "incident_id": "j630wwvgw9kb",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-08-01T09:39:16.298Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-08-01T09:20:33.943Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-08-01T09:20:33.943Z",
+        "id": "ryd4trvt1rng",
+        "incident_id": "j630wwvgw9kb",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-08-01T09:20:33.943Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/m6s4qm71g9xq",
+    "started_at": "2025-08-01T09:20:33.891Z",
+    "status": "investigating",
+    "updated_at": "2025-08-01T10:26:41.823Z"
+  },
+  "meta": {
+    "generated_at": "2025-08-01T10:28:06.287Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
