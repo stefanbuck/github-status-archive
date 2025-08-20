@@ -1,0 +1,101 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2025-08-20T16:14:57.462Z",
+    "id": "2cl0fjn559ty",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2025-08-20T16:37:16.938Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-08-20T16:37:16.938Z",
+        "id": "r46qzhkpy62c",
+        "incident_id": "2cl0fjn559ty",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-08-20T16:37:16.938Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We have verified that we fixed the sign up flow and are working to ensure we don't introduce an issue like this in the future.",
+        "created_at": "2025-08-20T16:37:01.861Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-08-20T16:37:01.861Z",
+        "id": "fk8d3br60k74",
+        "incident_id": "2cl0fjn559ty",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-08-20T16:37:01.861Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Customers may experience issues when signing up for new GitHub accounts. We are actively working on a mitigation and will post an update within 30 minutes.",
+        "created_at": "2025-08-20T16:24:01.097Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-08-20T16:24:01.097Z",
+        "id": "l9zpngft0jv3",
+        "incident_id": "2cl0fjn559ty",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-08-20T16:24:01.097Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-08-20T16:14:57.501Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-08-20T16:14:57.501Z",
+        "id": "jd8jx5ws8zq5",
+        "incident_id": "2cl0fjn559ty",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-08-20T16:14:57.501Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2025-08-20T16:37:16.938Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/0n4dnzn4kr12",
+    "started_at": "2025-08-20T16:14:57.455Z",
+    "status": "resolved",
+    "updated_at": "2025-08-20T16:37:16.951Z"
+  },
+  "meta": {
+    "generated_at": "2025-08-20T16:37:59.282Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
