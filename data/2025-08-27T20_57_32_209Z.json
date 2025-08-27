@@ -1,0 +1,161 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.621Z",
+        "description": "Requests for GitHub APIs",
+        "group_id": null,
+        "id": "brv1bkgrwx7q",
+        "name": "API Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 4,
+        "showcase": false,
+        "start_date": null,
+        "status": "major_outage",
+        "updated_at": "2025-08-27T20:48:58.699Z"
+      },
+      {
+        "created_at": "2017-01-31T20:01:46.638Z",
+        "description": "Requests for Issues on GitHub.com",
+        "group_id": null,
+        "id": "kr09ddfgbfsf",
+        "name": "Issues",
+        "page_id": "kctbh9vrtdwd",
+        "position": 5,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2025-08-27T20:50:45.779Z"
+      }
+    ],
+    "created_at": "2025-08-27T20:41:39.400Z",
+    "id": "x7gtw6r3x2s1",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          },
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "The team is aware of the root cause of this issue and is working to mitigate the issue quickly.",
+        "created_at": "2025-08-27T20:55:34.518Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-08-27T20:55:34.518Z",
+        "id": "516fs0t2shsg",
+        "incident_id": "x7gtw6r3x2s1",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-08-27T20:55:34.518Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          },
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2025-08-27T20:50:45.819Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-08-27T20:50:45.819Z",
+        "id": "01nx5hy35hnw",
+        "incident_id": "x7gtw6r3x2s1",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-08-27T20:50:45.819Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "major_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "API Requests is experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2025-08-27T20:48:58.757Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-08-27T20:48:58.757Z",
+        "id": "z9g8k0nl06dv",
+        "incident_id": "x7gtw6r3x2s1",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-08-27T20:48:58.757Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-08-27T20:41:39.439Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-08-27T20:41:39.439Z",
+        "id": "c9j55r3bdqf3",
+        "incident_id": "x7gtw6r3x2s1",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-08-27T20:41:39.439Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/9g5wck418z4k",
+    "started_at": "2025-08-27T20:41:39.393Z",
+    "status": "investigating",
+    "updated_at": "2025-08-27T20:55:34.522Z"
+  },
+  "meta": {
+    "generated_at": "2025-08-27T20:57:32.209Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partial System Outage",
+    "status_indicator": "major"
+  }
+}
