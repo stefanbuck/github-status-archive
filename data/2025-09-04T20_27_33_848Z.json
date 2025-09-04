@@ -1,0 +1,195 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.621Z",
+        "description": "Requests for GitHub APIs",
+        "group_id": null,
+        "id": "brv1bkgrwx7q",
+        "name": "API Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 4,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2025-09-04T20:25:47.243Z"
+      }
+    ],
+    "created_at": "2025-09-04T18:16:52.513Z",
+    "id": "mdj41rgqwjx5",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2025-09-04T20:25:47.272Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-09-04T20:25:47.272Z",
+        "id": "th66vq7wbgtt",
+        "incident_id": "mdj41rgqwjx5",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-09-04T20:25:47.272Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "The deployment has completed and we expect customers who have been impacted to see recovery. We are continuing to monitor.",
+        "created_at": "2025-09-04T20:05:57.954Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-09-04T20:05:57.954Z",
+        "id": "tyyz3lct1c9k",
+        "incident_id": "mdj41rgqwjx5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-09-04T20:05:57.954Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are in the process of deploying the PR to revert the change that was causing timeouts to this endpoint. We will update again once that deployment is complete.",
+        "created_at": "2025-09-04T19:28:02.502Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-09-04T19:28:02.502Z",
+        "id": "ldbw4vh99y4t",
+        "incident_id": "mdj41rgqwjx5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-09-04T19:28:02.502Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have identified a deployed change that correlates with the increase in 5XX errors to the GitRefs REST API. This is particularly affecting requests for repos with very large numbers of commits. We are working on rolling back this change which we expect will resolve the issue.",
+        "created_at": "2025-09-04T18:57:07.309Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-09-04T18:57:07.309Z",
+        "id": "vnkv3hlbhdlc",
+        "incident_id": "mdj41rgqwjx5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-09-04T18:57:07.309Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "API Requests is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2025-09-04T18:52:43.402Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-09-04T18:52:43.402Z",
+        "id": "sp50c28s5v3g",
+        "incident_id": "mdj41rgqwjx5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-09-04T18:52:43.402Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Customers are experiencing 504 responses for some API requests for regarding repo refs/tags. We are investigating.",
+        "created_at": "2025-09-04T18:18:22.722Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-09-04T18:18:22.722Z",
+        "id": "hrqwpqtd7jdj",
+        "incident_id": "mdj41rgqwjx5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-09-04T18:18:22.722Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-09-04T18:16:52.550Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-09-04T18:16:52.550Z",
+        "id": "93573sqw4q9s",
+        "incident_id": "mdj41rgqwjx5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-09-04T18:16:52.550Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Degraded REST API success rates for some customers",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2025-09-04T20:25:47.272Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/wdpymtwywhy1",
+    "started_at": "2025-09-04T18:16:52.507Z",
+    "status": "resolved",
+    "updated_at": "2025-09-04T20:25:47.288Z"
+  },
+  "meta": {
+    "generated_at": "2025-09-04T20:27:33.848Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
