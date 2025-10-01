@@ -1,0 +1,378 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2025-10-01T16:55:59.004Z"
+      }
+    ],
+    "created_at": "2025-10-01T07:59:43.061Z",
+    "id": "071h21gptcp0",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2025-10-01T16:55:59.030Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T16:55:59.030Z",
+        "id": "44df808w2syn",
+        "incident_id": "071h21gptcp0",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T16:55:59.030Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are seeing some recovery for image queueing and continuing to monitor.",
+        "created_at": "2025-10-01T16:27:25.547Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T16:27:25.547Z",
+        "id": "g8v04nxk9lqn",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T16:27:25.547Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are continuing work to restore capacity for our MacOS ARM runners.",
+        "created_at": "2025-10-01T14:41:36.535Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T14:41:36.535Z",
+        "id": "gdgpkmqyfdt7",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T14:41:36.535Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Our team continues to work hard on restoring capacity for the Mac runners.",
+        "created_at": "2025-10-01T13:58:37.105Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T13:58:37.105Z",
+        "id": "0mfj4gxpsh9z",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T13:58:37.105Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Work continues on restoring capacity on the Mac runners.",
+        "created_at": "2025-10-01T13:12:49.193Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T13:12:49.193Z",
+        "id": "d5mpc50kwx2d",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T13:12:49.193Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "MacOS ARM runners continue to be at reduced capacity, causing queuing of jobs. Investigation is ongoing.",
+        "created_at": "2025-10-01T12:32:41.653Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T12:32:41.653Z",
+        "id": "sb1lh391yq60",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T12:32:41.653Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Work continues to bring the full runner capacity back online. Resources are focused on improving the recovery of certain runner types.",
+        "created_at": "2025-10-01T11:51:40.142Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T11:51:40.142Z",
+        "id": "3tqjwrgxbxns",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T11:51:40.142Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are continuing to see recovery of some runner capacity and investigating slow recovery of certain runner types.",
+        "created_at": "2025-10-01T11:11:42.337Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T11:11:42.337Z",
+        "id": "dqb22xfkpg8y",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T11:11:42.337Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are seeing recovery of some runner capacity, while also investigating slow recovery of certain runner types.",
+        "created_at": "2025-10-01T10:30:10.263Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T10:30:10.263Z",
+        "id": "vgtwswhk0dqy",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T10:30:10.263Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "MacOS runners are coming back online and starting to process queued work.",
+        "created_at": "2025-10-01T09:44:38.184Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T09:44:38.184Z",
+        "id": "yh1z74kx2rb1",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T09:44:38.184Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are continuing to deploy the necessary changes to restore MacOS runner capacity.",
+        "created_at": "2025-10-01T08:59:09.418Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T08:59:09.418Z",
+        "id": "dxdj10tsz3j4",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T08:59:09.418Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have identified the cause and are deploying a change to restore MacOS runner capacity.",
+        "created_at": "2025-10-01T08:27:01.481Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T08:27:01.481Z",
+        "id": "fm5wlrn45vrs",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T08:27:01.481Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Customers using GitHub Actions Mac OS runners are experiencing job start delays and failures. We are aware of this issue and actively investigating.",
+        "created_at": "2025-10-01T08:17:21.956Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T08:17:21.956Z",
+        "id": "w5sbz8f2zsc5",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T08:17:21.956Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2025-10-01T08:09:33.925Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T08:09:33.925Z",
+        "id": "94vgg0blmj2k",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T08:09:33.925Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-10-01T07:59:43.100Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-01T07:59:43.100Z",
+        "id": "h0nym000yhnn",
+        "incident_id": "071h21gptcp0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-01T07:59:43.100Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Degraded Performance for GitHub Actions MacOS Runners",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2025-10-01T16:55:59.030Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/rvvhnzp7j6gj",
+    "started_at": "2025-10-01T07:59:43.054Z",
+    "status": "resolved",
+    "updated_at": "2025-10-01T16:55:59.044Z"
+  },
+  "meta": {
+    "generated_at": "2025-10-01T16:59:39.659Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
