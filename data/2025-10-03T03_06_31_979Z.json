@@ -1,0 +1,121 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 11,
+        "showcase": false,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "partial_outage",
+        "updated_at": "2025-10-03T02:41:54.529Z"
+      }
+    ],
+    "created_at": "2025-10-03T02:41:54.489Z",
+    "id": "34wtrn4nngwk",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "The upstream provider is implementing a fix. Services are recovering. We are monitoring the situation.",
+        "created_at": "2025-10-03T03:04:38.447Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-03T03:04:38.447Z",
+        "id": "mr0clpts10ds",
+        "incident_id": "34wtrn4nngwk",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-03T03:04:38.447Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We’re seeing degraded experience across Anthropic models. We’re working with our partners to restore service.",
+        "created_at": "2025-10-03T02:42:26.591Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-03T02:42:26.591Z",
+        "id": "jtgxlcl0q8n5",
+        "incident_id": "34wtrn4nngwk",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-03T02:42:26.591Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Copilot",
+        "created_at": "2025-10-03T02:41:54.578Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-03T02:41:54.578Z",
+        "id": "y8qp0kzpc7pg",
+        "incident_id": "34wtrn4nngwk",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-03T02:41:54.578Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Copilot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/5bdxhdszvpc9",
+    "started_at": "2025-10-03T02:41:54.481Z",
+    "status": "investigating",
+    "updated_at": "2025-10-03T03:04:38.450Z"
+  },
+  "meta": {
+    "generated_at": "2025-10-03T03:06:31.979Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
