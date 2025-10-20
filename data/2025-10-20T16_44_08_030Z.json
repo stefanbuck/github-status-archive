@@ -1,0 +1,165 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 11,
+        "showcase": false,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2025-10-20T16:40:02.348Z"
+      }
+    ],
+    "created_at": "2025-10-20T14:46:00.707Z",
+    "id": "9klytnsknx20",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2025-10-20T16:40:02.952Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-20T16:40:02.952Z",
+        "id": "mfdxn8pngb3r",
+        "incident_id": "9klytnsknx20",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-20T16:40:02.952Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "The issues with our upstream model provider continue to improve, and Grok Code Fast 1 is once again stable in Copilot Chat, VS Code and other Copilot products.",
+        "created_at": "2025-10-20T16:39:56.820Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-20T16:39:56.820Z",
+        "id": "0790nh8zgn1x",
+        "incident_id": "9klytnsknx20",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-20T16:39:56.820Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are continuing to work with our provider on resolving the incident with Grok Code Fast 1 which is impacting 6% of users. We’ve been informed they are implementing fixes but users can expect some requests to intermittently fail until all issues are resolved.<br />",
+        "created_at": "2025-10-20T16:07:22.088Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-20T16:07:22.088Z",
+        "id": "fk2hlmqf1jzr",
+        "incident_id": "9klytnsknx20",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-20T16:07:22.088Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are experiencing degraded availability for the Grok Code Fast 1 model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br /><br />Other models are available and working as expected.",
+        "created_at": "2025-10-20T14:47:36.286Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-20T14:47:36.286Z",
+        "id": "1z1cfx266p4h",
+        "incident_id": "9klytnsknx20",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-20T14:47:36.286Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Copilot",
+        "created_at": "2025-10-20T14:46:00.797Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-20T14:46:00.797Z",
+        "id": "xjpgrl745d6r",
+        "incident_id": "9klytnsknx20",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-20T14:46:00.797Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with Grok Code Fast 1 in Copilot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2025-10-20T16:40:02.952Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/98cv84hnbdmq",
+    "started_at": "2025-10-20T14:46:00.698Z",
+    "status": "resolved",
+    "updated_at": "2025-10-20T16:40:02.969Z"
+  },
+  "meta": {
+    "generated_at": "2025-10-20T16:44:08.030Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
