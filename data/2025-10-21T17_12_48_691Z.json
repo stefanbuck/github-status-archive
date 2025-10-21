@@ -1,0 +1,101 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2025-10-21T16:00:54.316Z",
+    "id": "v61nk2fpysnq",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We continuing to work on mitigation of this issue.",
+        "created_at": "2025-10-21T17:11:23.304Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-21T17:11:23.304Z",
+        "id": "d234m4qktw35",
+        "incident_id": "v61nk2fpysnq",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-21T17:11:23.304Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We’ve identified the issue affecting some users with SAML/OIDC authentication and are actively working on mitigation. Some users may not be able to authenticate during this time.",
+        "created_at": "2025-10-21T16:33:33.507Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-21T16:33:33.507Z",
+        "id": "ggxnkftm6wj5",
+        "incident_id": "v61nk2fpysnq",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-21T16:33:33.507Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We're seeing issues for a small amount of customers with SAML/OIDC authentication for GitHub.com users. We are investigating.",
+        "created_at": "2025-10-21T16:03:06.097Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-21T16:03:06.097Z",
+        "id": "23qj6m1sxvxc",
+        "incident_id": "v61nk2fpysnq",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-21T16:03:06.097Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-10-21T16:00:54.353Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-21T16:00:54.353Z",
+        "id": "nqdsqshf20fr",
+        "incident_id": "v61nk2fpysnq",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-21T16:00:54.353Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/z2klktccqx0m",
+    "started_at": "2025-10-21T16:00:54.309Z",
+    "status": "investigating",
+    "updated_at": "2025-10-21T17:11:23.307Z"
+  },
+  "meta": {
+    "generated_at": "2025-10-21T17:12:48.691Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
