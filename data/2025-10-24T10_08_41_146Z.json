@@ -1,0 +1,71 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2025-10-24T09:31:59.404Z",
+    "id": "n7hf73qtpz2l",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We have found the source of the slowness and mitigated it. We are watching recovery before we status green but no user impact is currently observed.",
+        "created_at": "2025-10-24T10:07:30.889Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-24T10:07:30.889Z",
+        "id": "wh6qm6vdp563",
+        "incident_id": "n7hf73qtpz2l",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-24T10:07:30.889Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-10-24T09:31:59.437Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-10-24T09:31:59.437Z",
+        "id": "6yl4kb5pcrmt",
+        "incident_id": "n7hf73qtpz2l",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-10-24T09:31:59.437Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "git operations over ssh seeing increased latency on github.com",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/7pxb090n11yy",
+    "started_at": "2025-10-24T09:31:59.398Z",
+    "status": "investigating",
+    "updated_at": "2025-10-24T10:07:30.893Z"
+  },
+  "meta": {
+    "generated_at": "2025-10-24T10:08:41.146Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
