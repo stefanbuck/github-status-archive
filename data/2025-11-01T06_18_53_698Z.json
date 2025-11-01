@@ -1,0 +1,187 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2025-11-01T06:14:38.765Z"
+      }
+    ],
+    "created_at": "2025-11-01T04:43:43.218Z",
+    "id": "xkvk1yhmqfdl",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2025-11-01T06:14:40.565Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-01T06:14:40.565Z",
+        "id": "07fdb24mlmdd",
+        "incident_id": "xkvk1yhmqfdl",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-01T06:14:40.565Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Actions is operating normally.",
+        "created_at": "2025-11-01T06:14:38.796Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-01T06:14:38.796Z",
+        "id": "zj15xc2nwqpv",
+        "incident_id": "xkvk1yhmqfdl",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-01T06:14:38.796Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have mitigated the issue for manually dispatching workflows via the UI",
+        "created_at": "2025-11-01T06:14:24.261Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-01T06:14:24.261Z",
+        "id": "l5dd7dv6ppv8",
+        "incident_id": "xkvk1yhmqfdl",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-01T06:14:24.261Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have identified the cause of the issue and are working towards a mitigation",
+        "created_at": "2025-11-01T05:35:46.357Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-01T05:35:46.357Z",
+        "id": "qrlrkvmvjqwj",
+        "incident_id": "xkvk1yhmqfdl",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-01T05:35:46.357Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating issues manually dispatching workflows via the GitHub UI for Actions. The Workflow Dispatch API is unaffected.",
+        "created_at": "2025-11-01T05:05:17.020Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-01T05:05:17.020Z",
+        "id": "bzfdvmjbyxr8",
+        "incident_id": "xkvk1yhmqfdl",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-01T05:05:17.020Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2025-11-01T04:43:43.295Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-01T04:43:43.295Z",
+        "id": "zlrs6xtn65g9",
+        "incident_id": "xkvk1yhmqfdl",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-01T04:43:43.295Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with using workflow_dispatch for Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2025-11-01T06:14:40.565Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/dqt4twn5km7k",
+    "started_at": "2025-11-01T04:43:43.211Z",
+    "status": "resolved",
+    "updated_at": "2025-11-01T06:14:40.586Z"
+  },
+  "meta": {
+    "generated_at": "2025-11-01T06:18:53.698Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
