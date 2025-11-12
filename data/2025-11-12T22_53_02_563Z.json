@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2025-11-12T22:26:29.718Z",
+    "id": "br7kz68t38cl",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are continuing to investigate connectivity issues with codespaces",
+        "created_at": "2025-11-12T22:51:35.111Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-12T22:51:35.111Z",
+        "id": "h1n4rdvwr0ch",
+        "incident_id": "br7kz68t38cl",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-12T22:51:35.111Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investing reports of codespaces no longer appearing in the UI or API. Users may experience connectivity issues to the impacted codespaces.",
+        "created_at": "2025-11-12T22:26:53.551Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-12T22:26:53.551Z",
+        "id": "lp27tmrbzr2v",
+        "incident_id": "br7kz68t38cl",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-12T22:26:53.551Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-11-12T22:26:29.762Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-12T22:26:29.762Z",
+        "id": "vdkhb10p86md",
+        "incident_id": "br7kz68t38cl",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-12T22:26:29.762Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/02xf9kpyxwv6",
+    "started_at": "2025-11-12T22:26:29.710Z",
+    "status": "investigating",
+    "updated_at": "2025-11-12T22:51:35.115Z"
+  },
+  "meta": {
+    "generated_at": "2025-11-12T22:53:02.563Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
