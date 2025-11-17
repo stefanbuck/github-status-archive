@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2025-11-17T16:52:18.279Z",
+    "id": "3bmqzkljz8s3",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are continuing to investigate dependabot failures and a configuration change to mitigate.",
+        "created_at": "2025-11-17T17:50:41.106Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-17T17:50:41.106Z",
+        "id": "r44bcff23ps3",
+        "incident_id": "3bmqzkljz8s3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-17T17:50:41.106Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating dependabot job failures affecting approximately 50% of version updates and 25% of security updates.",
+        "created_at": "2025-11-17T17:15:48.163Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-17T17:15:48.163Z",
+        "id": "pdy5p5v9ljr4",
+        "incident_id": "3bmqzkljz8s3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-17T17:15:48.163Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-11-17T16:52:18.318Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-17T16:52:18.318Z",
+        "id": "9qlx54ch2s62",
+        "incident_id": "3bmqzkljz8s3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-17T16:52:18.318Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/vwnw4q61sp3m",
+    "started_at": "2025-11-17T16:52:18.272Z",
+    "status": "investigating",
+    "updated_at": "2025-11-17T17:50:41.110Z"
+  },
+  "meta": {
+    "generated_at": "2025-11-17T17:52:07.718Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
