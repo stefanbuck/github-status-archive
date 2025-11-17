@@ -1,0 +1,71 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2025-11-17T23:01:06.613Z",
+    "id": "ql19qqqmdf99",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of 404s creating gists.",
+        "created_at": "2025-11-17T23:01:13.702Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-17T23:01:13.702Z",
+        "id": "5kfyf2509c3b",
+        "incident_id": "ql19qqqmdf99",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-17T23:01:13.702Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating this issue.",
+        "created_at": "2025-11-17T23:01:06.649Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-11-17T23:01:06.649Z",
+        "id": "8dqfp82936f1",
+        "incident_id": "ql19qqqmdf99",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-11-17T23:01:06.649Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/x4mn2m8t1ssf",
+    "started_at": "2025-11-17T23:01:06.606Z",
+    "status": "investigating",
+    "updated_at": "2025-11-17T23:01:13.705Z"
+  },
+  "meta": {
+    "generated_at": "2025-11-17T23:03:57.777Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
