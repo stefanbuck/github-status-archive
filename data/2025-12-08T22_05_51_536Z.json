@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2025-12-08T21:28:27.408Z",
+    "id": "n4fpndtvbmwb",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We're continuing to investigate and mitigate issues with the GPT 4o model for Copilot completions. Users can currently work around this issue by updating their VS Code settings with \"github.copilot.advanced.debug.overrideEngine\": \"gpt-41-copilot\".",
+        "created_at": "2025-12-08T22:04:47.127Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-12-08T22:04:47.127Z",
+        "id": "z3kpht3v0g3g",
+        "incident_id": "n4fpndtvbmwb",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-12-08T22:04:47.127Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are currently investigating failures with the GPT 4o model for Copilot completions.",
+        "created_at": "2025-12-08T21:32:57.551Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-12-08T21:32:57.551Z",
+        "id": "b5vb3b7wfy6l",
+        "incident_id": "n4fpndtvbmwb",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-12-08T21:32:57.551Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2025-12-08T21:28:27.438Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-12-08T21:28:27.438Z",
+        "id": "fmyv7j6xp0bb",
+        "incident_id": "n4fpndtvbmwb",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-12-08T21:28:27.438Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/55qj6pmx08pq",
+    "started_at": "2025-12-08T21:28:27.403Z",
+    "status": "investigating",
+    "updated_at": "2025-12-08T22:04:47.130Z"
+  },
+  "meta": {
+    "generated_at": "2025-12-08T22:05:51.536Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
