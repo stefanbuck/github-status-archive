@@ -1,0 +1,99 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2025-12-18T16:43:57.481Z"
+      }
+    ],
+    "created_at": "2025-12-18T16:43:57.438Z",
+    "id": "x696x0g4t85l",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Since approximately 8:00 UTC, we have observed intermittent failures on GitHub-hosted actions runners. The failures have been observed both during runner setup, and workflow execution. We are continuing to investigate.<br /><br />Self-hosted runners are not impacted.",
+        "created_at": "2025-12-18T16:45:14.244Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-12-18T16:45:14.244Z",
+        "id": "vmhlpf8np4lb",
+        "incident_id": "x696x0g4t85l",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-12-18T16:45:14.244Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2025-12-18T16:43:57.523Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-12-18T16:43:57.523Z",
+        "id": "dsw1939v1y2c",
+        "incident_id": "x696x0g4t85l",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-12-18T16:43:57.523Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Intermittent networking failures across GitHub-hosted Actions runners",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/s5w0sdknlvy1",
+    "started_at": "2025-12-18T16:43:57.429Z",
+    "status": "investigating",
+    "updated_at": "2025-12-18T16:45:14.247Z"
+  },
+  "meta": {
+    "generated_at": "2025-12-18T16:46:57.076Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
