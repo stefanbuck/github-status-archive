@@ -1,0 +1,180 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.638Z",
+        "description": "Requests for Issues on GitHub.com",
+        "group_id": null,
+        "id": "kr09ddfgbfsf",
+        "name": "Issues",
+        "page_id": "kctbh9vrtdwd",
+        "position": 5,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2025-12-23T00:17:33.767Z"
+      }
+    ],
+    "created_at": "2025-12-22T22:31:51.583Z",
+    "id": "y2wxzcfbgbn2",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2025-12-23T00:17:33.794Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-12-23T00:17:33.794Z",
+        "id": "4kkbpmt3zks9",
+        "incident_id": "y2wxzcfbgbn2",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-12-23T00:17:33.794Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "All services at healthy levels. We're finalizing the change to prevent future degradations from the same source.",
+        "created_at": "2025-12-23T00:06:06.406Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-12-23T00:06:06.406Z",
+        "id": "l9dr6l7938gl",
+        "incident_id": "y2wxzcfbgbn2",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-12-23T00:06:06.406Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We're investigating elevated traffic affecting GitHub services, primarily impacting logged-out users with some increased latency on Issues. We're preparing additional mitigations to prevent further spikes.",
+        "created_at": "2025-12-22T23:32:27.510Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-12-22T23:32:27.510Z",
+        "id": "ymf6cpz50wr6",
+        "incident_id": "y2wxzcfbgbn2",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-12-22T23:32:27.510Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are experiencing elevated traffic affecting some GitHub services, primarily impacting logged-out users. We're actively investigating the full scope and working to restore normal service. We'll post another update by 23:45 UTC.",
+        "created_at": "2025-12-22T22:57:40.922Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-12-22T22:57:40.922Z",
+        "id": "h7858l9sry0j",
+        "incident_id": "y2wxzcfbgbn2",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-12-22T22:57:40.922Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2025-12-22T22:48:52.019Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-12-22T22:48:52.019Z",
+        "id": "vl1x2z5xk27j",
+        "incident_id": "y2wxzcfbgbn2",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-12-22T22:48:52.019Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2025-12-22T22:31:51.630Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2025-12-22T22:31:51.630Z",
+        "id": "q239ndp62z2k",
+        "incident_id": "y2wxzcfbgbn2",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2025-12-22T22:31:51.630Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2025-12-23T00:17:33.794Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/1wdzccrdkn6k",
+    "started_at": "2025-12-22T22:31:51.575Z",
+    "status": "resolved",
+    "updated_at": "2025-12-23T00:17:33.810Z"
+  },
+  "meta": {
+    "generated_at": "2025-12-23T00:19:17.745Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
