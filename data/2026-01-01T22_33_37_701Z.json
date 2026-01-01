@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-01-01T21:24:39.283Z",
+    "id": "d5t56pdnjxhd",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "The /features/copilot page has been restored.",
+        "created_at": "2026-01-01T22:31:49.293Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-01T22:31:49.293Z",
+        "id": "7xfskpr4fv2f",
+        "incident_id": "d5t56pdnjxhd",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-01T22:32:15.671Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Our Copilot feature page (https://github.com/features/copilot) is returning 500s. We are currently investigating. This does not impact the core GitHub application.",
+        "created_at": "2026-01-01T21:24:47.669Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-01T21:24:47.669Z",
+        "id": "ts2z2gd9lfnb",
+        "incident_id": "d5t56pdnjxhd",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-01T21:24:47.669Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-01-01T21:24:39.331Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-01T21:24:39.331Z",
+        "id": "2ymq3ytbb270",
+        "incident_id": "d5t56pdnjxhd",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-01T21:24:39.331Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-01-01T22:31:49.293Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/hp9bvntbr9xq",
+    "started_at": "2026-01-01T21:24:39.276Z",
+    "status": "resolved",
+    "updated_at": "2026-01-01T22:32:15.674Z"
+  },
+  "meta": {
+    "generated_at": "2026-01-01T22:33:37.701Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
