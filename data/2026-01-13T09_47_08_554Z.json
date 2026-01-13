@@ -1,0 +1,114 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 11,
+        "showcase": false,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "major_outage",
+        "updated_at": "2026-01-13T09:44:59.320Z"
+      }
+    ],
+    "created_at": "2026-01-13T09:38:56.874Z",
+    "id": "1lnqb2vk25vn",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We are investigating an issue that is causing failures in all Copilot requests.",
+        "created_at": "2026-01-13T09:45:39.254Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-13T09:45:39.254Z",
+        "id": "lcl5zk1nwd5f",
+        "incident_id": "1lnqb2vk25vn",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-13T09:45:39.254Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "major_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Copilot is experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2026-01-13T09:44:59.371Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-13T09:44:59.371Z",
+        "id": "lyfygp10t8d3",
+        "incident_id": "1lnqb2vk25vn",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-13T09:44:59.371Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-01-13T09:38:56.921Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-13T09:38:56.921Z",
+        "id": "9crf8dkhp2fg",
+        "incident_id": "1lnqb2vk25vn",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-13T09:38:56.921Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Receiving no requests to GitHub Copilot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/gxhncq8sjpkh",
+    "started_at": "2026-01-13T09:38:56.868Z",
+    "status": "investigating",
+    "updated_at": "2026-01-13T09:45:39.257Z"
+  },
+  "meta": {
+    "generated_at": "2026-01-13T09:47:08.554Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partial System Outage",
+    "status_indicator": "major"
+  }
+}
