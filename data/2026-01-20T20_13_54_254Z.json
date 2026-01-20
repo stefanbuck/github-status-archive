@@ -1,0 +1,121 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-01-20T20:10:54.049Z"
+      }
+    ],
+    "created_at": "2026-01-20T19:49:39.626Z",
+    "id": "fw294tth5m8y",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-01-20T20:10:54.079Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-20T20:10:54.079Z",
+        "id": "98ywn7jhxs44",
+        "incident_id": "fw294tth5m8y",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-20T20:10:54.079Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating delays in manually dispatched Actions workflows as well as other GitHub products which run on Actions. We have identified a fix and are working on mitigating the delays.",
+        "created_at": "2026-01-20T19:56:49.364Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-20T19:56:49.364Z",
+        "id": "9tjqxxdnvdvc",
+        "incident_id": "fw294tth5m8y",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-20T19:56:49.364Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2026-01-20T19:49:39.699Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-20T19:49:39.699Z",
+        "id": "gsq1v6fyk5yh",
+        "incident_id": "fw294tth5m8y",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-20T19:49:39.699Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Run start delays in Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-01-20T20:10:54.079Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/b72glxypdjl5",
+    "started_at": "2026-01-20T19:49:39.619Z",
+    "status": "resolved",
+    "updated_at": "2026-01-20T20:10:54.094Z"
+  },
+  "meta": {
+    "generated_at": "2026-01-20T20:13:54.254Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
