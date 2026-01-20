@@ -1,0 +1,99 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2026-01-20T16:02:58.526Z"
+      }
+    ],
+    "created_at": "2026-01-20T16:02:58.483Z",
+    "id": "m4xfyzd8mn2n",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "GitHub Actions customers that use actions-runner-controller are experiencing errors from our APIs that informs auto-scaling. We are investigating the issue and working on mitigating the impact.",
+        "created_at": "2026-01-20T16:03:17.499Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-20T16:03:17.499Z",
+        "id": "7y017016tmfp",
+        "incident_id": "m4xfyzd8mn2n",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-20T16:03:17.499Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2026-01-20T16:02:58.579Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-20T16:02:58.579Z",
+        "id": "4tpsnxnd76nw",
+        "incident_id": "m4xfyzd8mn2n",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-20T16:02:58.579Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident affecting actions-runner-controller",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/qv5215sqksl7",
+    "started_at": "2026-01-20T16:02:58.474Z",
+    "status": "investigating",
+    "updated_at": "2026-01-20T16:03:17.503Z"
+  },
+  "meta": {
+    "generated_at": "2026-01-20T16:04:13.976Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
