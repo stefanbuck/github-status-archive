@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-01-21T19:31:05.378Z",
+    "id": "6d5kv6l8d8q3",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are continuing to investigate latency and timeout issues affecting Copilot policy pages.",
+        "created_at": "2026-01-21T20:12:36.948Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-21T20:12:36.948Z",
+        "id": "8m6hdsq09by3",
+        "incident_id": "6d5kv6l8d8q3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-21T20:12:36.948Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating timeouts for customers visiting the Copilot policy pages for organizations and enterprises.",
+        "created_at": "2026-01-21T19:37:39.545Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-21T19:37:39.545Z",
+        "id": "mghhpgpy35km",
+        "incident_id": "6d5kv6l8d8q3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-21T19:37:39.545Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-01-21T19:31:05.423Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-21T19:31:05.423Z",
+        "id": "73kbqtnwxw74",
+        "incident_id": "6d5kv6l8d8q3",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-21T19:31:05.423Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Policy pages for Copilot are timing out",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/p2sbjf6lb6q9",
+    "started_at": "2026-01-21T19:31:05.370Z",
+    "status": "investigating",
+    "updated_at": "2026-01-21T20:12:36.953Z"
+  },
+  "meta": {
+    "generated_at": "2026-01-21T20:21:21.364Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
