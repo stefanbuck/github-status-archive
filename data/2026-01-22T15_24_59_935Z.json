@@ -1,0 +1,158 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.638Z",
+        "description": "Requests for Issues on GitHub.com",
+        "group_id": null,
+        "id": "kr09ddfgbfsf",
+        "name": "Issues",
+        "page_id": "kctbh9vrtdwd",
+        "position": 5,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-01-22T14:27:54.233Z"
+      }
+    ],
+    "created_at": "2026-01-22T14:12:49.865Z",
+    "id": "cqb5hcy0gx18",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-01-22T15:22:59.780Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-22T15:22:59.780Z",
+        "id": "87q80cqdx7fg",
+        "incident_id": "cqb5hcy0gx18",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-22T15:22:59.780Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We have identified an issue in one of our services and have mitigated it. Services have recovered and we have a mitigation but we are working on a longer term solution.",
+        "created_at": "2026-01-22T15:22:31.283Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-22T15:22:31.283Z",
+        "id": "grhyt4zkdkbm",
+        "incident_id": "cqb5hcy0gx18",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-22T15:22:31.283Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Issues is operating normally.",
+        "created_at": "2026-01-22T14:27:54.270Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-22T14:27:54.270Z",
+        "id": "by8k8qfw7hgb",
+        "incident_id": "cqb5hcy0gx18",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-22T14:27:54.270Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-01-22T14:23:44.549Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-22T14:23:44.549Z",
+        "id": "5zz1s96dyhhx",
+        "incident_id": "cqb5hcy0gx18",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-22T14:23:44.549Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-01-22T14:12:49.910Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-22T14:12:49.910Z",
+        "id": "njnb62qqmk4z",
+        "incident_id": "cqb5hcy0gx18",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-22T14:12:49.910Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-01-22T15:22:59.780Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/1vqlgvn4h35h",
+    "started_at": "2026-01-22T14:12:49.856Z",
+    "status": "resolved",
+    "updated_at": "2026-01-22T15:22:59.793Z"
+  },
+  "meta": {
+    "generated_at": "2026-01-22T15:24:59.935Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
