@@ -1,0 +1,101 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-01-26T19:25:51.846Z",
+    "id": "90hj03y5tj3c",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "Rollback has been completed, but we are still seeing failures on about 11% of GitHub Actions runs on 4 Core Windows runners in public repositories.<br /><br />If your workflow fails to start, try re-running and it is likely to work a second time.",
+        "created_at": "2026-01-26T21:20:49.670Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-26T21:20:49.670Z",
+        "id": "cvd8ywtvtq28",
+        "incident_id": "90hj03y5tj3c",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-26T21:20:49.670Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Mitigation for failing GitHub Actions jobs on 4-Core Windows runners is still being mitigated. You should start to see more runs succeeding.<br />If you do see failing runs, please retry and they might succeed.",
+        "created_at": "2026-01-26T20:10:36.750Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-26T20:10:36.750Z",
+        "id": "91cjcgt65y16",
+        "incident_id": "90hj03y5tj3c",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-26T20:10:36.750Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We've applied a mitigation to unblock running Actions. A regression occurred for Windows runners in public repositories which caused Actions workflows to fail. A mitigation is in place and customers should expect to see resolution soon.<br /><br />If you have a failing Actions workflow on a Windows runner, please retry and it is likely to work.",
+        "created_at": "2026-01-26T19:32:07.898Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-26T19:32:07.898Z",
+        "id": "twsb78kc71dt",
+        "incident_id": "90hj03y5tj3c",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-26T19:32:07.898Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-01-26T19:25:51.880Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-26T19:25:51.880Z",
+        "id": "kx2fqh5v577s",
+        "incident_id": "90hj03y5tj3c",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-26T19:25:51.880Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Regression in windows runners for public repositories",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/549qtmw22lzj",
+    "started_at": "2026-01-26T19:25:51.840Z",
+    "status": "investigating",
+    "updated_at": "2026-01-26T21:20:49.672Z"
+  },
+  "meta": {
+    "generated_at": "2026-01-26T21:22:55.941Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
