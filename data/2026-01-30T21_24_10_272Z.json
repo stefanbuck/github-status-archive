@@ -1,0 +1,121 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-01-28T15:54:04.582Z"
+      }
+    ],
+    "created_at": "2026-01-30T20:59:51.229Z",
+    "id": "szwg1z6zjsvx",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-01-30T21:22:23.126Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-30T21:22:23.126Z",
+        "id": "kry6pgwkqw3f",
+        "incident_id": "szwg1z6zjsvx",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-30T21:22:23.126Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Customers may experience misreported Copilot Coding Agent tasks in the GitHub UI. Although the underlying actions are completing as requested, surfaces like Agent Sessions on the GitHub website, or Agent Hub in VS Code, will show that an agent is still working on a task, even if that work has completed. <br /><br />We are working to understand the root cause and mitigate these discrepancies.",
+        "created_at": "2026-01-30T21:05:17.996Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-30T21:05:17.996Z",
+        "id": "6nkn157wcc3z",
+        "incident_id": "szwg1z6zjsvx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-30T21:05:17.996Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2026-01-30T20:59:51.281Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-01-30T20:59:51.281Z",
+        "id": "n6dfs40qdtvs",
+        "incident_id": "szwg1z6zjsvx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-01-30T20:59:51.281Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Degraded Experience - Failing to finalize some CCA Jobs",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-01-30T21:22:23.126Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/1rjxl8y9pg47",
+    "started_at": "2026-01-30T20:59:51.221Z",
+    "status": "resolved",
+    "updated_at": "2026-01-30T21:22:23.141Z"
+  },
+  "meta": {
+    "generated_at": "2026-01-30T21:24:10.272Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
