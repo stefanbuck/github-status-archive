@@ -1,0 +1,355 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "major_outage",
+        "updated_at": "2026-02-02T19:43:21.315Z"
+      },
+      {
+        "created_at": "2017-01-31T20:04:33.923Z",
+        "description": "Frontend application and API servers for Pages builds",
+        "group_id": null,
+        "id": "vg70hn9s2tyj",
+        "name": "Pages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 9,
+        "showcase": false,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2026-02-02T19:48:44.941Z"
+      },
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 11,
+        "showcase": false,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "partial_outage",
+        "updated_at": "2026-02-02T21:27:26.333Z"
+      }
+    ],
+    "created_at": "2026-02-02T19:03:14.218Z",
+    "id": "xwn6hjps36ty",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          },
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Our upstream provider has applied a mitigation to address queuing and job failures on hosted runners.<br />Telemetry shows improvement, and we are monitoring closely for full recovery.",
+        "created_at": "2026-02-02T22:53:17.578Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-02T22:53:17.578Z",
+        "id": "dzgqqxhdzscz",
+        "incident_id": "xwn6hjps36ty",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-02T22:53:17.578Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          },
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We continue to investigate failures impacting GitHub Actions hosted-runner jobs.<br />We're waiting on our upstream provider to apply the identified mitigations, and we're preparing to resume job processing as safely as possible.",
+        "created_at": "2026-02-02T22:10:16.352Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-02T22:10:16.352Z",
+        "id": "p8bh98zxv52f",
+        "incident_id": "xwn6hjps36ty",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-02T22:10:16.352Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          },
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Copilot is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-02-02T21:27:26.371Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-02T21:27:26.371Z",
+        "id": "d5psgck1723t",
+        "incident_id": "xwn6hjps36ty",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-02T21:27:26.371Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We continue to investigate failures impacting GitHub Actions hosted-runner jobs.<br />We have identified the root cause and are working with our upstream provider to mitigate.<br />This is also impacting GitHub features that rely on GitHub Actions (for example, Copilot Coding Agent and Dependabot).",
+        "created_at": "2026-02-02T21:13:41.515Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-02T21:13:41.515Z",
+        "id": "3n0n61t0r2q2",
+        "incident_id": "xwn6hjps36ty",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-02T21:13:41.515Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "The team continues to investigate issues causing GitHub Actions jobs on hosted runners to remain queued for extended periods, with a percentage of jobs failing. We will continue to provide updates as we make progress toward mitigation.<br />",
+        "created_at": "2026-02-02T20:27:29.408Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-02T20:27:29.408Z",
+        "id": "5krdzr5xndpl",
+        "incident_id": "xwn6hjps36ty",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-02T20:27:29.408Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-02-02T19:48:44.980Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-02T19:48:44.980Z",
+        "id": "mygyyqnd20yn",
+        "incident_id": "xwn6hjps36ty",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-02T19:48:44.980Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "The team continues to investigate issues causing GitHub Actions jobs on hosted runners to remain queued for extended periods, with a percentage of jobs failing. We will continue to provide updates as we make progress toward mitigation.",
+        "created_at": "2026-02-02T19:44:58.304Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-02T19:44:58.304Z",
+        "id": "5yj8nmh7mwc3",
+        "incident_id": "xwn6hjps36ty",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-02T19:44:58.304Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Actions is experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2026-02-02T19:43:21.366Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-02T19:43:21.366Z",
+        "id": "9119r5b117zh",
+        "incident_id": "xwn6hjps36ty",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-02T19:43:21.366Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "GitHub Actions hosted runners are experiencing high wait times across all labels. Self-hosted runners are not impacted.",
+        "created_at": "2026-02-02T19:07:43.542Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-02T19:07:43.542Z",
+        "id": "r876jfzntcws",
+        "incident_id": "xwn6hjps36ty",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-02T19:07:43.542Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2026-02-02T19:03:14.311Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-02T19:03:14.311Z",
+        "id": "62j2s6d8kcmn",
+        "incident_id": "xwn6hjps36ty",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-02T19:03:14.311Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/q03plj7gcr4d",
+    "started_at": "2026-02-02T19:03:14.210Z",
+    "status": "investigating",
+    "updated_at": "2026-02-02T22:53:17.581Z"
+  },
+  "meta": {
+    "generated_at": "2026-02-02T22:55:32.724Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partial System Outage",
+    "status_indicator": "major"
+  }
+}
