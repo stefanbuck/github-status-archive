@@ -1,0 +1,209 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": false,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-02-09T15:46:38.174Z"
+      }
+    ],
+    "created_at": "2026-02-09T14:17:02.051Z",
+    "id": "tkz0ptx49rl0",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-02-09T15:46:39.997Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-09T15:46:39.997Z",
+        "id": "ldk23ffvvn0j",
+        "incident_id": "tkz0ptx49rl0",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-09T15:46:39.997Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Actions is operating normally.",
+        "created_at": "2026-02-09T15:46:38.202Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-09T15:46:38.202Z",
+        "id": "k631lxt24g8w",
+        "incident_id": "tkz0ptx49rl0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-09T15:46:38.202Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Actions run delays have returned to normal levels.",
+        "created_at": "2026-02-09T15:46:32.037Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-09T15:46:32.037Z",
+        "id": "g8pz07nt7fjm",
+        "incident_id": "tkz0ptx49rl0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-09T15:46:32.037Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We identified a bottleneck in our processing pipeline and have applied mitigations. We will continue to monitor for full recovery.",
+        "created_at": "2026-02-09T15:26:31.061Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-09T15:26:31.061Z",
+        "id": "nqxbn2h8v080",
+        "incident_id": "tkz0ptx49rl0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-09T15:26:31.061Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We continue to investigate an issue causing Actions run start delays, impacting approximately 4% of users.",
+        "created_at": "2026-02-09T14:54:49.798Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-09T14:54:49.798Z",
+        "id": "q2jl7txcq4ry",
+        "incident_id": "tkz0ptx49rl0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-09T14:54:49.798Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating an issue with Actions run start delays, impacting approximately 4% of users.",
+        "created_at": "2026-02-09T14:17:12.956Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-09T14:17:12.956Z",
+        "id": "z7wjngym15ks",
+        "incident_id": "tkz0ptx49rl0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-09T14:17:12.956Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2026-02-09T14:17:02.119Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-09T14:17:02.119Z",
+        "id": "kz47x3yyvpcd",
+        "incident_id": "tkz0ptx49rl0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-09T14:17:02.119Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-02-09T15:46:39.997Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/smhn681gk34y",
+    "started_at": "2026-02-09T14:17:02.045Z",
+    "status": "resolved",
+    "updated_at": "2026-02-09T15:46:40.012Z"
+  },
+  "meta": {
+    "generated_at": "2026-02-09T15:48:27.212Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
