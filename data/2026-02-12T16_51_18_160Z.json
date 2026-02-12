@@ -1,0 +1,101 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-02-12T14:06:48.924Z",
+    "id": "1x0f4x1wwqmb",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-02-12T16:50:01.738Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-12T16:50:01.738Z",
+        "id": "kg51c1z1fj90",
+        "incident_id": "1x0f4x1wwqmb",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-12T16:50:01.738Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are experiencing degraded availability in Western Europe for Copilot completions and suggestions. We are working to resolve the issue.<br />",
+        "created_at": "2026-02-12T15:33:22.076Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-12T15:33:22.076Z",
+        "id": "pyxrsptgyz07",
+        "incident_id": "1x0f4x1wwqmb",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-12T15:33:22.076Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are experiencing degraded availability in some regions for Copilot completions and suggestions. We are working to resolve the issue.",
+        "created_at": "2026-02-12T14:08:21.656Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-12T14:08:21.656Z",
+        "id": "gtf617q29t73",
+        "incident_id": "1x0f4x1wwqmb",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-12T14:08:21.656Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-02-12T14:06:48.974Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-12T14:06:48.974Z",
+        "id": "2jk1627rsm40",
+        "incident_id": "1x0f4x1wwqmb",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-12T14:06:48.974Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Intermittent disruption with Copilot completions and inline suggestions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-02-12T16:50:01.738Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/yxnj1jc92qr6",
+    "started_at": "2026-02-12T14:06:48.917Z",
+    "status": "resolved",
+    "updated_at": "2026-02-12T16:50:01.755Z"
+  },
+  "meta": {
+    "generated_at": "2026-02-12T16:51:18.160Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
