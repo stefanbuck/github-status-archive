@@ -1,0 +1,231 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2021-08-11T16:02:09.505Z",
+        "description": "Orchestration and Compute for GitHub Codespaces",
+        "group_id": null,
+        "id": "h2ftsgbw7kmk",
+        "name": "Codespaces",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": false,
+        "start_date": "2021-08-11T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2026-02-12T09:56:06.061Z"
+      }
+    ],
+    "created_at": "2026-02-12T07:53:58.038Z",
+    "id": "7m8kxmjq0y7m",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-02-12T09:56:06.097Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-12T09:56:06.097Z",
+        "id": "p1lvpktr96tk",
+        "incident_id": "7m8kxmjq0y7m",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-12T09:56:06.097Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Recovery looks consistent with Codespaces creating and resuming successfully across all regions. <br /><br />Thank you for your patience.",
+        "created_at": "2026-02-12T09:56:01.082Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-12T09:56:01.082Z",
+        "id": "ht7cfvqd1dtb",
+        "incident_id": "7m8kxmjq0y7m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-12T09:56:01.082Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "Codespaces is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-02-12T09:42:10.636Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-12T09:42:10.636Z",
+        "id": "5s0rvrj1wm8f",
+        "incident_id": "7m8kxmjq0y7m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-12T09:42:10.636Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We are seeing widespread recovery across all our regions. <br /><br />We will continue to monitor progress and will resolve the incident when we are confident on durable recovery.",
+        "created_at": "2026-02-12T09:39:48.923Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-12T09:39:48.923Z",
+        "id": "ptkw572x9ktw",
+        "incident_id": "7m8kxmjq0y7m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-12T09:39:48.923Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We have identified the issue causing Codespace create/resume actions to fail and are applying a fix. This is estimated to take ~2 hours to complete but impact will begin to reduce sooner than that.<br /><br />We will continue to monitor recovery progress and will report back when more information is available.",
+        "created_at": "2026-02-12T09:04:39.028Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-12T09:04:39.028Z",
+        "id": "dbh59bzpyfc6",
+        "incident_id": "7m8kxmjq0y7m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-12T09:04:39.028Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We now understand the source of the VM create/resume failures and are working with our partners to mitigate the impact.",
+        "created_at": "2026-02-12T08:32:24.616Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-12T08:32:24.616Z",
+        "id": "dqg5pczxxpd7",
+        "incident_id": "7m8kxmjq0y7m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-12T08:32:24.616Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We are seeing an increase in Codespaces creation and resuming failures across multiple regions, primarily in EMEA. Our team are analysing the situation and are working to mitigate this impact.<br /><br />While we are working, customers are advised to create Codespaces in US East and US West regions via the \"New with options...\" button when creating a Codespace.<br /><br />More updates as we have them.",
+        "created_at": "2026-02-12T08:02:00.672Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-12T08:02:00.672Z",
+        "id": "ry269gmccwgh",
+        "incident_id": "7m8kxmjq0y7m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-12T08:02:00.672Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "major_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded availability for Codespaces",
+        "created_at": "2026-02-12T07:53:58.120Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-12T07:53:58.120Z",
+        "id": "d1nf3gcg592s",
+        "incident_id": "7m8kxmjq0y7m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-12T07:53:58.120Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Codespaces",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-02-12T09:56:06.097Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/0fdc3bbq1qx0",
+    "started_at": "2026-02-12T07:53:58.030Z",
+    "status": "resolved",
+    "updated_at": "2026-02-12T09:56:06.115Z"
+  },
+  "meta": {
+    "generated_at": "2026-02-12T09:57:26.846Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
