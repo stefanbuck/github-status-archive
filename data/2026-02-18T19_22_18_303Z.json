@@ -1,0 +1,158 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2020-09-02T15:39:06.329Z",
+        "description": "Requests for Pull Requests on GitHub.com",
+        "group_id": null,
+        "id": "hhtssxt0f5v2",
+        "name": "Pull Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 6,
+        "showcase": true,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-02-18T19:20:16.830Z"
+      }
+    ],
+    "created_at": "2026-02-18T18:25:38.234Z",
+    "id": "p1ymhg64hdfq",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-02-18T19:20:16.866Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-18T19:20:16.866Z",
+        "id": "rh56nnctsttf",
+        "incident_id": "p1ymhg64hdfq",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-18T19:20:16.866Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have seen significant recovery in merge queue we are continuing to monitor for any other degraded services.",
+        "created_at": "2026-02-18T19:18:06.727Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-18T19:18:06.727Z",
+        "id": "01l7z6x5m698",
+        "incident_id": "p1ymhg64hdfq",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-18T19:18:06.727Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating reports of issues with merge queue. We will continue to keep users updated on progress towards mitigation.",
+        "created_at": "2026-02-18T18:27:00.682Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-18T18:27:00.682Z",
+        "id": "qpyy5hjcw0y0",
+        "incident_id": "p1ymhg64hdfq",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-18T18:27:00.682Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-02-18T18:26:02.822Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-18T18:26:02.822Z",
+        "id": "4wh1jssyyqdk",
+        "incident_id": "p1ymhg64hdfq",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-18T18:26:02.822Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-02-18T18:25:38.272Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-18T18:25:38.272Z",
+        "id": "03hmn6t069q9",
+        "incident_id": "p1ymhg64hdfq",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-18T18:25:38.272Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Degraded performance in merge queue",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-02-18T19:20:16.866Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/kv62hwwldqd6",
+    "started_at": "2026-02-18T18:25:38.228Z",
+    "status": "resolved",
+    "updated_at": "2026-02-18T19:20:16.888Z"
+  },
+  "meta": {
+    "generated_at": "2026-02-18T19:22:18.303Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
