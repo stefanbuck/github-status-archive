@@ -1,0 +1,32 @@
+{
+  "component": {
+    "created_at": "2020-09-02T15:39:06.329Z",
+    "description": "Requests for Pull Requests on GitHub.com",
+    "group_id": null,
+    "id": "hhtssxt0f5v2",
+    "name": "Pull Requests",
+    "page_id": "kctbh9vrtdwd",
+    "position": 6,
+    "showcase": true,
+    "start_date": null,
+    "status": "partial_outage",
+    "updated_at": "2026-02-18T18:26:02.780Z"
+  },
+  "component_update": {
+    "component_id": "hhtssxt0f5v2",
+    "component_type": "Component",
+    "created_at": "2026-02-18T18:26:02.788Z",
+    "id": "r2dylrkfb3by",
+    "new_status": "partial_outage",
+    "old_status": "operational",
+    "state": "sn_created"
+  },
+  "meta": {
+    "generated_at": "2026-02-18T18:26:15.387Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
