@@ -1,0 +1,165 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 11,
+        "showcase": true,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2026-02-20T11:41:39.457Z"
+      }
+    ],
+    "created_at": "2026-02-20T10:02:19.243Z",
+    "id": "8qvx6hqk3nz0",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-02-20T11:41:39.490Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-20T11:41:39.490Z",
+        "id": "2ryzxf0nw06v",
+        "incident_id": "8qvx6hqk3nz0",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-20T11:41:39.490Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "The issues with our upstream model provider have been resolved, and GPT 5.1 Codex is once again available in Copilot Chat and across IDE integrations [VSCode, Visual Studio, JetBrains].<br />We will continue monitoring to ensure stability, but mitigation is complete.",
+        "created_at": "2026-02-20T11:19:32.285Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-20T11:19:32.285Z",
+        "id": "7fl3syrvk5cp",
+        "incident_id": "8qvx6hqk3nz0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-20T11:19:32.285Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are still experiencing degraded availability for the GPT 5.1 Codex model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br />",
+        "created_at": "2026-02-20T10:36:21.115Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-20T10:36:21.115Z",
+        "id": "kqhk3c77jtz1",
+        "incident_id": "8qvx6hqk3nz0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-20T10:36:21.115Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are experiencing degraded availability for the GPT 5.1 Codex model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.<br />Other models are available and working as expected.",
+        "created_at": "2026-02-20T10:02:49.417Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-20T10:02:49.417Z",
+        "id": "l5ht7d7pq693",
+        "incident_id": "8qvx6hqk3nz0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-20T10:02:49.417Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Copilot",
+        "created_at": "2026-02-20T10:02:19.323Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-20T10:02:19.323Z",
+        "id": "cn9m342cbxnn",
+        "incident_id": "8qvx6hqk3nz0",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-20T10:02:19.323Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Copilot GPT-5.1-Codex",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-02-20T11:41:39.490Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/z5nxbm5x340d",
+    "started_at": "2026-02-20T10:02:19.236Z",
+    "status": "resolved",
+    "updated_at": "2026-02-20T11:41:39.507Z"
+  },
+  "meta": {
+    "generated_at": "2026-02-20T11:43:34.556Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
