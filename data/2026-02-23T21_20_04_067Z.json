@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-02-23T19:59:55.629Z",
+    "id": "jn8kcmg5ydch",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "Elevated latency and timeouts for code search is isolated to a single shard experiencing elevated CPU. We are continuing to investigate the cause and steps to mitigate.",
+        "created_at": "2026-02-23T21:18:05.820Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-23T21:18:05.820Z",
+        "id": "b68lplggnqjx",
+        "incident_id": "jn8kcmg5ydch",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-23T21:18:05.820Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are continuing to investigate elevated latency and timeouts for code search.",
+        "created_at": "2026-02-23T20:33:22.786Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-23T20:33:22.786Z",
+        "id": "zvz0dssn8h1d",
+        "incident_id": "jn8kcmg5ydch",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-23T20:33:22.786Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-02-23T19:59:55.666Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-02-23T19:59:55.666Z",
+        "id": "6fydzvhdt4rz",
+        "incident_id": "jn8kcmg5ydch",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-02-23T19:59:55.666Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Code search experiencing degraded performance",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/vlsdcsk5grvk",
+    "started_at": "2026-02-23T19:59:55.624Z",
+    "status": "investigating",
+    "updated_at": "2026-02-23T21:18:05.823Z"
+  },
+  "meta": {
+    "generated_at": "2026-02-23T21:20:04.067Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
