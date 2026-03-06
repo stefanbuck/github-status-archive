@@ -1,0 +1,363 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:00:24.256Z",
+        "description": "Real time HTTP callbacks of user-generated and system events",
+        "group_id": null,
+        "id": "4230lsnqdsld",
+        "name": "Webhooks",
+        "page_id": "kctbh9vrtdwd",
+        "position": 2,
+        "showcase": true,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-03-06T23:28:10.729Z"
+      }
+    ],
+    "created_at": "2026-03-06T16:58:10.899Z",
+    "id": "tqyg889tl8qz",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-03-06T23:28:13.610Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T23:28:13.610Z",
+        "id": "5h6575h5ssc2",
+        "incident_id": "tqyg889tl8qz",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T23:28:13.610Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Webhooks is operating normally.",
+        "created_at": "2026-03-06T23:28:10.766Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T23:28:10.766Z",
+        "id": "tfwbd1sq3wfc",
+        "incident_id": "tqyg889tl8qz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T23:28:10.766Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have deployed a fix and are observing a full recovery. The affected endpoint was the webhook deliveries API (https://docs.github.com/en/rest/repos/webhooks?apiVersion=2022-11-28#list-deliveries-for-a-repository-webhook) and its organization and integration variants. We will continue monitoring to confirm stability.",
+        "created_at": "2026-03-06T23:26:47.739Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T23:26:47.739Z",
+        "id": "3m0jdtncwbd2",
+        "incident_id": "tqyg889tl8qz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T23:26:47.739Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are preparing a new mitigation for the issue affecting the webhook deliveries API (https://docs.github.com/en/rest/repos/webhooks?apiVersion=2022-11-28#list-deliveries-for-a-repository-webhook) and its organization and integration variants. Overall impact remains low, with under 1% of requests failing for a subset of customers.",
+        "created_at": "2026-03-06T22:35:08.498Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T22:35:08.498Z",
+        "id": "xmh3v0x80k89",
+        "incident_id": "tqyg889tl8qz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T22:35:08.498Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "The previous mitigation did not resolve the issue. We are investigating further. The affected endpoint is the webhook deliveries API (https://docs.github.com/en/rest/repos/webhooks?apiVersion=2022-11-28#list-deliveries-for-a-repository-webhook) and its organization and integration variants. Overall impact remains low, with under 1% of requests failing for a subset of customers.",
+        "created_at": "2026-03-06T21:34:55.965Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T21:34:55.965Z",
+        "id": "h70j3rrdy946",
+        "incident_id": "tqyg889tl8qz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T21:34:55.965Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We have deployed a fix for the issue causing some users to experience intermittent failures when accessing the Webhooks API and configuration pages. We are monitoring to confirm full recovery.",
+        "created_at": "2026-03-06T20:18:25.136Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T20:18:25.136Z",
+        "id": "7c6527rdqcg1",
+        "incident_id": "tqyg889tl8qz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T20:18:25.136Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We continue working on mitigations to restore service.",
+        "created_at": "2026-03-06T19:39:05.361Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T19:39:05.361Z",
+        "id": "cjvc9hv0m3vm",
+        "incident_id": "tqyg889tl8qz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T19:39:05.361Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We continue working on mitigations to restore service.",
+        "created_at": "2026-03-06T19:07:07.148Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T19:07:07.148Z",
+        "id": "tgbq0nz2qxlb",
+        "incident_id": "tqyg889tl8qz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T19:07:07.148Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We continue working on mitigations to restore service.",
+        "created_at": "2026-03-06T18:39:13.939Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T18:39:13.939Z",
+        "id": "83rdckr4t822",
+        "incident_id": "tqyg889tl8qz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T18:39:13.939Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We continue working on mitigations to restore full service.",
+        "created_at": "2026-03-06T18:07:53.332Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T18:07:53.332Z",
+        "id": "6sryc8pcqfxk",
+        "incident_id": "tqyg889tl8qz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T18:07:53.332Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Our engineers have identified the root cause and are actively implementing mitigations to restore full service.",
+        "created_at": "2026-03-06T17:43:24.444Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T17:43:24.444Z",
+        "id": "sk35hhl28t7v",
+        "incident_id": "tqyg889tl8qz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T17:43:24.444Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "This problem is impacting less than 1% of UI and webhook API calls.",
+        "created_at": "2026-03-06T17:19:48.405Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T17:19:48.405Z",
+        "id": "rdr8csjt2rzb",
+        "incident_id": "tqyg889tl8qz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T17:19:48.405Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating an issue affecting a subset of customers experiencing errors when viewing webhook delivery histories and retrying webhook deliveries. UI and webhook API is impacted. Engineers have identified the cause and are actively working on mitigation.",
+        "created_at": "2026-03-06T17:12:40.002Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T17:12:40.002Z",
+        "id": "jd8bzvkc7r2q",
+        "incident_id": "tqyg889tl8qz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T17:12:40.002Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "4230lsnqdsld",
+            "name": "Webhooks",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Webhooks",
+        "created_at": "2026-03-06T16:58:10.975Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-06T16:58:10.975Z",
+        "id": "98hlbv2wwt3f",
+        "incident_id": "tqyg889tl8qz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-06T16:58:10.975Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Webhooks",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-03-06T23:28:13.610Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/0ghhcmrrl5rn",
+    "started_at": "2026-03-06T16:58:10.892Z",
+    "status": "resolved",
+    "updated_at": "2026-03-06T23:28:13.629Z"
+  },
+  "meta": {
+    "generated_at": "2026-03-06T23:35:35.462Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
