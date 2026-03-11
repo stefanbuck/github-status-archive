@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-03-11T14:25:17.532Z",
+    "id": "78s4l7y4tn2v",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We experienced degraded performance with Copilot Code Review starting at 14:01 UTC. Customers experienced extended review times and occasional failures. Some extended processing times may continue briefly. We are monitoring for full recovery. We'll post another update by 16:30 UTC.",
+        "created_at": "2026-03-11T15:31:21.866Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-11T15:31:21.866Z",
+        "id": "nbbk9nmqk0pv",
+        "incident_id": "78s4l7y4tn2v",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-11T15:31:21.866Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating degraded performance with Copilot Code Review. Customers may experience extended review times or occasional failures. We are seeing signs of improvement as our team works to restore normal service. We'll post another update by 15:30 UTC.",
+        "created_at": "2026-03-11T14:28:04.402Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-11T14:28:04.402Z",
+        "id": "6qshznhqrzl0",
+        "incident_id": "78s4l7y4tn2v",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-11T14:28:04.402Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-03-11T14:25:17.570Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-11T14:25:17.570Z",
+        "id": "z1jk8c7h4qqm",
+        "incident_id": "78s4l7y4tn2v",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-11T14:25:17.570Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": "2026-03-11T14:28:04.402Z",
+    "name": "Degraded experience with Copilot Code Review",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/twfx8xg9nf33",
+    "started_at": "2026-03-11T14:25:17.526Z",
+    "status": "monitoring",
+    "updated_at": "2026-03-11T15:31:21.868Z"
+  },
+  "meta": {
+    "generated_at": "2026-03-11T15:33:34.913Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
