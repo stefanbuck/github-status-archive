@@ -1,0 +1,99 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2021-08-11T16:02:09.505Z",
+        "description": "Orchestration and Compute for GitHub Codespaces",
+        "group_id": null,
+        "id": "h2ftsgbw7kmk",
+        "name": "Codespaces",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": true,
+        "start_date": "2021-08-11T00:00:00.000Z",
+        "status": "partial_outage",
+        "updated_at": "2026-03-12T13:06:55.021Z"
+      }
+    ],
+    "created_at": "2026-03-12T13:06:54.989Z",
+    "id": "0s7ppykbyvqz",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We're investigating an issue where extensions fail to install in newly created Codespaces. Users can still create and access Codespaces, but extensions will not be operational, resulting in a degraded development experience. Our team is actively working to identify and resolve the root cause. We'll post another update by 14:00 UTC.",
+        "created_at": "2026-03-12T13:07:45.295Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-12T13:07:45.295Z",
+        "id": "r4fv48sgn4pt",
+        "incident_id": "0s7ppykbyvqz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-12T13:07:45.295Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "h2ftsgbw7kmk",
+            "name": "Codespaces",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Codespaces",
+        "created_at": "2026-03-12T13:06:55.060Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-12T13:06:55.060Z",
+        "id": "0d3lx2g6fy6s",
+        "incident_id": "0s7ppykbyvqz",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-12T13:06:55.060Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Degraded Codespaces experience",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/lq4q8bqfnkqn",
+    "started_at": "2026-03-12T13:06:54.982Z",
+    "status": "investigating",
+    "updated_at": "2026-03-12T13:07:45.297Z"
+  },
+  "meta": {
+    "generated_at": "2026-03-12T13:11:11.714Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
