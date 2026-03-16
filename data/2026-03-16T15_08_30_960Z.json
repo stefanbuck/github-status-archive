@@ -1,0 +1,71 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-03-16T15:01:06.899Z",
+    "id": "2lh36qcrd7l6",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of users experiencing errors when starting or connecting to Codespaces. Some users may be unable to access their development environments during this time. We are working to identify the root cause and will implement a fix as soon as possible.",
+        "created_at": "2026-03-16T15:06:35.960Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-16T15:06:35.960Z",
+        "id": "vcy8tjr1zl93",
+        "incident_id": "2lh36qcrd7l6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-16T15:06:35.960Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-03-16T15:01:06.937Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-16T15:01:06.937Z",
+        "id": "jtx5ftzdkzdv",
+        "incident_id": "2lh36qcrd7l6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-16T15:01:06.937Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/5vpcvvyp7jdt",
+    "started_at": "2026-03-16T15:01:06.892Z",
+    "status": "investigating",
+    "updated_at": "2026-03-16T15:06:35.963Z"
+  },
+  "meta": {
+    "generated_at": "2026-03-16T15:08:30.960Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
