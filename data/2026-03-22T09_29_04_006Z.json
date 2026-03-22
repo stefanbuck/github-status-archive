@@ -1,0 +1,71 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-03-22T09:08:38.800Z",
+    "id": "7vwbds3snh28",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are investigating intermittently high latency and errors from Git operations.",
+        "created_at": "2026-03-22T09:27:39.768Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-22T09:27:39.768Z",
+        "id": "441n64vzwwr4",
+        "incident_id": "7vwbds3snh28",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-22T09:27:39.768Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-03-22T09:08:38.840Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-03-22T09:08:38.840Z",
+        "id": "xtm3grhwqnc2",
+        "incident_id": "7vwbds3snh28",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-03-22T09:08:38.840Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/l939pt92g9sj",
+    "started_at": "2026-03-22T09:08:38.793Z",
+    "status": "investigating",
+    "updated_at": "2026-03-22T09:27:39.771Z"
+  },
+  "meta": {
+    "generated_at": "2026-03-22T09:29:04.006Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
