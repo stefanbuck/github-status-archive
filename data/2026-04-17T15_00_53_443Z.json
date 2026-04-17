@@ -1,0 +1,114 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.638Z",
+        "description": "Requests for Issues on GitHub.com",
+        "group_id": null,
+        "id": "kr09ddfgbfsf",
+        "name": "Issues",
+        "page_id": "kctbh9vrtdwd",
+        "position": 5,
+        "showcase": true,
+        "start_date": null,
+        "status": "degraded_performance",
+        "updated_at": "2026-04-17T14:56:58.032Z"
+      }
+    ],
+    "created_at": "2026-04-17T14:56:22.556Z",
+    "id": "kcf0thb1zp30",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We are experiencing an issue that impacts approximately 10% of traffic to the web, resulting in slow and failed calls. We are investigating and will continue to post updates as we work toward mitigation.",
+        "created_at": "2026-04-17T14:57:34.209Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-17T14:57:34.209Z",
+        "id": "z72707j6kl9f",
+        "incident_id": "kcf0thb1zp30",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-17T14:57:34.209Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-04-17T14:56:58.060Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-17T14:56:58.060Z",
+        "id": "z0fsqk81n9gc",
+        "incident_id": "kcf0thb1zp30",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-17T14:56:58.060Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-04-17T14:56:22.609Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-17T14:56:22.609Z",
+        "id": "25lkr63xtht8",
+        "incident_id": "kcf0thb1zp30",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-17T14:56:22.609Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/96xp38b8l8rn",
+    "started_at": "2026-04-17T14:56:22.547Z",
+    "status": "investigating",
+    "updated_at": "2026-04-17T14:57:34.213Z"
+  },
+  "meta": {
+    "generated_at": "2026-04-17T15:00:53.443Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partially Degraded Service",
+    "status_indicator": "minor"
+  }
+}
