@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-04-20T13:28:48.571Z",
+    "id": "m7pgzw1wlfq7",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are currently deploying mitigations that should unblock code scanning default setup and code quality features on pull requests.",
+        "created_at": "2026-04-20T14:38:51.903Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-20T14:38:51.903Z",
+        "id": "vxj0gds24xw2",
+        "incident_id": "m7pgzw1wlfq7",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-20T14:38:51.903Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are actively working to mitigate an issue affecting code scanning default setup and code quality features on pull requests. Users may experience pull request code scanning and code quality analyses not being triggered on new pull requests. Our engineering team has identified the root cause and working on mitigating the issue.",
+        "created_at": "2026-04-20T13:57:43.196Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-20T13:57:43.196Z",
+        "id": "5z07zwvk2wf4",
+        "incident_id": "m7pgzw1wlfq7",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-20T13:57:43.196Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-04-20T13:28:48.613Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-20T13:28:48.613Z",
+        "id": "7523x859r9yc",
+        "incident_id": "m7pgzw1wlfq7",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-20T13:28:48.613Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Partial degradation for code scanning default setup and for code quality",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/qxk1qwhj9xdd",
+    "started_at": "2026-04-20T13:28:48.564Z",
+    "status": "investigating",
+    "updated_at": "2026-04-20T14:38:51.906Z"
+  },
+  "meta": {
+    "generated_at": "2026-04-20T14:40:26.953Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
