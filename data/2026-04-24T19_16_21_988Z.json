@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-04-24T19:02:39.061Z",
+    "id": "3dqg0nhwnxs2",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This is related to the public impact, \"Multiservice impact for Azure Workloads in East US\" shared at https://azure.status.microsoft/",
+        "created_at": "2026-04-24T19:14:51.753Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-24T19:14:51.753Z",
+        "id": "2xk78skvj6b4",
+        "incident_id": "3dqg0nhwnxs2",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-24T19:14:51.753Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of degraded performance for Larger Runners with vnet injection in East US and we are working with our service provider on mitigation.",
+        "created_at": "2026-04-24T19:09:12.236Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-24T19:09:12.236Z",
+        "id": "jqys36s3s5mf",
+        "incident_id": "3dqg0nhwnxs2",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-24T19:09:12.236Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-04-24T19:02:39.102Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-24T19:02:39.102Z",
+        "id": "rdtptlys3mx4",
+        "incident_id": "3dqg0nhwnxs2",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-24T19:02:39.102Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Delays with Actions Jobs for Larger Runners using VNet Injection in the East US region",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/mcrpvdrwjzf3",
+    "started_at": "2026-04-24T19:02:39.054Z",
+    "status": "investigating",
+    "updated_at": "2026-04-24T19:14:51.756Z"
+  },
+  "meta": {
+    "generated_at": "2026-04-24T19:16:21.988Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
