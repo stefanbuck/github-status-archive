@@ -1,0 +1,360 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.638Z",
+        "description": "Requests for Issues on GitHub.com",
+        "group_id": null,
+        "id": "kr09ddfgbfsf",
+        "name": "Issues",
+        "page_id": "kctbh9vrtdwd",
+        "position": 5,
+        "showcase": true,
+        "start_date": null,
+        "status": "degraded_performance",
+        "updated_at": "2026-04-27T16:36:39.122Z"
+      },
+      {
+        "created_at": "2020-09-02T15:39:06.329Z",
+        "description": "Requests for Pull Requests on GitHub.com",
+        "group_id": null,
+        "id": "hhtssxt0f5v2",
+        "name": "Pull Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 6,
+        "showcase": true,
+        "start_date": null,
+        "status": "major_outage",
+        "updated_at": "2026-04-27T18:19:33.614Z"
+      },
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": true,
+        "start_date": null,
+        "status": "degraded_performance",
+        "updated_at": "2026-04-27T16:27:46.931Z"
+      },
+      {
+        "created_at": "2019-11-13T18:02:40.064Z",
+        "description": "API requests and webhook delivery for GitHub Packages",
+        "group_id": null,
+        "id": "st3j38cctv9l",
+        "name": "Packages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 8,
+        "showcase": true,
+        "start_date": null,
+        "status": "degraded_performance",
+        "updated_at": "2026-04-27T16:39:04.662Z"
+      }
+    ],
+    "created_at": "2026-04-27T16:31:07.245Z",
+    "id": "ql942tw29yl6",
+    "impact": "critical",
+    "impact_override": "critical",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "major_outage",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Pull Requests is experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2026-04-27T18:19:33.644Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-27T18:19:33.644Z",
+        "id": "78cnm8r63bz2",
+        "incident_id": "ql942tw29yl6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-27T18:19:33.644Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We're continuing to see connectivity issues reaching elasticsearch. Impact on downstream services will be intermittent as we find the root cause",
+        "created_at": "2026-04-27T18:17:13.773Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-27T18:17:13.773Z",
+        "id": "qmlflsnzmp19",
+        "incident_id": "ql942tw29yl6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-27T18:17:13.773Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Users are experiencing intermittent failures to view issues, pull requests, projects and Actions workflow runs.<br /><br />We are still investigating and attempting mitigations. We will provide further updates.",
+        "created_at": "2026-04-27T17:35:01.416Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-27T17:35:01.416Z",
+        "id": "k160r7drp3dv",
+        "incident_id": "ql942tw29yl6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-27T17:35:01.416Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-04-27T16:53:22.587Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-27T16:53:22.587Z",
+        "id": "vn1g77xczh7h",
+        "incident_id": "ql942tw29yl6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-27T16:53:22.587Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "st3j38cctv9l",
+            "name": "Packages",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Packages is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-04-27T16:39:04.698Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-27T16:39:04.698Z",
+        "id": "fx6y0c206kf3",
+        "incident_id": "ql942tw29yl6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-27T16:39:04.698Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Issues is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-04-27T16:36:39.150Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-27T16:36:39.150Z",
+        "id": "n3skwgqx1084",
+        "incident_id": "ql942tw29yl6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-27T16:36:39.150Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Customers across GitHub are experiencing failures with searches. Examples include: workflow run failures, projects failing to load, and timed out search requests. This is due to an ongoing infrastructure issue that we have been investigating.",
+        "created_at": "2026-04-27T16:33:05.168Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-27T16:33:05.168Z",
+        "id": "l78r0dx72c5s",
+        "incident_id": "ql942tw29yl6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-27T16:33:05.168Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2026-04-27T16:31:07.302Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-27T16:31:07.302Z",
+        "id": "t0xbm41f3r6p",
+        "incident_id": "ql942tw29yl6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-27T16:31:07.302Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "GitHub search is degraded",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/x5cnngb211t7",
+    "started_at": "2026-04-27T16:31:07.236Z",
+    "status": "investigating",
+    "updated_at": "2026-04-27T18:19:33.647Z"
+  },
+  "meta": {
+    "generated_at": "2026-04-27T18:21:38.149Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partial System Outage",
+    "status_indicator": "major"
+  }
+}
