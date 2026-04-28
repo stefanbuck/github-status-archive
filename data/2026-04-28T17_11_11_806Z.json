@@ -1,0 +1,239 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": true,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-04-28T17:08:59.360Z"
+      }
+    ],
+    "created_at": "2026-04-28T13:59:16.225Z",
+    "id": "dbypmw7h77l5",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-04-28T17:09:02.449Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-28T17:09:02.449Z",
+        "id": "fqbr0gx8zt5x",
+        "incident_id": "dbypmw7h77l5",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-28T17:09:02.449Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Actions is operating normally.",
+        "created_at": "2026-04-28T17:08:59.403Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-28T17:08:59.403Z",
+        "id": "4jtcwpljdmf5",
+        "incident_id": "dbypmw7h77l5",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-28T17:08:59.403Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Less than 1% of hosted ubuntu-latest runs are delayed. We’re working through remaining steps to restore runner capacity.",
+        "created_at": "2026-04-28T16:36:01.304Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-28T16:36:01.304Z",
+        "id": "hwlpg9dnbjvd",
+        "incident_id": "dbypmw7h77l5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-28T16:36:01.304Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Currently less than 2% of hosted ubuntu-latest and ubuntu-24.04 runs are delayed or failing. We are continuing to monitor for full recovery.",
+        "created_at": "2026-04-28T15:41:48.012Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-28T15:41:48.012Z",
+        "id": "ph5vyvlg6k7w",
+        "incident_id": "dbypmw7h77l5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-28T15:41:48.012Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We've applied a mitigation to unblock running Actions. We're continuing to monitor.",
+        "created_at": "2026-04-28T15:20:16.717Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-28T15:20:16.717Z",
+        "id": "srvcmf6v938c",
+        "incident_id": "dbypmw7h77l5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-28T15:20:16.717Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We're still investigating the root cause for run start delays and failures for Actions hosted Ubuntu jobs, around 5% of jobs are impacted as of now.",
+        "created_at": "2026-04-28T14:49:49.206Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-28T14:49:49.206Z",
+        "id": "lrv23t13wkcv",
+        "incident_id": "dbypmw7h77l5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-28T14:49:49.206Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-04-28T14:02:36.720Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-28T14:02:36.720Z",
+        "id": "9by054y0mswv",
+        "incident_id": "dbypmw7h77l5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-28T14:02:36.720Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Actions is experiencing capacity constraints with hosted ubuntu-latest and ubuntu-24.02, leading to high wait times. Other hosted labels and self-hosted runners are not impacted.",
+        "created_at": "2026-04-28T13:59:52.653Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-28T13:59:52.653Z",
+        "id": "sh63yx8gbnfm",
+        "incident_id": "dbypmw7h77l5",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-28T13:59:52.653Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-04-28T13:59:16.266Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-04-28T13:59:16.266Z",
+        "id": "z1hcdwfx4t10",
+        "incident_id": "dbypmw7h77l5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-04-28T13:59:16.266Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": "2026-04-28T13:59:52.653Z",
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-04-28T17:09:02.449Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/70pkmpfqz6pc",
+    "started_at": "2026-04-28T13:59:16.217Z",
+    "status": "resolved",
+    "updated_at": "2026-04-28T17:09:02.466Z"
+  },
+  "meta": {
+    "generated_at": "2026-04-28T17:11:11.806Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partially Degraded Service",
+    "status_indicator": "minor"
+  }
+}
