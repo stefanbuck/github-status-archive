@@ -1,0 +1,165 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": true,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2026-05-05T13:37:58.352Z"
+      }
+    ],
+    "created_at": "2026-05-05T13:37:58.322Z",
+    "id": "1j40g94rn22j",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We've applied a mitigation for long queue times and failures on Standard Hosted Runners and are monitoring for full recovery. Hosted Runners with Private Networking in the East US region remain affected as we continue working with our compute provider to restore capacity.",
+        "created_at": "2026-05-05T15:54:34.161Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-05T15:54:34.161Z",
+        "id": "ntclt13q8918",
+        "incident_id": "1j40g94rn22j",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-05T15:54:34.161Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are working with our compute provider to alleviate elevated queue times and failures for Actions Jobs running on Hosted Runners in the East US region affecting 10% of runs. Hosted Runners with private networking can fail over to a different Region to mitigate the issue.",
+        "created_at": "2026-05-05T15:12:19.632Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-05T15:12:19.632Z",
+        "id": "yghhltmycz1r",
+        "incident_id": "1j40g94rn22j",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-05T15:12:19.632Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating elevated queue times and failures on Actions Jobs running on Hosted Runners in East US affecting 8% of runs. Hosted Runners with private networking can fail over to a different Azure region to mitigate the issue.",
+        "created_at": "2026-05-05T14:14:20.281Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-05T14:14:20.281Z",
+        "id": "vd5hrvhk2jwv",
+        "incident_id": "1j40g94rn22j",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-05T14:14:20.281Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating elevated queue times on Actions Jobs running on Standard Hosted Runners in East US affecting 10% of runs",
+        "created_at": "2026-05-05T13:48:39.585Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-05T13:48:39.585Z",
+        "id": "ftjbrbg8qqsd",
+        "incident_id": "1j40g94rn22j",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-05T13:48:39.585Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded availability for Actions",
+        "created_at": "2026-05-05T13:37:58.386Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-05T13:37:58.386Z",
+        "id": "ddvl7l86qnlw",
+        "incident_id": "1j40g94rn22j",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-05T13:37:58.386Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/dbhtfmy83gg4",
+    "started_at": "2026-05-05T13:37:58.317Z",
+    "status": "investigating",
+    "updated_at": "2026-05-05T15:54:34.164Z"
+  },
+  "meta": {
+    "generated_at": "2026-05-05T15:56:13.119Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
