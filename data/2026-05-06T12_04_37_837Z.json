@@ -1,0 +1,101 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-05-06T11:21:28.353Z",
+    "id": "n8htfgj6wv3t",
+    "impact": "critical",
+    "impact_override": "critical",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-05-06T11:59:51.901Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-06T11:59:51.901Z",
+        "id": "63rytc0blp8x",
+        "incident_id": "n8htfgj6wv3t",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-06T11:59:51.901Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We have applied a mitigation and Copilot services have recovered.",
+        "created_at": "2026-05-06T11:59:42.257Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-06T11:59:42.257Z",
+        "id": "67nj19tbgrjk",
+        "incident_id": "n8htfgj6wv3t",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-06T11:59:42.257Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating issues with the ability to start Copilot Cloud Agent sessions and view them.",
+        "created_at": "2026-05-06T11:25:34.849Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-06T11:25:34.849Z",
+        "id": "k0lx085l0k6k",
+        "incident_id": "n8htfgj6wv3t",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-06T11:25:34.849Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-05-06T11:21:28.407Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-06T11:21:28.407Z",
+        "id": "xpn3qs88tc07",
+        "incident_id": "n8htfgj6wv3t",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-06T11:21:28.407Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-05-06T11:59:51.901Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/68zqk7hjbzm5",
+    "started_at": "2026-05-06T11:21:28.347Z",
+    "status": "resolved",
+    "updated_at": "2026-05-06T11:59:51.917Z"
+  },
+  "meta": {
+    "generated_at": "2026-05-06T12:04:37.837Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
