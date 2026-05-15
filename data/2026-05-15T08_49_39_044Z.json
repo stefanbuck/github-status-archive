@@ -1,0 +1,258 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": true,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-05-15T08:26:58.567Z"
+      },
+      {
+        "created_at": "2017-01-31T20:04:33.923Z",
+        "description": "Frontend application and API servers for Pages builds",
+        "group_id": null,
+        "id": "vg70hn9s2tyj",
+        "name": "Pages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 9,
+        "showcase": true,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-05-15T08:27:21.245Z"
+      }
+    ],
+    "created_at": "2026-05-15T08:13:44.570Z",
+    "id": "ctf7nxpq5jzn",
+    "impact": "critical",
+    "impact_override": "critical",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-05-15T08:48:30.015Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-15T08:48:30.015Z",
+        "id": "yl4cm4mjg7qw",
+        "incident_id": "ctf7nxpq5jzn",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-15T08:48:30.015Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "The degradation has been mitigated. We are monitoring to ensure stability.",
+        "created_at": "2026-05-15T08:41:47.677Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-15T08:41:47.677Z",
+        "id": "19xfpf7s9q9r",
+        "incident_id": "ctf7nxpq5jzn",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-15T08:41:47.677Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are monitoring an issue that was affecting GitHub Actions and causing downstream issues in GitHub Coding Agent and GitHub Code Review Agent. The issue has resolved now but we are closely monitoring our systems for full recovery.",
+        "created_at": "2026-05-15T08:29:41.062Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-15T08:29:41.062Z",
+        "id": "bthf7fxh2756",
+        "incident_id": "ctf7nxpq5jzn",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-15T08:29:41.062Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "operational",
+            "old_status": "major_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "The degradation affecting Pages has been mitigated. We are monitoring to ensure stability.",
+        "created_at": "2026-05-15T08:27:21.278Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-15T08:27:21.278Z",
+        "id": "pq944gbtqzvn",
+        "incident_id": "ctf7nxpq5jzn",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-15T08:27:21.278Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.",
+        "created_at": "2026-05-15T08:26:58.599Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-15T08:26:58.599Z",
+        "id": "j0j3br8tkj3h",
+        "incident_id": "ctf7nxpq5jzn",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-15T08:26:58.599Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "major_outage",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Pages is experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2026-05-15T08:14:10.571Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-15T08:14:10.571Z",
+        "id": "62rr2smwtk39",
+        "incident_id": "ctf7nxpq5jzn",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-15T08:14:10.571Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded availability for Actions",
+        "created_at": "2026-05-15T08:13:44.639Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-15T08:13:44.639Z",
+        "id": "44b26zbvbxsn",
+        "incident_id": "ctf7nxpq5jzn",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-15T08:13:44.639Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": "2026-05-15T08:41:47.677Z",
+    "name": "Actions is experiencing degraded availability",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-05-15T08:48:30.015Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/t7b04pp8m64b",
+    "started_at": "2026-05-15T08:13:44.562Z",
+    "status": "resolved",
+    "updated_at": "2026-05-15T08:48:30.031Z"
+  },
+  "meta": {
+    "generated_at": "2026-05-15T08:49:39.044Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
