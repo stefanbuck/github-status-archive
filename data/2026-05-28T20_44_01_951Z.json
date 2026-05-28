@@ -1,0 +1,158 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": true,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2026-05-28T20:41:58.539Z"
+      }
+    ],
+    "created_at": "2026-05-28T19:01:00.375Z",
+    "id": "rhqcgg8lg6mm",
+    "impact": "critical",
+    "impact_override": "critical",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "operational",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-05-28T20:41:58.586Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-28T20:41:58.586Z",
+        "id": "csql28v99tck",
+        "incident_id": "rhqcgg8lg6mm",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-28T20:41:58.586Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Open AI models are currently unavailable. We are shifting requests to other models to reduce impact.",
+        "created_at": "2026-05-28T20:06:53.683Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-28T20:06:53.683Z",
+        "id": "qm5jsd6b8h2n",
+        "incident_id": "rhqcgg8lg6mm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-28T20:06:53.683Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We are investigating errors with Copilot requests using OpenAI models",
+        "created_at": "2026-05-28T19:40:54.881Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-28T19:40:54.881Z",
+        "id": "kypg9w3l7lbd",
+        "incident_id": "rhqcgg8lg6mm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-28T19:40:54.881Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Copilot is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-05-28T19:20:58.651Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-28T19:20:58.651Z",
+        "id": "gm3d3kfnjgqb",
+        "incident_id": "rhqcgg8lg6mm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-28T19:20:58.651Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-05-28T19:01:00.444Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-05-28T19:01:00.444Z",
+        "id": "pff85rsxdc3x",
+        "incident_id": "rhqcgg8lg6mm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-05-28T19:01:00.444Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with Copilot Cloud Agent and Copilot Code Review",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-05-28T20:41:58.586Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/d82bfd7406c6",
+    "started_at": "2026-05-28T19:01:00.362Z",
+    "status": "resolved",
+    "updated_at": "2026-05-28T20:41:58.621Z"
+  },
+  "meta": {
+    "generated_at": "2026-05-28T20:44:01.951Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
