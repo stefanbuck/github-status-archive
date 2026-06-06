@@ -1,0 +1,71 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-06-06T15:31:33.001Z",
+    "id": "4843jm0lsls6",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are conducting routine maintenance on our network infrastructure in the EU. This will not impact production traffic, but may result in slightly increased latency for the remainder of our work. We expect this to last until 15:00 UTC.",
+        "created_at": "2026-06-06T15:31:43.178Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-06-06T15:31:43.178Z",
+        "id": "hllbf4fcmjfw",
+        "incident_id": "4843jm0lsls6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-06-06T15:31:43.178Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-06-06T15:31:33.080Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-06-06T15:31:33.080Z",
+        "id": "3tcjxq2vsx54",
+        "incident_id": "4843jm0lsls6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-06-06T15:31:33.080Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/tc4vhv29qs4c",
+    "started_at": "2026-06-06T15:31:32.984Z",
+    "status": "investigating",
+    "updated_at": "2026-06-06T15:31:43.182Z"
+  },
+  "meta": {
+    "generated_at": "2026-06-06T15:33:23.554Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
