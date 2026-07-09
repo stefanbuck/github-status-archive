@@ -1,0 +1,284 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": true,
+        "start_date": null,
+        "status": "major_outage",
+        "updated_at": "2026-07-09T12:46:13.696Z"
+      },
+      {
+        "created_at": "2017-01-31T20:04:33.923Z",
+        "description": "Frontend application and API servers for Pages builds",
+        "group_id": null,
+        "id": "vg70hn9s2tyj",
+        "name": "Pages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 9,
+        "showcase": true,
+        "start_date": null,
+        "status": "degraded_performance",
+        "updated_at": "2026-07-09T12:36:33.636Z"
+      }
+    ],
+    "created_at": "2026-07-09T04:34:24.871Z",
+    "id": "cstx3v63mklm",
+    "impact": "critical",
+    "impact_override": "critical",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We're seeing Actions and Pages recovery. <br /><br />For a period of approximate 20 minutes ~96% of GitHub Actions runs on GitHub-hosted runners were failing to start, but has now recovered and we are seeing jobs processing.<br /><br />GitHub pages builds were also failing during that period, but Pages are still accessible.<br /><br />We are continuing to monitor for full recovery.",
+        "created_at": "2026-07-09T12:54:24.300Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-09T12:54:24.300Z",
+        "id": "yygkh16bml60",
+        "incident_id": "cstx3v63mklm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-09T12:54:24.300Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Actions is experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2026-07-09T12:46:13.778Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-09T12:46:13.778Z",
+        "id": "rw4mg66kfq89",
+        "incident_id": "cstx3v63mklm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-09T12:46:13.778Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-07-09T12:36:33.719Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-09T12:36:33.719Z",
+        "id": "r12q3lrvhk88",
+        "incident_id": "cstx3v63mklm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-09T12:36:33.719Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Approximately 30% of GitHub Actions runs on GitHub-hosted runners are experiencing run start delays exceeding 5 minutes. A smaller percentage of those are exhausting retries and failing to start.<br />This has caused some customers to exceed their hosted compute concurrency and experience increased impact.<br /><br />We are continuing to working on infrastructure mitigations. <br /><br />Next update in one hour.",
+        "created_at": "2026-07-09T12:01:59.888Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-09T12:01:59.888Z",
+        "id": "5nt4w3pxwn1n",
+        "incident_id": "cstx3v63mklm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-09T12:01:59.888Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Approximately 30% of GitHub Actions runs on GitHub-hosted runners are experiencing run start delays exceeding 5 minutes. A smaller percentage of those are exhausting retries and failing to start.",
+        "created_at": "2026-07-09T10:15:25.672Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-09T10:15:25.672Z",
+        "id": "p2ltd6rlhhhw",
+        "incident_id": "cstx3v63mklm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-09T10:15:34.982Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Actions is experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2026-07-09T10:07:04.149Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-09T10:07:04.149Z",
+        "id": "gchj9bz37m1w",
+        "incident_id": "cstx3v63mklm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-09T10:07:04.149Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We are continuing to work on a mitigation.",
+        "created_at": "2026-07-09T06:01:43.388Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-09T06:01:43.388Z",
+        "id": "0j3fdw37sj7t",
+        "incident_id": "cstx3v63mklm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-09T06:01:43.388Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Approximately 5% of GitHub Actions runs on GitHub-hosted runners are experiencing run start delays exceeding 5 minutes. A small portion of these runs may fail after extended delays. We have identified the cause and are working on a mitigation.",
+        "created_at": "2026-07-09T04:51:43.031Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-09T04:51:43.031Z",
+        "id": "y5b7mcgjq5br",
+        "incident_id": "cstx3v63mklm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-09T04:51:43.031Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2026-07-09T04:34:25.065Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-09T04:34:25.065Z",
+        "id": "9sbs9yrvj3z2",
+        "incident_id": "cstx3v63mklm",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-09T04:34:25.065Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Delays starting Actions runs",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/r6sj21r75r24",
+    "started_at": "2026-07-09T04:34:24.849Z",
+    "status": "investigating",
+    "updated_at": "2026-07-09T12:54:24.306Z"
+  },
+  "meta": {
+    "generated_at": "2026-07-09T13:08:11.792Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partial System Outage",
+    "status_indicator": "major"
+  }
+}
