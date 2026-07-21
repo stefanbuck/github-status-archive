@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-07-21T10:31:44.123Z",
+    "id": "g40zcbvchny4",
+    "impact": "critical",
+    "impact_override": "critical",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We have identified a recent code change as a potential cause of the SSH authentication failures affecting deploy key connections. Our engineering team is rolling back this change. Customers using deploy keys for SSH access to repositories may continue to experience intermittent connection failures until the fix is deployed.",
+        "created_at": "2026-07-21T11:46:47.091Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-21T11:46:47.091Z",
+        "id": "mzv8f1bk3s49",
+        "incident_id": "g40zcbvchny4",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-21T11:46:47.091Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of intermittent SSH authentication failures affecting connections that use deploy keys. Customers may experience failed SSH connections when interacting with repositories via deploy keys. Our engineering team is actively investigating the root cause and working toward resolution.",
+        "created_at": "2026-07-21T11:04:43.642Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-21T11:04:43.642Z",
+        "id": "5h5hz3q1xk3m",
+        "incident_id": "g40zcbvchny4",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-21T11:04:43.642Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-07-21T10:31:44.156Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-21T10:31:44.156Z",
+        "id": "qb0gklk516dl",
+        "incident_id": "g40zcbvchny4",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-21T10:31:44.156Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Some SSH connections using deploy keys are failing",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/jczxclgm9znm",
+    "started_at": "2026-07-21T10:31:44.118Z",
+    "status": "investigating",
+    "updated_at": "2026-07-21T11:46:47.094Z"
+  },
+  "meta": {
+    "generated_at": "2026-07-21T11:51:16.679Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
