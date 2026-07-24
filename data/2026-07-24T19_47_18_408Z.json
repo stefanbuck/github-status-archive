@@ -1,0 +1,121 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2020-09-02T15:39:06.329Z",
+        "description": "Requests for Pull Requests on GitHub.com",
+        "group_id": null,
+        "id": "hhtssxt0f5v2",
+        "name": "Pull Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 6,
+        "showcase": true,
+        "start_date": null,
+        "status": "major_outage",
+        "updated_at": "2026-07-24T19:43:40.003Z"
+      }
+    ],
+    "created_at": "2026-07-24T19:37:28.079Z",
+    "id": "jxd617hfwfq8",
+    "impact": "critical",
+    "impact_override": "critical",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "major_outage",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Pull Requests is experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2026-07-24T19:43:40.031Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-24T19:43:40.031Z",
+        "id": "2zmhwpgd2kyc",
+        "incident_id": "jxd617hfwfq8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-24T19:43:40.031Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We are investigating errors creating pull requests",
+        "created_at": "2026-07-24T19:40:45.691Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-24T19:40:45.691Z",
+        "id": "d2g87ttcmj6n",
+        "incident_id": "jxd617hfwfq8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-24T19:40:45.691Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Pull Requests",
+        "created_at": "2026-07-24T19:37:28.159Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-24T19:37:28.159Z",
+        "id": "x8wzbkbbfblq",
+        "incident_id": "jxd617hfwfq8",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-24T19:37:28.159Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Pull Requests",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/sm1tp7kfm4vj",
+    "started_at": "2026-07-24T19:37:28.071Z",
+    "status": "investigating",
+    "updated_at": "2026-07-24T19:43:40.033Z"
+  },
+  "meta": {
+    "generated_at": "2026-07-24T19:47:18.408Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partial System Outage",
+    "status_indicator": "major"
+  }
+}
