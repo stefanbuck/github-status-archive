@@ -1,0 +1,516 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.621Z",
+        "description": "Requests for GitHub APIs",
+        "group_id": null,
+        "id": "brv1bkgrwx7q",
+        "name": "API Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 4,
+        "showcase": true,
+        "start_date": null,
+        "status": "degraded_performance",
+        "updated_at": "2026-07-24T16:17:31.534Z"
+      },
+      {
+        "created_at": "2017-01-31T20:01:46.638Z",
+        "description": "Requests for Issues on GitHub.com",
+        "group_id": null,
+        "id": "kr09ddfgbfsf",
+        "name": "Issues",
+        "page_id": "kctbh9vrtdwd",
+        "position": 5,
+        "showcase": true,
+        "start_date": null,
+        "status": "degraded_performance",
+        "updated_at": "2026-07-24T16:17:31.552Z"
+      },
+      {
+        "created_at": "2020-09-02T15:39:06.329Z",
+        "description": "Requests for Pull Requests on GitHub.com",
+        "group_id": null,
+        "id": "hhtssxt0f5v2",
+        "name": "Pull Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 6,
+        "showcase": true,
+        "start_date": null,
+        "status": "degraded_performance",
+        "updated_at": "2026-07-24T16:20:09.966Z"
+      },
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": true,
+        "start_date": null,
+        "status": "degraded_performance",
+        "updated_at": "2026-07-24T16:41:59.193Z"
+      },
+      {
+        "created_at": "2017-01-31T20:04:33.923Z",
+        "description": "Frontend application and API servers for Pages builds",
+        "group_id": null,
+        "id": "vg70hn9s2tyj",
+        "name": "Pages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 9,
+        "showcase": true,
+        "start_date": null,
+        "status": "degraded_performance",
+        "updated_at": "2026-07-24T16:27:51.901Z"
+      },
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": true,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "degraded_performance",
+        "updated_at": "2026-07-24T16:26:47.146Z"
+      }
+    ],
+    "created_at": "2026-07-24T16:17:31.499Z",
+    "id": "yjysg0xrl67m",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-07-24T16:41:59.232Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-24T16:41:59.232Z",
+        "id": "0rp3bgc6fvbl",
+        "incident_id": "yjysg0xrl67m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-24T16:41:59.232Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We have applied a mitigation and are monitoring for recovery",
+        "created_at": "2026-07-24T16:40:27.946Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-24T16:40:27.946Z",
+        "id": "xhvwpnn2kn4q",
+        "incident_id": "yjysg0xrl67m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-24T16:40:27.946Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Actions is experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2026-07-24T16:28:37.283Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-24T16:28:37.283Z",
+        "id": "m44s2b9rbgsl",
+        "incident_id": "yjysg0xrl67m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-24T16:28:37.283Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-07-24T16:27:51.934Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-24T16:27:51.934Z",
+        "id": "nzw67ssqpl52",
+        "incident_id": "yjysg0xrl67m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-24T16:27:51.934Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Copilot is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-07-24T16:26:47.181Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-24T16:26:47.181Z",
+        "id": "pql6vmkx1s4g",
+        "incident_id": "yjysg0xrl67m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-24T16:26:47.181Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We are investigating timeouts to some GitHub services",
+        "created_at": "2026-07-24T16:22:37.945Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-24T16:22:37.945Z",
+        "id": "p0nvls36ccdc",
+        "incident_id": "yjysg0xrl67m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-24T16:22:37.945Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Pull Requests is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-07-24T16:20:10.002Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-24T16:20:10.002Z",
+        "id": "hscgqnl2q5jl",
+        "incident_id": "yjysg0xrl67m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-24T16:20:10.002Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-07-24T16:19:39.348Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-24T16:19:39.348Z",
+        "id": "q82xjpf22hzj",
+        "incident_id": "yjysg0xrl67m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-24T16:19:39.348Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "brv1bkgrwx7q",
+            "name": "API Requests",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          },
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for API Requests and Issues",
+        "created_at": "2026-07-24T16:17:31.584Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-24T16:17:31.584Z",
+        "id": "g34kbbs9k26c",
+        "incident_id": "yjysg0xrl67m",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-24T16:17:31.584Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/j5c80shxqm53",
+    "started_at": "2026-07-24T16:17:31.492Z",
+    "status": "investigating",
+    "updated_at": "2026-07-24T16:41:59.235Z"
+  },
+  "meta": {
+    "generated_at": "2026-07-24T16:43:16.211Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partially Degraded Service",
+    "status_indicator": "minor"
+  }
+}
