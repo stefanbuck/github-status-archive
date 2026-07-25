@@ -1,0 +1,187 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": true,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-07-25T12:59:58.342Z"
+      }
+    ],
+    "created_at": "2026-07-25T12:31:50.959Z",
+    "id": "pz7g535gbs6p",
+    "impact": "critical",
+    "impact_override": "critical",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-07-25T13:13:21.503Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-25T13:13:21.503Z",
+        "id": "40fbrl0y9zcy",
+        "incident_id": "pz7g535gbs6p",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-25T13:13:21.503Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We have seen recovery in GitHub Actions performance following our earlier mitigation. Workflow runs are processing normally, though jobs queued before 12:40 UTC may still experience failures and will need to be retried.",
+        "created_at": "2026-07-25T13:12:41.317Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-25T13:12:41.317Z",
+        "id": "c4tfkcrpwjbg",
+        "incident_id": "pz7g535gbs6p",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-25T13:12:41.317Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.",
+        "created_at": "2026-07-25T12:59:58.367Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-25T12:59:58.367Z",
+        "id": "y86xqymm4d7m",
+        "incident_id": "pz7g535gbs6p",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-25T12:59:58.367Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We have applied a mitigation for the infrastructure issue affecting GitHub Actions. Workflow run failures and delays are improving but not yet fully resolved. Our engineering team continues to work on restoring full functionality across all affected infrastructure.",
+        "created_at": "2026-07-25T12:58:32.832Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-25T12:58:32.832Z",
+        "id": "2s8j64rtkx4d",
+        "incident_id": "pz7g535gbs6p",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-25T12:58:32.832Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We are experiencing issues with GitHub Actions that are causing workflow run failures and delays for some users. Our engineering team is actively investigating the infrastructure issue and working to restore full functionality.",
+        "created_at": "2026-07-25T12:34:26.839Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-25T12:34:26.839Z",
+        "id": "yblvsfvtyyrv",
+        "incident_id": "pz7g535gbs6p",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-25T12:34:26.839Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded availability for Actions",
+        "created_at": "2026-07-25T12:31:51.013Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-07-25T12:31:51.013Z",
+        "id": "fx4blmxlhh4y",
+        "incident_id": "pz7g535gbs6p",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-07-25T12:31:51.013Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": "2026-07-25T12:59:58.367Z",
+    "name": "Actions run failures and delays",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-07-25T13:13:21.503Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/448g37mrq066",
+    "started_at": "2026-07-25T12:31:50.953Z",
+    "status": "resolved",
+    "updated_at": "2026-07-25T13:13:21.519Z"
+  },
+  "meta": {
+    "generated_at": "2026-07-25T13:39:40.641Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
