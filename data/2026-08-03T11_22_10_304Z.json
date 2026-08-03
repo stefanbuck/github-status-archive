@@ -1,0 +1,143 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": true,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2026-08-03T11:19:03.949Z"
+      }
+    ],
+    "created_at": "2026-08-03T09:53:27.172Z",
+    "id": "7s119p1yxttr",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "operational",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "The degradation affecting Copilot has been mitigated. We are monitoring to ensure stability.",
+        "created_at": "2026-08-03T11:19:04.001Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-03T11:19:04.001Z",
+        "id": "k4jj0pm8nj3d",
+        "incident_id": "7s119p1yxttr",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-03T11:19:04.001Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We are still seeing intermittent errors with Copilot, and are continuing to investigate and consider mitigations.",
+        "created_at": "2026-08-03T10:35:19.914Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-03T10:35:19.914Z",
+        "id": "s8ckry51tn7q",
+        "incident_id": "7s119p1yxttr",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-03T10:35:19.914Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We are experiencing degraded availability for chat & agent models in Copilot. Multiple models are impacted and customers may experience requests failing. We are investigating and will provide an update as soon as possible.",
+        "created_at": "2026-08-03T09:54:22.985Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-03T09:54:22.985Z",
+        "id": "6q9bqtptytqj",
+        "incident_id": "7s119p1yxttr",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-03T09:54:22.985Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Copilot",
+        "created_at": "2026-08-03T09:53:27.252Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-03T09:53:27.252Z",
+        "id": "t9dgrnh8h5d8",
+        "incident_id": "7s119p1yxttr",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-03T09:53:27.252Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": "2026-08-03T11:19:04.001Z",
+    "name": "Incident with Copilot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/y3tm8v1gmn85",
+    "started_at": "2026-08-03T09:53:27.164Z",
+    "status": "monitoring",
+    "updated_at": "2026-08-03T11:19:04.024Z"
+  },
+  "meta": {
+    "generated_at": "2026-08-03T11:22:10.304Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
