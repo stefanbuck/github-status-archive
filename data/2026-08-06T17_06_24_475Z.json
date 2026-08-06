@@ -1,0 +1,302 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": true,
+        "start_date": null,
+        "status": "major_outage",
+        "updated_at": "2026-08-06T16:33:31.366Z"
+      },
+      {
+        "created_at": "2017-01-31T20:04:33.923Z",
+        "description": "Frontend application and API servers for Pages builds",
+        "group_id": null,
+        "id": "vg70hn9s2tyj",
+        "name": "Pages",
+        "page_id": "kctbh9vrtdwd",
+        "position": 9,
+        "showcase": true,
+        "start_date": null,
+        "status": "major_outage",
+        "updated_at": "2026-08-06T16:33:31.384Z"
+      }
+    ],
+    "created_at": "2026-08-06T15:22:49.029Z",
+    "id": "qcvjkzcs7j74",
+    "impact": "critical",
+    "impact_override": "critical",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We are continuing to work on the issue affecting GitHub Actions. <br /><br />Workflow runs are still failing or delayed in starting, and some queued jobs may time out. <br /><br />Some requests to the Actions API are returning errors. Customers running migrations with GitHub Enterprise Importer may see failures. <br /><br />Our engineers have applied several mitigations and are rolling out a further fix now.",
+        "created_at": "2026-08-06T17:02:43.449Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-06T17:02:43.449Z",
+        "id": "njpbbjgyv02d",
+        "incident_id": "qcvjkzcs7j74",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-06T17:02:43.449Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "major_outage",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "major_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Actions and Pages are experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2026-08-06T16:33:31.419Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-06T16:33:31.419Z",
+        "id": "qhn69kn25x0r",
+        "incident_id": "qcvjkzcs7j74",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-06T16:33:31.419Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are continuing to work on the issue affecting GitHub Actions. <br /><br />Some workflow runs are still delayed or failing to complete, and some requests to the Actions API are returning errors. <br /><br />Customers running migrations with GitHub Enterprise Importer may also see failures. <br /><br />Engineers are actively working towards full recovery.",
+        "created_at": "2026-08-06T16:27:47.096Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-06T16:27:47.096Z",
+        "id": "nhz9dp5jm9ws",
+        "incident_id": "qcvjkzcs7j74",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-06T16:27:47.096Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-08-06T16:27:01.865Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-06T16:27:01.865Z",
+        "id": "dl9j9t80lsxt",
+        "incident_id": "qcvjkzcs7j74",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-06T16:27:01.865Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "operational",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Pages is operating normally.",
+        "created_at": "2026-08-06T16:19:30.322Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-06T16:19:30.322Z",
+        "id": "v0l2qjlcwy2g",
+        "incident_id": "qcvjkzcs7j74",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-06T16:19:30.322Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "vg70hn9s2tyj",
+            "name": "Pages",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Pages is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-08-06T15:53:22.125Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-06T15:53:22.125Z",
+        "id": "n139kbl0gx46",
+        "incident_id": "qcvjkzcs7j74",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-06T15:53:22.125Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are investigating errors affecting GitHub Actions. Some workflow runs are failing to start or failing partway through, and some requests to the Actions REST API are returning errors. <br /><br />Some customers may also see unexpected rate limiting in their workflows. <br /><br />Engineers have identified the source of the disruption and are actively working on a mitigation",
+        "created_at": "2026-08-06T15:45:14.821Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-06T15:45:14.821Z",
+        "id": "yd9whz1ptmfn",
+        "incident_id": "qcvjkzcs7j74",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-06T15:45:14.821Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "partial_outage",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Actions is experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2026-08-06T15:41:10.535Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-06T15:41:10.535Z",
+        "id": "07t612lp5ftr",
+        "incident_id": "qcvjkzcs7j74",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-06T15:41:10.535Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2026-08-06T15:22:49.100Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-06T15:22:49.100Z",
+        "id": "f3r3jlmz4h4k",
+        "incident_id": "qcvjkzcs7j74",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-06T15:22:49.100Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/rcz3fcm83sff",
+    "started_at": "2026-08-06T15:22:49.021Z",
+    "status": "investigating",
+    "updated_at": "2026-08-06T17:02:43.454Z"
+  },
+  "meta": {
+    "generated_at": "2026-08-06T17:06:24.475Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partial System Outage",
+    "status_indicator": "major"
+  }
+}
