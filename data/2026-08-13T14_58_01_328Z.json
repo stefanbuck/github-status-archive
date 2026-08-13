@@ -1,0 +1,99 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2026-04-17T12:33:08.827Z",
+        "description": null,
+        "group_id": null,
+        "id": "cnnb39dkkk82",
+        "name": "Copilot AI Model Providers",
+        "page_id": "kctbh9vrtdwd",
+        "position": 12,
+        "showcase": true,
+        "start_date": "2026-04-17T00:00:00.000Z",
+        "status": "degraded_performance",
+        "updated_at": "2026-08-13T14:43:25.262Z"
+      }
+    ],
+    "created_at": "2026-08-13T14:43:25.203Z",
+    "id": "24t8gsgqx2qb",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We are experiencing degraded availability for the Fable 5 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
+        "created_at": "2026-08-13T14:50:10.040Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-13T14:50:10.040Z",
+        "id": "n88by2bcx3wg",
+        "incident_id": "24t8gsgqx2qb",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-13T14:50:10.040Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
+        "created_at": "2026-08-13T14:43:25.299Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-13T14:43:25.299Z",
+        "id": "b2whhtnz65dz",
+        "incident_id": "24t8gsgqx2qb",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-13T14:43:25.299Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Errors with the Fable 5 Model in Copilot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/8htrnxk0q09v",
+    "started_at": "2026-08-13T14:43:25.196Z",
+    "status": "investigating",
+    "updated_at": "2026-08-13T14:50:10.043Z"
+  },
+  "meta": {
+    "generated_at": "2026-08-13T14:58:01.328Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Partially Degraded Service",
+    "status_indicator": "minor"
+  }
+}
