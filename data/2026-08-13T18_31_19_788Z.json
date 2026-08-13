@@ -1,0 +1,101 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-08-13T16:21:33.104Z",
+    "id": "pf25whpq58hh",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-08-13T18:27:54.660Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-13T18:27:54.660Z",
+        "id": "wm4b8gg2nk3q",
+        "incident_id": "pf25whpq58hh",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-13T18:27:54.660Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We have deployed a mitigation. At this time GHEC Team Sync has recovered for enterprises with personal accounts. Teams syncing to IdP groups have returned to their normal cadence.",
+        "created_at": "2026-08-13T18:27:38.561Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-13T18:27:38.561Z",
+        "id": "1rbgqfk3tdk2",
+        "incident_id": "pf25whpq58hh",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-13T18:27:38.561Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "GHEC Team Sync is currently degraded for enterprises with personal accounts, causing delays when syncing teams to IdP groups. We have identified the cause of the delays and are working on a mitigation. We will provide an update on our progress at 20:00 UTC.",
+        "created_at": "2026-08-13T16:21:51.860Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-13T16:21:51.860Z",
+        "id": "n08n9543y09f",
+        "incident_id": "pf25whpq58hh",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-13T16:21:51.860Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-08-13T16:21:33.148Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-13T16:21:33.148Z",
+        "id": "gsnrtly5n4dy",
+        "incident_id": "pf25whpq58hh",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-13T16:21:33.148Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with GHEC Team Sync",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-08-13T18:27:54.660Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/l6tmhqw07cmj",
+    "started_at": "2026-08-13T16:21:33.096Z",
+    "status": "resolved",
+    "updated_at": "2026-08-13T18:27:54.674Z"
+  },
+  "meta": {
+    "generated_at": "2026-08-13T18:31:19.788Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
