@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-08-20T14:43:01.531Z",
+    "id": "bhbcjn4n3jzp",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We have identified the problematic component and are working to fail over to a healthy instance. Further updates will be provided as we perform mitigations.",
+        "created_at": "2026-08-20T15:01:51.859Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-20T15:01:51.859Z",
+        "id": "m588snklwg9n",
+        "incident_id": "bhbcjn4n3jzp",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-20T15:01:51.859Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "Users may experience delays when starting tasks using Copilot Cloud Agent. We are actively investigating the issue and will provide updates as we learn more.",
+        "created_at": "2026-08-20T14:51:51.495Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-20T14:51:51.495Z",
+        "id": "lczl8wbt5v7j",
+        "incident_id": "bhbcjn4n3jzp",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-20T14:51:51.495Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-08-20T14:43:01.567Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-20T14:43:01.567Z",
+        "id": "yr7pq9x3xx7w",
+        "incident_id": "bhbcjn4n3jzp",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-20T14:43:01.567Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Intermittent failures creating agent tasks",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/py1yl5mnq89c",
+    "started_at": "2026-08-20T14:43:01.526Z",
+    "status": "investigating",
+    "updated_at": "2026-08-20T15:01:51.863Z"
+  },
+  "meta": {
+    "generated_at": "2026-08-20T15:24:18.518Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
