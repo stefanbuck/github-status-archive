@@ -1,0 +1,165 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2026-04-17T12:33:08.827Z",
+        "description": null,
+        "group_id": null,
+        "id": "cnnb39dkkk82",
+        "name": "Copilot AI Model Providers",
+        "page_id": "kctbh9vrtdwd",
+        "position": 12,
+        "showcase": true,
+        "start_date": "2026-04-17T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2026-08-27T12:12:58.358Z"
+      }
+    ],
+    "created_at": "2026-08-27T10:04:52.529Z",
+    "id": "tx9qn4khd664",
+    "impact": "critical",
+    "impact_override": "critical",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "operational",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-08-27T12:12:58.387Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-27T12:12:58.387Z",
+        "id": "t68vzvfvdtb7",
+        "incident_id": "tx9qn4khd664",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-27T12:12:58.387Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "The issues with our upstream model provider have been mitigated, and Kimi K3 is once again available in Copilot products and IDE surfaces.<br />We will continue monitoring to ensure stability.",
+        "created_at": "2026-08-27T12:12:47.566Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-27T12:12:47.566Z",
+        "id": "qn9w0wfnls69",
+        "incident_id": "tx9qn4khd664",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-27T12:12:47.566Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "degraded_performance",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "Copilot AI Model Providers is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-08-27T11:58:04.976Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-27T11:58:04.976Z",
+        "id": "tz79ymzk9ym4",
+        "incident_id": "tx9qn4khd664",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-27T11:58:04.976Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "major_outage",
+            "old_status": "major_outage"
+          }
+        ],
+        "body": "We are experiencing degraded availability for the Kimi K3 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting 'Auto' to continue using Copilot.",
+        "created_at": "2026-08-27T10:43:00.946Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-27T10:43:00.946Z",
+        "id": "pps94dyf7p9y",
+        "incident_id": "tx9qn4khd664",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-27T10:43:00.946Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "major_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded availability for Copilot AI Model Providers",
+        "created_at": "2026-08-27T10:04:52.621Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-08-27T10:04:52.621Z",
+        "id": "2fm99f66414t",
+        "incident_id": "tx9qn4khd664",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-08-27T10:04:52.621Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Copilot AI Model Providers",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-08-27T12:12:58.387Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/573gc8p4328b",
+    "started_at": "2026-08-27T10:04:52.519Z",
+    "status": "resolved",
+    "updated_at": "2026-08-27T12:12:58.404Z"
+  },
+  "meta": {
+    "generated_at": "2026-08-27T12:18:27.316Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
