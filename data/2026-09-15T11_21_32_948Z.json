@@ -1,0 +1,195 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2026-04-17T12:33:08.827Z",
+        "description": null,
+        "group_id": null,
+        "id": "cnnb39dkkk82",
+        "name": "Copilot AI Model Providers",
+        "page_id": "kctbh9vrtdwd",
+        "position": 12,
+        "showcase": true,
+        "start_date": "2026-04-17T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2026-09-15T11:17:22.009Z"
+      }
+    ],
+    "created_at": "2026-09-15T09:47:15.093Z",
+    "id": "qwdwmtqghpk5",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "operational",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-09-15T11:17:22.038Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-09-15T11:17:22.038Z",
+        "id": "wm1f9wzx17x7",
+        "incident_id": "qwdwmtqghpk5",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-09-15T11:17:22.038Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "The issues with our upstream model provider have been resolved, and Claude Fable 5.1 is once again available in Copilot products and IDE surfaces.<br /><br />We will continue monitoring to ensure stability, but mitigation is complete.",
+        "created_at": "2026-09-15T11:17:13.405Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-09-15T11:17:13.405Z",
+        "id": "kdql5h7y369f",
+        "incident_id": "qwdwmtqghpk5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-09-15T11:17:13.405Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We continue to monitor intermittent errors affecting Claude Fable 5.1 in some Copilot products and integrated development environments. Customer-facing metrics have recovered, and we are awaiting confirmation from our upstream provider that the issue will not recur. Customers can select another model or Auto in the meantime.",
+        "created_at": "2026-09-15T11:09:33.869Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-09-15T11:09:33.869Z",
+        "id": "7k6lw43gz2m3",
+        "incident_id": "qwdwmtqghpk5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-09-15T11:09:33.869Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We continue to investigate intermittent errors affecting Claude Fable 5.1 in some Copilot products and integrated development environments. Customers can use another model or select Auto while we monitor the situation.",
+        "created_at": "2026-09-15T10:32:25.736Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-09-15T10:32:25.736Z",
+        "id": "99hh4ppv091w",
+        "incident_id": "qwdwmtqghpk5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-09-15T10:32:25.736Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Copilot AI Model Providers is experiencing degraded performance. We are continuing to investigate.",
+        "created_at": "2026-09-15T10:20:13.627Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-09-15T10:20:13.627Z",
+        "id": "jh19yll4d3tj",
+        "incident_id": "qwdwmtqghpk5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-09-15T10:20:13.627Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating degraded availability for Claude Fable 5.1, affecting some Copilot products and integrated development environments. The issue is caused by a problem with our upstream model provider. Customers can use another model or select Auto while we investigate.",
+        "created_at": "2026-09-15T09:48:04.095Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-09-15T09:48:04.095Z",
+        "id": "c65zjqf1bs09",
+        "incident_id": "qwdwmtqghpk5",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-09-15T09:48:04.095Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-09-15T09:47:15.162Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-09-15T09:47:15.162Z",
+        "id": "hyzqgb6b88xj",
+        "incident_id": "qwdwmtqghpk5",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-09-15T09:47:15.162Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": "2026-09-15T09:48:04.095Z",
+    "name": "Disruption with some GitHub services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-09-15T11:17:22.038Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/6pn81yd1x4hz",
+    "started_at": "2026-09-15T09:47:15.085Z",
+    "status": "resolved",
+    "updated_at": "2026-09-15T11:17:22.054Z"
+  },
+  "meta": {
+    "generated_at": "2026-09-15T11:21:32.948Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
