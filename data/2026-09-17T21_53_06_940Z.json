@@ -1,0 +1,121 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2026-04-17T12:33:08.827Z",
+        "description": null,
+        "group_id": null,
+        "id": "cnnb39dkkk82",
+        "name": "Copilot AI Model Providers",
+        "page_id": "kctbh9vrtdwd",
+        "position": 12,
+        "showcase": true,
+        "start_date": "2026-04-17T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2026-09-16T11:45:34.336Z"
+      }
+    ],
+    "created_at": "2026-09-17T20:59:02.074Z",
+    "id": "nvy2q96mcmyg",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-09-17T21:49:01.417Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-09-17T21:49:01.417Z",
+        "id": "by463mb32gz9",
+        "incident_id": "nvy2q96mcmyg",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-09-17T21:49:01.417Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are experiencing degraded availability for GPT-5.6 Luna, GPT-5.6 Terra, GPT-5.6 Sol, GPT-6 Astra, GPT-5.3-Codex in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. The provider is working to mitigate the problem and we are monitoring recovery. We recommend choosing another model or selecting 'Auto' to continue using Copilot.",
+        "created_at": "2026-09-17T21:39:28.929Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-09-17T21:39:28.929Z",
+        "id": "rzlf0d3g47g6",
+        "incident_id": "nvy2q96mcmyg",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-09-17T21:39:28.929Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
+        "created_at": "2026-09-17T20:59:02.127Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-09-17T20:59:02.127Z",
+        "id": "2v42scphlz53",
+        "incident_id": "nvy2q96mcmyg",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-09-17T20:59:02.127Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": "2026-09-17T21:39:28.929Z",
+    "name": "Elevated rate of errors for OpenAI models provided by Copilot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-09-17T21:49:01.417Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/t938cy7649sn",
+    "started_at": "2026-09-17T20:59:02.067Z",
+    "status": "resolved",
+    "updated_at": "2026-09-17T21:49:01.441Z"
+  },
+  "meta": {
+    "generated_at": "2026-09-17T21:53:06.940Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
