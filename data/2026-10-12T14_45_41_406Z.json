@@ -1,0 +1,353 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2017-01-31T20:01:46.638Z",
+        "description": "Requests for Issues on GitHub.com",
+        "group_id": null,
+        "id": "kr09ddfgbfsf",
+        "name": "Issues",
+        "page_id": "kctbh9vrtdwd",
+        "position": 5,
+        "showcase": true,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-10-12T14:35:49.205Z"
+      },
+      {
+        "created_at": "2020-09-02T15:39:06.329Z",
+        "description": "Requests for Pull Requests on GitHub.com",
+        "group_id": null,
+        "id": "hhtssxt0f5v2",
+        "name": "Pull Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 6,
+        "showcase": true,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-10-12T13:02:17.328Z"
+      },
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": true,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-10-12T14:36:09.389Z"
+      }
+    ],
+    "created_at": "2026-10-12T12:21:47.972Z",
+    "id": "93njd414rpbx",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We have mitigated the issues with Actions, issues, and projects, and have a mitigation in progress to address the delay with notifications.",
+        "created_at": "2026-10-12T14:37:49.319Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-12T14:37:49.319Z",
+        "id": "skflhlry30jv",
+        "incident_id": "93njd414rpbx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-12T14:37:49.319Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.",
+        "created_at": "2026-10-12T14:36:09.442Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-12T14:36:09.442Z",
+        "id": "xy199q3gk8bl",
+        "incident_id": "93njd414rpbx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-12T14:36:09.442Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "operational",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "The degradation affecting Issues has been mitigated. We are monitoring to ensure stability.",
+        "created_at": "2026-10-12T14:35:49.253Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-12T14:35:49.253Z",
+        "id": "dm86254lyfv2",
+        "incident_id": "93njd414rpbx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-12T14:35:49.253Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Our initial mitigation was not fully successful, and users may still experience delays and errors with Actions, issues and projects, and notifications are delayed. We're continuing to investigate the root cause and work on additional mitigations.",
+        "created_at": "2026-10-12T13:38:44.570Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-12T13:38:44.570Z",
+        "id": "m8vb4xnqflf2",
+        "incident_id": "93njd414rpbx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-12T13:38:44.570Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "operational",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Pull Requests is operating normally.",
+        "created_at": "2026-10-12T13:02:17.366Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-12T13:02:17.366Z",
+        "id": "k4j0qc2m06kk",
+        "incident_id": "93njd414rpbx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-12T13:02:17.366Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We have a mitigation in progress and are monitoring for recovery. Users may also experience delayed web notifications as we mitigate.",
+        "created_at": "2026-10-12T12:57:44.849Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-12T12:57:44.849Z",
+        "id": "zmz2v8k064c2",
+        "incident_id": "93njd414rpbx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-12T12:57:44.849Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "Users may experience issues loading the Actions tab UI, interacting with the Checks API, queueing new Actions runs, creating and updating issues, and requesting PR reviews, including via REST and GraphQL APIs.",
+        "created_at": "2026-10-12T12:33:21.895Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-12T12:33:21.895Z",
+        "id": "j38yvdtzr9x9",
+        "incident_id": "93njd414rpbx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-12T12:33:21.895Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "kr09ddfgbfsf",
+            "name": "Issues",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          },
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          },
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions, Issues and Pull Requests",
+        "created_at": "2026-10-12T12:21:48.115Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-12T12:21:48.115Z",
+        "id": "tysn3wg7m41g",
+        "incident_id": "93njd414rpbx",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-12T12:21:48.115Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Actions, Pull Requests and Issues",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/flldq0dn2wdz",
+    "started_at": "2026-10-12T12:21:47.965Z",
+    "status": "investigating",
+    "updated_at": "2026-10-12T14:37:49.322Z"
+  },
+  "meta": {
+    "generated_at": "2026-10-12T14:45:41.406Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
