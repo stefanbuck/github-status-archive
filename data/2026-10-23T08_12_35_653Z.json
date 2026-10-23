@@ -1,0 +1,165 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2019-11-13T18:02:19.432Z",
+        "description": "Workflows, Compute and Orchestration for GitHub Actions",
+        "group_id": null,
+        "id": "br0l2tvcx85d",
+        "name": "Actions",
+        "page_id": "kctbh9vrtdwd",
+        "position": 7,
+        "showcase": true,
+        "start_date": null,
+        "status": "operational",
+        "updated_at": "2026-10-23T07:53:40.337Z"
+      }
+    ],
+    "created_at": "2026-10-23T07:29:03.081Z",
+    "id": "ntrfd2jqldn6",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-10-23T08:05:27.354Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-23T08:05:27.354Z",
+        "id": "28hx9h8kqktb",
+        "incident_id": "ntrfd2jqldn6",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-23T08:05:27.354Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "As of 07:27 UTC, Actions results are delivering within normal SLOs again.<br /><br />Thank you for this patience during this period of delayed Actions results delivery. Our team continues to monitor system health and explore refinements to reduce impact to customers in the future.",
+        "created_at": "2026-10-23T07:56:35.639Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-23T07:56:35.639Z",
+        "id": "g0dsmz29chw2",
+        "incident_id": "ntrfd2jqldn6",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-23T07:56:35.639Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "operational",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "The degradation affecting Actions has been mitigated. We are monitoring to ensure stability.",
+        "created_at": "2026-10-23T07:53:40.388Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-23T07:53:40.388Z",
+        "id": "4bswwt1f8qwd",
+        "incident_id": "ntrfd2jqldn6",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-23T07:53:40.388Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We are seeing delays in results from Actions workflows being reported within GitHub starting from 07:07 UTC.<br /><br />Recovery is already being seen but our team is continuing to investigate and monitor performance.",
+        "created_at": "2026-10-23T07:31:54.566Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-23T07:31:54.566Z",
+        "id": "t65z0l507v6c",
+        "incident_id": "ntrfd2jqldn6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-23T07:31:54.566Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "br0l2tvcx85d",
+            "name": "Actions",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Actions",
+        "created_at": "2026-10-23T07:29:03.320Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-23T07:29:03.320Z",
+        "id": "5wwpm7n0sr3p",
+        "incident_id": "ntrfd2jqldn6",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-23T07:29:03.320Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": "2026-10-23T07:53:40.388Z",
+    "name": "Delayed Actions status check results",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-10-23T08:05:27.354Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/kmk42jg3v1sm",
+    "started_at": "2026-10-23T07:29:03.074Z",
+    "status": "resolved",
+    "updated_at": "2026-10-23T08:05:27.388Z"
+  },
+  "meta": {
+    "generated_at": "2026-10-23T08:12:35.653Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
