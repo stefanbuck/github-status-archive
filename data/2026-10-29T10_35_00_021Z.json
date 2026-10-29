@@ -1,0 +1,71 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-10-29T10:19:55.318Z",
+    "id": "rn76zdy367m2",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are experiencing increased failures and latency on our agent sessions service, including creating and listing sessions. This can impact cloud based agent sessions on web, mobile, VS Code, CLI and the GitHub Copilot app.",
+        "created_at": "2026-10-29T10:22:18.212Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-29T10:22:18.212Z",
+        "id": "3fhtq14nkf22",
+        "incident_id": "rn76zdy367m2",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-29T10:22:18.212Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-10-29T10:19:55.374Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-29T10:19:55.374Z",
+        "id": "x2kzr3073dln",
+        "incident_id": "rn76zdy367m2",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-29T10:19:55.374Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Disruption with Copilot Cloud services",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/22p3vp78z20q",
+    "started_at": "2026-10-29T10:19:55.313Z",
+    "status": "investigating",
+    "updated_at": "2026-10-29T10:22:18.215Z"
+  },
+  "meta": {
+    "generated_at": "2026-10-29T10:35:00.021Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
