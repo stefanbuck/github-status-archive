@@ -1,0 +1,86 @@
+{
+  "incident": {
+    "components": [],
+    "created_at": "2026-10-30T20:59:14.225Z",
+    "id": "lyyfm7j4pkgl",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": null,
+        "body": "We are continuing to investigate elevated errors when viewing some Dependabot alerts. We’ll provide more updates as we learn more.",
+        "created_at": "2026-10-30T21:44:52.903Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-30T21:44:52.903Z",
+        "id": "gq8bmzvzhqb6",
+        "incident_id": "lyyfm7j4pkgl",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-30T21:44:52.903Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating elevated errors when viewing some Dependabot alerts.",
+        "created_at": "2026-10-30T21:00:18.322Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-30T21:00:18.322Z",
+        "id": "zbv97l7796bj",
+        "incident_id": "lyyfm7j4pkgl",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-30T21:00:18.322Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": null,
+        "body": "We are investigating reports of impacted performance for some GitHub services.",
+        "created_at": "2026-10-30T20:59:14.291Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-10-30T20:59:14.291Z",
+        "id": "2v508dtvymtq",
+        "incident_id": "lyyfm7j4pkgl",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-10-30T20:59:14.291Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Dependabot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/5bh6qnzn76tk",
+    "started_at": "2026-10-30T20:59:14.215Z",
+    "status": "investigating",
+    "updated_at": "2026-10-30T21:44:52.905Z"
+  },
+  "meta": {
+    "generated_at": "2026-10-30T21:53:50.999Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
