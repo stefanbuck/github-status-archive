@@ -1,0 +1,252 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2022-06-21T16:04:33.017Z",
+        "description": null,
+        "group_id": null,
+        "id": "pjmpxvq2cmr2",
+        "name": "Copilot",
+        "page_id": "kctbh9vrtdwd",
+        "position": 10,
+        "showcase": true,
+        "start_date": "2022-06-21T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2026-11-09T23:22:46.485Z"
+      },
+      {
+        "created_at": "2026-04-17T12:33:08.827Z",
+        "description": null,
+        "group_id": null,
+        "id": "cnnb39dkkk82",
+        "name": "Copilot AI Model Providers",
+        "page_id": "kctbh9vrtdwd",
+        "position": 12,
+        "showcase": true,
+        "start_date": "2026-04-17T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2026-11-09T23:46:35.882Z"
+      }
+    ],
+    "created_at": "2026-11-09T23:16:32.233Z",
+    "id": "6jm5k16vyhfg",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-11-10T00:05:52.345Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-10T00:05:52.345Z",
+        "id": "sd07blrkbd45",
+        "incident_id": "6jm5k16vyhfg",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-10T00:05:52.345Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "The issue affecting GPT-5.3 Codex, GPT-5.6 Luna, and GPT-5.6 Sol in Copilot products and IDE surfaces has been mitigated. We are monitoring the service to ensure stability.",
+        "created_at": "2026-11-09T23:59:44.235Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-09T23:59:44.235Z",
+        "id": "33szwznzvlwq",
+        "incident_id": "6jm5k16vyhfg",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-09T23:59:44.235Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "operational",
+            "old_status": "operational"
+          },
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "The degradation affecting Copilot AI Model Providers has been mitigated. We are monitoring to ensure stability.",
+        "created_at": "2026-11-09T23:46:35.929Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-09T23:46:35.929Z",
+        "id": "pjv5x7vd7td6",
+        "incident_id": "6jm5k16vyhfg",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-09T23:46:35.929Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "operational",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "Copilot is operating normally.",
+        "created_at": "2026-11-09T23:22:46.528Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-09T23:22:46.528Z",
+        "id": "8jg67pmp1z31",
+        "incident_id": "6jm5k16vyhfg",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-09T23:22:46.528Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          },
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "Copilot AI Model Providers is experiencing degraded availability. We are continuing to investigate.",
+        "created_at": "2026-11-09T23:22:05.862Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-09T23:22:05.862Z",
+        "id": "sn5bzygdvq5j",
+        "incident_id": "6jm5k16vyhfg",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-09T23:22:05.862Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We are experiencing degraded availability for GPT-5.3 Codex, GPT-5.6 Luna, and GPT-5.6 Sol in Copilot products and IDE surfaces due to an issue with an upstream model provider. We recommend choosing another model or selecting Auto to continue using Copilot until the issue is resolved.",
+        "created_at": "2026-11-09T23:16:47.470Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-09T23:16:47.470Z",
+        "id": "0z49rlp1mrhz",
+        "incident_id": "6jm5k16vyhfg",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-09T23:16:47.470Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "pjmpxvq2cmr2",
+            "name": "Copilot",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded availability for Copilot",
+        "created_at": "2026-11-09T23:16:32.325Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-09T23:16:32.325Z",
+        "id": "6wmtzxrjw6vk",
+        "incident_id": "6jm5k16vyhfg",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-09T23:16:32.325Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": "2026-11-09T23:46:35.929Z",
+    "name": "Degraded availability for GPT-5.3 Codex and GPT-5.6 models in Copilot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-11-10T00:05:52.345Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/t5gqmprtrdf2",
+    "started_at": "2026-11-09T23:16:32.224Z",
+    "status": "resolved",
+    "updated_at": "2026-11-10T00:05:52.370Z"
+  },
+  "meta": {
+    "generated_at": "2026-11-10T00:15:09.435Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
