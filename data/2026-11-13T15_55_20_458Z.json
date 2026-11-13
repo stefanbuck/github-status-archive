@@ -1,0 +1,99 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2020-09-02T15:39:06.329Z",
+        "description": "Requests for Pull Requests on GitHub.com",
+        "group_id": null,
+        "id": "hhtssxt0f5v2",
+        "name": "Pull Requests",
+        "page_id": "kctbh9vrtdwd",
+        "position": 6,
+        "showcase": true,
+        "start_date": null,
+        "status": "partial_outage",
+        "updated_at": "2026-11-13T15:47:12.344Z"
+      }
+    ],
+    "created_at": "2026-11-13T15:47:12.290Z",
+    "id": "1xzmt89vv61l",
+    "impact": "major",
+    "impact_override": "major",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "partial_outage"
+          }
+        ],
+        "body": "We’re investigating an issue with Pull Requests where some attempts to merge are timing out.",
+        "created_at": "2026-11-13T15:49:36.444Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-13T15:49:36.444Z",
+        "id": "096yk2gqs6rr",
+        "incident_id": "1xzmt89vv61l",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-13T15:49:36.444Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "hhtssxt0f5v2",
+            "name": "Pull Requests",
+            "new_status": "partial_outage",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded availability for Pull Requests",
+        "created_at": "2026-11-13T15:47:12.391Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-13T15:47:12.391Z",
+        "id": "7949qms5ty40",
+        "incident_id": "1xzmt89vv61l",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-13T15:47:12.391Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": null,
+    "name": "Incident with Pull Requests",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": null,
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/qzj7qjdcr8jc",
+    "started_at": "2026-11-13T15:47:12.282Z",
+    "status": "investigating",
+    "updated_at": "2026-11-13T15:49:36.446Z"
+  },
+  "meta": {
+    "generated_at": "2026-11-13T15:55:20.458Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "Minor Service Outage",
+    "status_indicator": "minor"
+  }
+}
