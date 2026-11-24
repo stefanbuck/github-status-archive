@@ -1,0 +1,187 @@
+{
+  "incident": {
+    "components": [
+      {
+        "created_at": "2026-04-17T12:33:08.827Z",
+        "description": null,
+        "group_id": null,
+        "id": "cnnb39dkkk82",
+        "name": "Copilot AI Model Providers",
+        "page_id": "kctbh9vrtdwd",
+        "position": 12,
+        "showcase": true,
+        "start_date": "2026-04-17T00:00:00.000Z",
+        "status": "operational",
+        "updated_at": "2026-11-24T14:04:47.696Z"
+      }
+    ],
+    "created_at": "2026-11-24T13:44:07.213Z",
+    "id": "d56dzxzzlw0b",
+    "impact": "minor",
+    "impact_override": "minor",
+    "incident_updates": [
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.",
+        "created_at": "2026-11-24T14:14:05.736Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-24T14:14:05.736Z",
+        "id": "5yz7r937xzxz",
+        "incident_id": "d56dzxzzlw0b",
+        "status": "resolved",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-24T14:14:05.736Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "operational",
+            "old_status": "operational"
+          }
+        ],
+        "body": "The issues with our upstream model provider have been resolved, and MAI Code 2 is once again available in Copilot products and IDE surfaces.<br />We will continue monitoring to ensure stability, but mitigation is complete.",
+        "created_at": "2026-11-24T14:05:23.528Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-24T14:05:23.528Z",
+        "id": "kwgh1445rqhx",
+        "incident_id": "d56dzxzzlw0b",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-24T14:05:23.528Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "operational",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "The degradation affecting Copilot AI Model Providers has been mitigated. We are monitoring to ensure stability.",
+        "created_at": "2026-11-24T14:04:47.746Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-24T14:04:47.746Z",
+        "id": "3pgd91zk5cn9",
+        "incident_id": "d56dzxzzlw0b",
+        "status": "monitoring",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-24T14:04:47.746Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We have been working with the upstream provider and applying mitigations, and are seeing improvement in availability for MAI Code 2 across Copilot products and IDE surfaces.<br />We will continue monitoring.",
+        "created_at": "2026-11-24T13:46:53.777Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-24T13:46:53.777Z",
+        "id": "4s211j64n8dg",
+        "incident_id": "d56dzxzzlw0b",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-24T13:46:53.777Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "degraded_performance",
+            "old_status": "degraded_performance"
+          }
+        ],
+        "body": "We are experiencing degraded availability for the MAI Code 2 model in Copilot products and IDE surfaces. This is due to an issue with an upstream model provider. While we work with them to resolve the issue, we recommend choosing another model or selecting ‘Copilot Fusion’ to continue using Copilot.",
+        "created_at": "2026-11-24T13:44:27.127Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-24T13:44:27.127Z",
+        "id": "j0zgf0tv18g7",
+        "incident_id": "d56dzxzzlw0b",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-24T13:44:27.127Z",
+        "wants_twitter_update": false
+      },
+      {
+        "affected_components": [
+          {
+            "code": "cnnb39dkkk82",
+            "name": "Copilot AI Model Providers",
+            "new_status": "degraded_performance",
+            "old_status": "operational"
+          }
+        ],
+        "body": "We are investigating reports of degraded performance for Copilot AI Model Providers",
+        "created_at": "2026-11-24T13:44:07.320Z",
+        "custom_tweet": null,
+        "deliver_notifications": true,
+        "display_at": "2026-11-24T13:44:07.320Z",
+        "id": "93pglm3p01bh",
+        "incident_id": "d56dzxzzlw0b",
+        "status": "investigating",
+        "tweet_id": null,
+        "twitter_updated_at": null,
+        "updated_at": "2026-11-24T13:44:07.320Z",
+        "wants_twitter_update": false
+      }
+    ],
+    "metadata": {},
+    "monitoring_at": "2026-11-24T14:04:47.746Z",
+    "name": "Degraded Availability for MAI Code 2 in Copilot",
+    "page_id": "kctbh9vrtdwd",
+    "postmortem_body": null,
+    "postmortem_body_last_updated_at": null,
+    "postmortem_ignored": false,
+    "postmortem_notified_subscribers": false,
+    "postmortem_notified_twitter": false,
+    "postmortem_published_at": null,
+    "reminder_intervals": null,
+    "resolved_at": "2026-11-24T14:14:05.736Z",
+    "scheduled_auto_completed": false,
+    "scheduled_auto_in_progress": false,
+    "scheduled_for": null,
+    "scheduled_remind_prior": false,
+    "scheduled_reminded_at": null,
+    "scheduled_until": null,
+    "shortlink": "https://stspg.io/d5wbprv122kh",
+    "started_at": "2026-11-24T13:44:07.205Z",
+    "status": "resolved",
+    "updated_at": "2026-11-24T14:14:05.762Z"
+  },
+  "meta": {
+    "generated_at": "2026-11-24T14:18:58.141Z"
+  },
+  "page": {
+    "id": "kctbh9vrtdwd",
+    "status_description": "All Systems Operational",
+    "status_indicator": "none"
+  }
+}
